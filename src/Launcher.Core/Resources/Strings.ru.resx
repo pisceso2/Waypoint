@@ -2423,6 +2423,9 @@
   <data name="Text_7396f3b0b843" xml:space="preserve">
     <value>Заменяет «Играть» разделом управления и добавляет версии, производительность и время работы сервера.</value>
   </data>
+  <data name="Text_73aad53a5abb" xml:space="preserve">
+    <value>Файл CSV</value>
+  </data>
   <data name="Text_73b6e48a1b55" xml:space="preserve">
     <value>Позже</value>
   </data>
@@ -2452,6 +2455,9 @@
   </data>
   <data name="Text_75304cf77db0" xml:space="preserve">
     <value>Всё</value>
+  </data>
+  <data name="Text_756c8efc0b23" xml:space="preserve">
+    <value>Убирает все собранные тайминги и начинает окно заново</value>
   </data>
   <data name="Text_7596fade4e2a" xml:space="preserve">
     <value>Вызовов/с</value>
@@ -2930,6 +2936,9 @@
   <data xml:space="preserve" name="Text_8e3cda3b4f8b">
     <value>Локальный HEAD недоступен</value>
   </data>
+  <data name="Text_8e6f4ecbd758" xml:space="preserve">
+    <value>Экспорт таймингов сервера</value>
+  </data>
   <data name="Text_8e6f9abf3515" xml:space="preserve">
     <value>LocalExile</value>
   </data>
@@ -2986,6 +2995,9 @@
   </data>
   <data xml:space="preserve" name="Text_91bd172009ab">
     <value>Ревизии исходников и собранных компонентов показываются отдельно. Горячая перезагрузка может применить незакоммиченные изменения; хеш сборки указывает на исходную скомпилированную ревизию.</value>
+  </data>
+  <data name="Text_91f71c14c8d6" xml:space="preserve">
+    <value>Экспорт CSV</value>
   </data>
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>Удалить выбранные предметы (клавиша Delete); Ctrl или Shift выбирает несколько</value>
@@ -3666,6 +3678,9 @@
   <data name="Text_af86ecd2ae72" xml:space="preserve">
     <value>{0} ({1}): персонаж создан на аккаунте {2}.</value>
   </data>
+  <data name="Text_afa8b3ed2cd8" xml:space="preserve">
+    <value>Сохраняет показанное окно в CSV-файл для отчёта об ошибке</value>
+  </data>
   <data xml:space="preserve" name="Text_afb40dbadd2e">
     <value>Изменить оформление…</value>
   </data>
@@ -4288,6 +4303,9 @@
   </data>
   <data xml:space="preserve" name="Text_cd7d61bf7e38">
     <value>Получить ветки</value>
+  </data>
+  <data name="Text_cd88b9a74bb1" xml:space="preserve">
+    <value>Не удалось сохранить тайминги</value>
   </data>
   <data xml:space="preserve" name="Text_cdd181261fc4">
     <value>Проверка манифеста извлечения; недостающие или устаревшие данные будут созданы.</value>

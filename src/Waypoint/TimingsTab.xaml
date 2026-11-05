@@ -18,6 +18,10 @@
                 <ComboBoxItem Content="{l:Loc 'Server phases'}" Tag="Server phases" />
                 <ComboBoxItem Content="{l:Loc 'Level generation'}" Tag="Level generation" />
             </ComboBox>
+            <Button x:Name="ResetButton" Content="{l:Loc 'Reset'}" Click="ResetClicked" Margin="0,0,8,0"
+                    ToolTip="{l:Loc 'Drops every timing kept so far and starts the window again'}" />
+            <Button x:Name="ExportButton" Content="{l:Loc 'Export CSV'}" Click="ExportClicked" Margin="0,0,12,0"
+                    ToolTip="{l:Loc 'Saves the shown window as a CSV file for a bug report'}" />
             <TextBlock x:Name="State" VerticalAlignment="Center" Foreground="{DynamicResource Shell.TextSecondary}" />
         </WrapPanel>
         <Grid>

@@ -35,7 +35,6 @@ From the first Waypoint's roadmap, not started:
 ## 4. Ideas, not planned yet
 
 - The setup guide opens download pages for a missing .NET, Git, Python or Node; it could install them with `winget`.
-- Server timings: message names instead of hex ids (the server has no complete id-to-name table yet), a reset button,
-  CSV export for bug reports.
+- Server timings: message names instead of hex ids (the server has no complete id-to-name table yet).
 - Further account tools beyond the offline manager, such as character editing and recovery.
 - An installer and code signing.

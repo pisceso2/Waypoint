@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Text;
 using System.Windows.Media;
 
 namespace Waypoint;
@@ -86,6 +87,40 @@ sealed class OperationTimings
             return [.. rows.OrderByDescending(r => r.MsPerSecond)];
         }
     }
+
+    /// <summary>Drops every interval kept so far, of every operation: the tab starts again from the next published one and
+    /// measures the window's rates from there. Only the Reset button does it; a Gateway restart keeps what was collected.</summary>
+    public void Reset()
+    {
+        lock (_operations)
+        {
+            _operations.Clear();
+            _first = double.NaN;
+        }
+    }
+
+    /// <summary>The window's rows as CSV, the file a bug report attaches: an English header, one line per operation, the
+    /// numbers in the invariant culture so the file reads the same in every interface language. <paramref name="kind"/>
+    /// filters the rows as the tab's picker does; an empty one keeps every kind.</summary>
+    public string Csv(double from, double now, string kind)
+    {
+        var text = new StringBuilder("operation,kind,calls_per_second,average_ms,p95_ms,p99_ms,ms_per_second\r\n");
+        foreach (var row in Window(from, now))
+        {
+            if (kind.Length > 0 && row.Kind != kind) continue;
+            text.Append(Field(row.Label)).Append(',')
+                .Append(Field(row.Kind)).Append(',')
+                .Append(row.PerSecond.ToString("0.##", CultureInfo.InvariantCulture)).Append(',')
+                .Append(row.Average.ToString("0.###", CultureInfo.InvariantCulture)).Append(',')
+                .Append(row.P95.ToString("0.###", CultureInfo.InvariantCulture)).Append(',')
+                .Append(row.P99.ToString("0.###", CultureInfo.InvariantCulture)).Append(',')
+                .Append(row.MsPerSecond.ToString("0.##", CultureInfo.InvariantCulture)).Append("\r\n");
+        }
+        return text.ToString();
+    }
+
+    /// <summary>A CSV field, quoted when it holds a comma, a quote or a line break.</summary>
+    static string Field(string value) => value.IndexOfAny([',', '"', '\r', '\n']) < 0 ? value : '"' + value.Replace("\"", "\"\"") + '"';
 
     /// <summary>An operation's charted series: its p95 per second and its milliseconds per second.</summary>
     public (TimeSeries P95, TimeSeries Load) Series((string Phase, string Operation) key)
