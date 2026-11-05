@@ -234,6 +234,9 @@
   <data name="Text_0b776bf7ef90" xml:space="preserve">
     <value>Запустите игру (раздел «Управление»), войдите и перейдите в область, затем отправьте снова.</value>
   </data>
+  <data name="Text_0b7ce2528052" xml:space="preserve">
+    <value>Корзина пуста.</value>
+  </data>
   <data name="Text_0b7dda5c9b90" xml:space="preserve">
     <value>В открытом окне выполняется операция. Дождитесь её завершения, прежде чем закрывать окно или менять репозиторий.</value>
   </data>
@@ -717,6 +720,9 @@
   <data name="Text_21f1037412e4" xml:space="preserve">
     <value>Что происходит</value>
   </data>
+  <data name="Text_221eb0c5c8e3" xml:space="preserve">
+    <value>В корзине не больше {0} копий.</value>
+  </data>
   <data xml:space="preserve" name="Text_223e64b8fc5b">
     <value>При первом запуске выполняется автоматический поиск. Здесь можно запустить его повторно.</value>
   </data>
@@ -898,6 +904,9 @@
   <data xml:space="preserve" name="Text_292a37482041">
     <value>СОБРАННЫЕ КОМПОНЕНТЫ · DEBUG</value>
   </data>
+  <data name="Text_292c06f0045a" xml:space="preserve">
+    <value>Категория</value>
+  </data>
   <data name="Text_293d8864e78d" xml:space="preserve">
     <value>Инструменты для самой игры. Каждый открывается в своём окне и работает с персонажем в игре через мост управления клиентом (Python с Frida).</value>
   </data>
@@ -990,6 +999,9 @@
   </data>
   <data name="Text_2d0afc98a2dd" xml:space="preserve">
     <value>Оставить службы работать</value>
+  </data>
+  <data name="Text_2d69a8f95952" xml:space="preserve">
+    <value>Добавлено {0} × {1}.</value>
   </data>
   <data xml:space="preserve" name="Text_2dafe4f58ab0">
     <value> · есть изменения файлов</value>
@@ -2249,6 +2261,9 @@
   <data xml:space="preserve" name="Text_686046d08c9f">
     <value>Сборка/перезапуск; проверьте вывод Gateway на ошибки</value>
   </data>
+  <data name="Text_68880b9d609c" xml:space="preserve">
+    <value>Выдано копий: {0}.</value>
+  </data>
   <data xml:space="preserve" name="Text_688ed737c588">
     <value>Запуск служб</value>
   </data>
@@ -2332,6 +2347,9 @@
   </data>
   <data name="Text_6d0e201a1cb9" xml:space="preserve">
     <value>Импортирован {0}, свойств: {1}; пропущено строк: {2}. «Сохранить» оставит его в списке.</value>
+  </data>
+  <data name="Text_6d2d59aed44f" xml:space="preserve">
+    <value>Корзина</value>
   </data>
   <data name="Text_6d3add9cf2ef" xml:space="preserve">
     <value>значения вне тира</value>
@@ -2521,6 +2539,9 @@
   </data>
   <data name="Text_76409ed15c76" xml:space="preserve">
     <value>(нет ответа)</value>
+  </data>
+  <data name="Text_7689785957a4" xml:space="preserve">
+    <value>Сначала добавьте что-нибудь в корзину.</value>
   </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>Назад</value>
@@ -3546,6 +3567,9 @@
   <data name="Text_a52a8ef55340" xml:space="preserve">
     <value>Переключиться на #{0}</value>
   </data>
+  <data name="Text_a52ace420f21" xml:space="preserve">
+    <value>Все</value>
+  </data>
   <data name="Text_a58b335cdd9f" xml:space="preserve">
     <value>Установить зависимость для извлечения</value>
   </data>
@@ -3575,6 +3599,9 @@
   </data>
   <data name="Text_a67ecaab2e09" xml:space="preserve">
     <value>Службы остановлены. Выход из Waypoint.</value>
+  </data>
+  <data name="Text_a694cca98ba4" xml:space="preserve">
+    <value>Выдать всё</value>
   </data>
   <data name="Text_a6b4705c6883" xml:space="preserve">
     <value>Изменить…</value>

@@ -234,6 +234,9 @@
   <data name="Text_0b776bf7ef90" xml:space="preserve">
     <value>Start the game (Control section), log in and enter an area, then send again.</value>
   </data>
+  <data name="Text_0b7ce2528052" xml:space="preserve">
+    <value>The cart is empty.</value>
+  </data>
   <data name="Text_0b7dda5c9b90" xml:space="preserve">
     <value>The running window has an operation in progress. Let it finish before closing or changing checkout.</value>
   </data>
@@ -717,6 +720,9 @@
   <data name="Text_21f1037412e4" xml:space="preserve">
     <value>What is happening</value>
   </data>
+  <data name="Text_221eb0c5c8e3" xml:space="preserve">
+    <value>The cart holds at most {0} copies.</value>
+  </data>
   <data xml:space="preserve" name="Text_223e64b8fc5b">
     <value>Automatic lookup runs on first use. You can also search again here.</value>
   </data>
@@ -898,6 +904,9 @@ Change location above to choose somewhere else.</value>
   <data xml:space="preserve" name="Text_292a37482041">
     <value>BUILT COMPONENTS · DEBUG</value>
   </data>
+  <data name="Text_292c06f0045a" xml:space="preserve">
+    <value>Category</value>
+  </data>
   <data name="Text_293d8864e78d" xml:space="preserve">
     <value>Tools for the game itself. Each opens in its own window and works with the character in game through the client control bridge (Python with Frida).</value>
   </data>
@@ -990,6 +999,9 @@ Change location above to choose somewhere else.</value>
   </data>
   <data name="Text_2d0afc98a2dd" xml:space="preserve">
     <value>Keep services running</value>
+  </data>
+  <data name="Text_2d69a8f95952" xml:space="preserve">
+    <value>Added {0} × {1}.</value>
   </data>
   <data xml:space="preserve" name="Text_2dafe4f58ab0">
     <value> · tracked files modified</value>
@@ -2249,6 +2261,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data xml:space="preserve" name="Text_686046d08c9f">
     <value>Watcher is building/restarting; inspect Gateway output for errors</value>
   </data>
+  <data name="Text_68880b9d609c" xml:space="preserve">
+    <value>Given {0} copies.</value>
+  </data>
   <data xml:space="preserve" name="Text_688ed737c588">
     <value>Starting services</value>
   </data>
@@ -2332,6 +2347,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_6d0e201a1cb9" xml:space="preserve">
     <value>Imported {0} with {1} modifiers; {2} lines were left out. Save keeps it in the list.</value>
+  </data>
+  <data name="Text_6d2d59aed44f" xml:space="preserve">
+    <value>Cart</value>
   </data>
   <data name="Text_6d3add9cf2ef" xml:space="preserve">
     <value>values outside its tier</value>
@@ -2521,6 +2539,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_76409ed15c76" xml:space="preserve">
     <value>(no reply)</value>
+  </data>
+  <data name="Text_7689785957a4" xml:space="preserve">
+    <value>Add something to the cart first.</value>
   </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>Back</value>
@@ -3546,6 +3567,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   <data name="Text_a52a8ef55340" xml:space="preserve">
     <value>Switch to #{0}</value>
   </data>
+  <data name="Text_a52ace420f21" xml:space="preserve">
+    <value>All</value>
+  </data>
   <data name="Text_a58b335cdd9f" xml:space="preserve">
     <value>Install the extraction dependency</value>
   </data>
@@ -3575,6 +3599,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_a67ecaab2e09" xml:space="preserve">
     <value>Services stopped. Exiting Waypoint.</value>
+  </data>
+  <data name="Text_a694cca98ba4" xml:space="preserve">
+    <value>Give all</value>
   </data>
   <data name="Text_a6b4705c6883" xml:space="preserve">
     <value>Change…</value>

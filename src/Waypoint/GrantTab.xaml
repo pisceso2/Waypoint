@@ -4,15 +4,31 @@
              xmlns:l="clr-namespace:Waypoint">
     <DockPanel Margin="20,16,20,16">
         <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+            <TextBlock Text="{l:Loc 'Category'}" VerticalAlignment="Center" Margin="0,0,6,0" />
+            <ComboBox x:Name="CategoryPicker" Width="150" Margin="0,0,12,0" SelectionChanged="FilterChanged" />
             <TextBlock Text="{l:Loc 'Search'}" VerticalAlignment="Center" Margin="0,0,6,0" />
-            <TextBox x:Name="Filter" Width="240" TextChanged="FilterChanged" />
-            <TextBlock Text="{l:Loc 'Count'}" VerticalAlignment="Center" Margin="14,0,6,0" />
-            <TextBox x:Name="CountBox" Width="60" Text="1" />
-            <TextBlock Text="{l:Loc 'Item level'}" VerticalAlignment="Center" Margin="14,0,6,0" />
-            <TextBox x:Name="ItemLevelBox" Width="60" Text="84" />
-            <Button x:Name="GiveButton" Content="{l:Loc 'Give'}" Click="GiveClicked" Margin="14,0,0,0" VerticalAlignment="Center" />
+            <TextBox x:Name="Filter" Width="200" Margin="0,0,12,0" TextChanged="FilterTextChanged" />
+            <TextBlock Text="{l:Loc 'Count'}" VerticalAlignment="Center" Margin="0,0,6,0" />
+            <TextBox x:Name="CountBox" Width="60" Margin="0,0,12,0" Text="1" />
+            <TextBlock Text="{l:Loc 'Item level'}" VerticalAlignment="Center" Margin="0,0,6,0" />
+            <TextBox x:Name="ItemLevelBox" Width="60" Margin="0,0,12,0" Text="84" />
+            <Button x:Name="AddButton" Content="{l:Loc 'Add'}" Click="AddClicked" VerticalAlignment="Center" />
         </WrapPanel>
         <TextBlock x:Name="State" DockPanel.Dock="Bottom" Style="{StaticResource Shell.Secondary}" Margin="0,10,0,0" TextWrapping="Wrap" />
-        <ListBox x:Name="Bases" DisplayMemberPath="Name" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="340" />
+            </Grid.ColumnDefinitions>
+            <ListBox x:Name="Bases" DisplayMemberPath="Name" />
+            <DockPanel Grid.Column="1" Margin="12,0,0,0">
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,6">
+                    <TextBlock Text="{l:Loc 'Cart'}" VerticalAlignment="Center" Margin="0,0,10,0" />
+                    <Button x:Name="ClearButton" Content="{l:Loc 'Clear'}" Click="ClearClicked" />
+                </StackPanel>
+                <Button x:Name="GiveButton" DockPanel.Dock="Bottom" Content="{l:Loc 'Give all'}" Click="GiveClicked" Margin="0,8,0,0" />
+                <ListBox x:Name="Cart" DisplayMemberPath="Display" />
+            </DockPanel>
+        </Grid>
     </DockPanel>
 </UserControl>
