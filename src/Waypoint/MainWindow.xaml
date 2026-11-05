@@ -198,6 +198,7 @@
                 <l:ToolsTab x:Name="ToolsView" Visibility="Collapsed" />
                 <l:QuickTab x:Name="Quick" Visibility="Collapsed" />
                 <l:PobImportTab x:Name="Pob" Visibility="Collapsed" />
+                <l:GrantTab x:Name="Grant" Visibility="Collapsed" />
                 <l:SettingsTab x:Name="SettingsView" Visibility="Collapsed" />
             </Grid>
         </DockPanel>

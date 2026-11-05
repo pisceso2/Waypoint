@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint"
+             x:Class="Waypoint.GrantTab">
+  <DockPanel Margin="20,16">
+    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="6" Margin="0,0,0,10">
+      <TextBlock x:Name="SearchLabel" VerticalAlignment="Center" />
+      <TextBox x:Name="Filter" Width="240" TextChanged="FilterChanged" />
+      <TextBlock x:Name="CountLabel" VerticalAlignment="Center" Margin="14,0,0,0" />
+      <TextBox x:Name="CountBox" Width="60" Text="1" />
+      <TextBlock x:Name="LevelLabel" VerticalAlignment="Center" Margin="14,0,0,0" />
+      <TextBox x:Name="ItemLevelBox" Width="60" Text="84" />
+      <Button x:Name="GiveButton" Click="GiveClicked" Margin="14,0,0,0" />
+    </StackPanel>
+    <TextBlock x:Name="State" DockPanel.Dock="Bottom" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" Margin="0,10,0,0" />
+    <ListBox x:Name="Bases">
+      <ListBox.ItemTemplate>
+        <DataTemplate>
+          <TextBlock Text="{Binding Name}" />
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+  </DockPanel>
+</UserControl>

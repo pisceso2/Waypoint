@@ -1,0 +1,18 @@
+<UserControl x:Class="Waypoint.GrantTab"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint">
+    <DockPanel Margin="20,16,20,16">
+        <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+            <TextBlock Text="{l:Loc 'Search'}" VerticalAlignment="Center" Margin="0,0,6,0" />
+            <TextBox x:Name="Filter" Width="240" TextChanged="FilterChanged" />
+            <TextBlock Text="{l:Loc 'Count'}" VerticalAlignment="Center" Margin="14,0,6,0" />
+            <TextBox x:Name="CountBox" Width="60" Text="1" />
+            <TextBlock Text="{l:Loc 'Item level'}" VerticalAlignment="Center" Margin="14,0,6,0" />
+            <TextBox x:Name="ItemLevelBox" Width="60" Text="84" />
+            <Button x:Name="GiveButton" Content="{l:Loc 'Give'}" Click="GiveClicked" Margin="14,0,0,0" VerticalAlignment="Center" />
+        </WrapPanel>
+        <TextBlock x:Name="State" DockPanel.Dock="Bottom" Style="{StaticResource Shell.Secondary}" Margin="0,10,0,0" TextWrapping="Wrap" />
+        <ListBox x:Name="Bases" DisplayMemberPath="Name" />
+    </DockPanel>
+</UserControl>
