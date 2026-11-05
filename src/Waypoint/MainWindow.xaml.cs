@@ -102,6 +102,7 @@ public partial class MainWindow : Window
         LogsView.Attach(_shared);
         ConsoleView.Attach(_shared);
         ToolsView.Attach(_shared);
+        Quick.Attach(_shared);
         SettingsView.Attach(_shared);
         Lights.ItemsSource = _lights;
 
@@ -138,6 +139,7 @@ public partial class MainWindow : Window
             new("Logs", PackIconKind.TextBoxOutline, LogsView),
             new("Console", PackIconKind.Console, ConsoleView),
             new("Tools", PackIconKind.Toolbox, ToolsView),
+            new("Quick functions", PackIconKind.LightningBolt, Quick),
             new("Settings", PackIconKind.CogOutline, SettingsView),
         ];
         ShowMode();
@@ -222,7 +224,7 @@ public partial class MainWindow : Window
         // Play and Versions each have a checkout's view and a release install's.
         FrameworkElement[] others = Repo.IsInstall ? [PlayView, Versions] : [InstallView, ReleasesView];
         var sections = _sections.Where(s => !others.Contains(s.View) && (advanced
-            ? s.View is ControlTab or VersionsTab or ReleasesTab or ModsTab or BackupsTab or AccountsTab or PerformanceTab or TimingsTab or LogsTab or ConsoleTab or ToolsTab or SettingsTab
+            ? s.View is ControlTab or VersionsTab or ReleasesTab or ModsTab or BackupsTab or AccountsTab or PerformanceTab or TimingsTab or LogsTab or ConsoleTab or ToolsTab or QuickTab or SettingsTab
             : s.View is PlayTab or InstallTab or ModsTab or BackupsTab or AccountsTab or LogsTab or ConsoleTab or ToolsTab or SettingsTab)).ToArray();
         // Developer Mode (Settings) unlocks the switch.
         ModeSwitch.Visibility = _shared.Settings.Developer ? Visibility.Visible : Visibility.Collapsed;

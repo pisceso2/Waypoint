@@ -141,6 +141,9 @@
   <data name="Text_070d63bf412e" xml:space="preserve">
     <value>Another Waypoint build is already open. Close that window normally before opening this build. Existing operations and services have not been stopped.</value>
   </data>
+  <data name="Text_07a280f321d4" xml:space="preserve">
+    <value>Type the player name first.</value>
+  </data>
   <data xml:space="preserve" name="Text_07c99f3f9c05">
     <value>Compile failed</value>
   </data>
@@ -657,6 +660,9 @@
   <data name="Text_1fd447009585" xml:space="preserve">
     <value>Remember my choices</value>
   </data>
+  <data name="Text_1fd9ae1607aa" xml:space="preserve">
+    <value>Invite</value>
+  </data>
   <data xml:space="preserve" name="Text_1ff335e35fbf">
     <value>No checkout selected</value>
   </data>
@@ -758,6 +764,12 @@
   </data>
   <data xml:space="preserve" name="Text_245c1078b5e7">
     <value>Mod details</value>
+  </data>
+  <data name="Text_24602414ed53" xml:space="preserve">
+    <value>Quick functions</value>
+  </data>
+  <data name="Text_2460887189f3" xml:space="preserve">
+    <value>Type a line that starts with a slash.</value>
   </data>
   <data name="Text_2486c7136710" xml:space="preserve">
     <value>{0} bases and {1} modifiers. Choose a base, add modifiers, then save it or give it to the character in game.</value>
@@ -1000,6 +1012,9 @@ Change location above to choose somewhere else.</value>
   <data name="Text_2e3e57537a8b" xml:space="preserve">
     <value>Installing Frida in the private environment. No global packages are changed.</value>
   </data>
+  <data name="Text_2e66703f8a78" xml:space="preserve">
+    <value>Sent {0}.</value>
+  </data>
   <data name="Text_2e985979a4b9" xml:space="preserve">
     <value>That LocalExile folder has no saves.</value>
   </data>
@@ -1192,6 +1207,9 @@ This checkout has modified tracked files.</value>
   </data>
   <data name="Text_37b8ab518ec4" xml:space="preserve">
     <value>Search bases</value>
+  </data>
+  <data name="Text_37ca3cfb5d85" xml:space="preserve">
+    <value>Kick</value>
   </data>
   <data name="Text_381f5c69d6b1" xml:space="preserve">
     <value>Could not open Waypoint</value>
@@ -1403,6 +1421,9 @@ This checkout has modified tracked files.</value>
   </data>
   <data name="Text_42610696b9f9" xml:space="preserve">
     <value>This storage layout can be browsed, but account changes are disabled because its schema or import state is unfamiliar.</value>
+  </data>
+  <data name="Text_42c96e076c0a" xml:space="preserve">
+    <value>Chat lines sent as if typed into the game chat. A release install copies them instead: paste with Ctrl+V.</value>
   </data>
   <data name="Text_42e1d2be26fc" xml:space="preserve">
     <value>The server saves the character's progress as it happens.</value>
@@ -2094,6 +2115,12 @@ Search limits reached; other checkouts may exist. Browse to any location.</value
   <data name="Text_64a9b80f4b33" xml:space="preserve">
     <value>Could not verify that services stopped. Waypoint will stay open.</value>
   </data>
+  <data name="Text_64aee8c6cbd0" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="Text_64d93ade627b" xml:space="preserve">
+    <value>Sent {0}. {1}</value>
+  </data>
   <data xml:space="preserve" name="Text_64e782b10e68">
     <value>Refresh after resolving the installation check failure.</value>
   </data>
@@ -2696,6 +2723,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_81efa8f471e5" xml:space="preserve">
     <value>! no {0} suggestions: {1}</value>
   </data>
+  <data name="Text_8270c30be332" xml:space="preserve">
+    <value>Nothing to send.</value>
+  </data>
   <data xml:space="preserve" name="Text_82855c11ae69">
     <value>Sand</value>
   </data>
@@ -2990,6 +3020,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>Delete the selected items (Delete key); Ctrl or Shift selects several</value>
   </data>
+  <data name="Text_920e413c7d41" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="Text_92646da937a1" xml:space="preserve">
     <value>Starts with Play or Start servers while Walk maps is on</value>
   </data>
@@ -3103,6 +3136,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data xml:space="preserve" name="Text_9701a68fede6">
     <value>Search branches and pull requests</value>
+  </data>
+  <data name="Text_9709653fc80c" xml:space="preserve">
+    <value>Trade</value>
   </data>
   <data xml:space="preserve" name="Text_970b08a02cb0">
     <value>Reading local branches and GitHub PR metadata…</value>
@@ -3659,6 +3695,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_af0303342a01" xml:space="preserve">
     <value>Open page</value>
+  </data>
+  <data name="Text_af16c830c510" xml:space="preserve">
+    <value>Away</value>
   </data>
   <data name="Text_af20391b2b63" xml:space="preserve">
     <value>The game is running: Play closes it and starts it again; the servers keep running.</value>
@@ -4319,6 +4358,9 @@ Client: {2}</value>
   <data xml:space="preserve" name="Text_cfa63e97e7e5">
     <value>Enable mod</value>
   </data>
+  <data name="Text_d004197929c2" xml:space="preserve">
+    <value>Copied {0}; paste it into the chat with Ctrl+V.</value>
+  </data>
   <data xml:space="preserve" name="Text_d010ff390617">
     <value>Panels</value>
   </data>
@@ -4372,6 +4414,9 @@ Client: {2}</value>
   </data>
   <data xml:space="preserve" name="Text_d28f5e178579">
     <value>Open client folder</value>
+  </data>
+  <data name="Text_d2b98fb53714" xml:space="preserve">
+    <value>Travel</value>
   </data>
   <data xml:space="preserve" name="Text_d3368cbffe23">
     <value>Accessibility</value>
@@ -4465,6 +4510,9 @@ Client: {2}</value>
   </data>
   <data xml:space="preserve" name="Text_d72e311c4dda">
     <value>Minimize</value>
+  </data>
+  <data name="Text_d7852cd0d245" xml:space="preserve">
+    <value>Line</value>
   </data>
   <data name="Text_d7967cfaaec9" xml:space="preserve">
     <value>Choose a new or empty folder, or a release you already installed. Your game client is copied here too.</value>
@@ -4619,6 +4667,9 @@ Dependencies: {2}
   <data name="Text_dfa5992a4fd0" xml:space="preserve">
     <value>Check dependencies</value>
   </data>
+  <data name="Text_dfa82f21b3f3" xml:space="preserve">
+    <value>Party</value>
+  </data>
   <data xml:space="preserve" name="Text_dfab082d4644">
     <value>Build checkout</value>
   </data>
@@ -4772,6 +4823,9 @@ Dependencies: {2}
   </data>
   <data name="Text_e6deff541223" xml:space="preserve">
     <value>LocalExile needs a little more from you. Finish setup to give it.</value>
+  </data>
+  <data name="Text_e72919456742" xml:space="preserve">
+    <value>Could not send: {0}</value>
   </data>
   <data name="Text_e74cca36ea73" xml:space="preserve">
     <value>MB, MB/s</value>
@@ -5001,6 +5055,9 @@ Dependencies: {2}
   <data name="Text_f18e2bb0aa10" xml:space="preserve">
     <value>Use separate game settings</value>
   </data>
+  <data name="Text_f1f0b6b8637f" xml:space="preserve">
+    <value>Hideout</value>
+  </data>
   <data name="Text_f1fd5ed417a0" xml:space="preserve">
     <value>MB, working set</value>
   </data>
@@ -5042,6 +5099,9 @@ Dependencies: {2}
   </data>
   <data name="Text_f34ba9fc922c" xml:space="preserve">
     <value>Random name</value>
+  </data>
+  <data name="Text_f3e4352a5df6" xml:space="preserve">
+    <value>Remaining</value>
   </data>
   <data xml:space="preserve" name="Text_f3ec74792130">
     <value>Services remain stopped. A failed build preserves the save database.</value>
@@ -5218,6 +5278,9 @@ Mods at backup: </value>
   <data name="Text_fad198a3ed81" xml:space="preserve">
     <value>Open Waypoint's data folder</value>
   </data>
+  <data name="Text_faf1e1717047" xml:space="preserve">
+    <value>Leave party</value>
+  </data>
   <data name="Text_faff88ba75c3" xml:space="preserve">
     <value>Install Frida, so that Give item works.</value>
   </data>
@@ -5304,6 +5367,9 @@ Mods at backup: </value>
   </data>
   <data name="Text_fe1af8738076" xml:space="preserve">
     <value>Stops the walk-map recorder</value>
+  </data>
+  <data name="Text_fe39f3cdd983" xml:space="preserve">
+    <value>Do not disturb</value>
   </data>
   <data name="Text_fea8224e17a4" xml:space="preserve">
     <value>Steam or Epic layout: it cannot be used</value>
