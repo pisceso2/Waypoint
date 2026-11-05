@@ -862,6 +862,9 @@
   <data xml:space="preserve" name="Text_27712080ff00">
     <value>Игровые данные обновлены.</value>
   </data>
+  <data name="Text_277967c7c7d2" xml:space="preserve">
+    <value>Возвышение: {0}</value>
+  </data>
   <data xml:space="preserve" name="Text_279d233b3ee4">
     <value>Изменить путь</value>
   </data>
@@ -1874,6 +1877,9 @@
   <data xml:space="preserve" name="Text_59976865a56d">
     <value>Установите .NET 10 SDK; проверка: dotnet --list-sdks</value>
   </data>
+  <data name="Text_59bd273a1dd4" xml:space="preserve">
+    <value>Не удалось прочитать сборку: {0}</value>
+  </data>
   <data name="Text_59e1f415bf9d" xml:space="preserve">
     <value>ПРЕДПРОСМОТР</value>
   </data>
@@ -1891,6 +1897,9 @@
   </data>
   <data name="Text_5a681a15a3d6" xml:space="preserve">
     <value>Задать пароль аккаунта</value>
+  </data>
+  <data name="Text_5ab14c7ed85c" xml:space="preserve">
+    <value>Чтение ...</value>
   </data>
   <data name="Text_5aeae0f3a80d" xml:space="preserve">
     <value>Счётчики .NET:</value>
@@ -1939,6 +1948,9 @@
   </data>
   <data name="Text_5d202208fa1a" xml:space="preserve">
     <value>Дублировать…</value>
+  </data>
+  <data name="Text_5d340b2c4294" xml:space="preserve">
+    <value>Класс: {0}</value>
   </data>
   <data name="Text_5d9389cbbeb3" xml:space="preserve">
     <value>ПОДРОБНОСТИ</value>
@@ -2342,6 +2354,9 @@
   <data name="Text_6e9c271dcc43" xml:space="preserve">
     <value>Показано: {0}. В каждой группе первым идёт лучший тир для уровня предмета.</value>
   </data>
+  <data name="Text_6ea2df24181a" xml:space="preserve">
+    <value>Импорт PoE</value>
+  </data>
   <data name="Text_6ed7c4e56792" xml:space="preserve">
     <value>Обновлять LocalExile автоматически</value>
   </data>
@@ -2699,6 +2714,9 @@
   <data xml:space="preserve" name="Text_808fc010f815">
     <value>{0}: {1} при копировании</value>
   </data>
+  <data name="Text_809e98e7eeb2" xml:space="preserve">
+    <value>Дерево: {0}</value>
+  </data>
   <data xml:space="preserve" name="Text_80d16534322e">
     <value>Мод собран.</value>
   </data>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Text_8815084551ec" xml:space="preserve">
     <value>live.ps1 уже выполняется.</value>
+  </data>
+  <data name="Text_881929063400" xml:space="preserve">
+    <value>Скопировать ссылку на дерево</value>
   </data>
   <data name="Text_88259cd6f621" xml:space="preserve">
     <value>Регистрация аккаунта</value>
@@ -3004,6 +3025,9 @@
   </data>
   <data name="Text_90eb3b815e3e" xml:space="preserve">
     <value>{0} — уникальный предмет: крафтер делает только обычные, магические и редкие.</value>
+  </data>
+  <data name="Text_90f425b6405b" xml:space="preserve">
+    <value>Буфер обмена занят; попробуйте ещё раз.</value>
   </data>
   <data name="Text_9158396951bf" xml:space="preserve">
     <value>То же, что «Остановить всё»: игра, запись планировок, серверы и служба аккаунтов.</value>
@@ -3351,6 +3375,9 @@
   <data name="Text_9f97cf25460a" xml:space="preserve">
     <value>LocalExile здесь уже скачан.</value>
   </data>
+  <data name="Text_9f9bd432f4a4" xml:space="preserve">
+    <value>Нет ссылки на дерево.</value>
+  </data>
   <data name="Text_9fa77e063410" xml:space="preserve">
     <value>Вышла версия {0}; текущая: {1}. Серверы и игра продолжат работать во время обновления.</value>
   </data>
@@ -3651,6 +3678,9 @@
   <data name="Text_ac1f5a0e46c1" xml:space="preserve">
     <value>Игра не запущена: запустите её, войдите персонажем в локацию и выдайте предмет снова.</value>
   </data>
+  <data name="Text_ac406851ffe2" xml:space="preserve">
+    <value>Предметы: {0}, умения: {1}</value>
+  </data>
   <data xml:space="preserve" name="Text_ac7fcf0ba22e">
     <value>Нет установленных модов</value>
   </data>
@@ -3857,6 +3887,9 @@
   </data>
   <data name="Text_b72026d96f3c" xml:space="preserve">
     <value>Журнал Gateway</value>
+  </data>
+  <data name="Text_b764cdc0eab7" xml:space="preserve">
+    <value>Неизвестно</value>
   </data>
   <data name="Text_b77636c1849a" xml:space="preserve">
     <value>Собрать LocalExile</value>
@@ -4352,6 +4385,9 @@
   <data name="Text_cf5c6c0d1737" xml:space="preserve">
     <value>При выходе из Waypoint службы продолжают работать.</value>
   </data>
+  <data name="Text_cf6d4fe7fb49" xml:space="preserve">
+    <value>Уровень: {0}</value>
+  </data>
   <data name="Text_cf97478c04ab" xml:space="preserve">
     <value>нет frida: запись планировок и консоль недоступны</value>
   </data>
@@ -4610,6 +4646,9 @@
   <data xml:space="preserve" name="Text_dc62d4bb4fb1">
     <value>Создание учётной записи</value>
   </data>
+  <data name="Text_dc937b598926" xml:space="preserve">
+    <value>Нет</value>
+  </data>
   <data name="Text_dc9ff9ecb39c" xml:space="preserve">
     <value>Добавлено: {0}</value>
   </data>
@@ -4654,6 +4693,9 @@
   </data>
   <data xml:space="preserve" name="Text_dec1638d773b">
     <value>Возврат: Escape отменяет предпросмотр. Ctrl+R сбрасывает параметры в этом окне. В рабочем окне Ctrl+Alt+R возвращает стандартное оформление, не меняя репозиторий и сохранения.</value>
+  </data>
+  <data name="Text_dec8eefa31e4" xml:space="preserve">
+    <value>Ссылка на дерево скопирована.</value>
   </data>
   <data name="Text_deeb8da20758" xml:space="preserve">
     <value>репозиторий сервера поддерживает Waypoint</value>
@@ -4848,6 +4890,9 @@
   <data name="Text_e8c6f5fd769e" xml:space="preserve">
     <value>Сохранения этой установки убираются в сторону; ничего не удаляется.</value>
   </data>
+  <data name="Text_e8d4cad7ec19" xml:space="preserve">
+    <value>Прочитать сборку</value>
+  </data>
   <data xml:space="preserve" name="Text_e8da4fa8b199">
     <value> — ошибка: </value>
   </data>
@@ -4883,6 +4928,9 @@
   </data>
   <data xml:space="preserve" name="Text_ea2100dc89ae">
     <value>Журналы</value>
+  </data>
+  <data name="Text_ea301ca2c89b" xml:space="preserve">
+    <value>Вставьте код экспорта Path of Building. Чтение только проверяет сборку: ничего не меняется.</value>
   </data>
   <data xml:space="preserve" name="Text_ea41ce555d5c">
     <value>Выберите страницу стрелками. Ctrl+1–8 — выбор страницы; Ctrl+Tab — следующая страница.</value>

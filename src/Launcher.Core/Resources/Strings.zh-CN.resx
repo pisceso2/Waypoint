@@ -862,6 +862,9 @@
   <data name="Text_27712080ff00" xml:space="preserve">
     <value>游戏数据已重新加载。</value>
   </data>
+  <data name="Text_277967c7c7d2" xml:space="preserve">
+    <value>升华：{0}</value>
+  </data>
   <data name="Text_279d233b3ee4" xml:space="preserve">
     <value>更改位置</value>
   </data>
@@ -1874,6 +1877,9 @@
   <data name="Text_59976865a56d" xml:space="preserve">
     <value>安装 .NET 10 SDK；可用 dotnet --list-sdks 检查</value>
   </data>
+  <data name="Text_59bd273a1dd4" xml:space="preserve">
+    <value>无法读取 BD：{0}</value>
+  </data>
   <data name="Text_59e1f415bf9d" xml:space="preserve">
     <value>预览</value>
   </data>
@@ -1891,6 +1897,9 @@
   </data>
   <data name="Text_5a681a15a3d6" xml:space="preserve">
     <value>设置账号密码</value>
+  </data>
+  <data name="Text_5ab14c7ed85c" xml:space="preserve">
+    <value>读取中……</value>
   </data>
   <data name="Text_5aeae0f3a80d" xml:space="preserve">
     <value>.NET 计数器：</value>
@@ -1939,6 +1948,9 @@
   </data>
   <data name="Text_5d202208fa1a" xml:space="preserve">
     <value>创建副本…</value>
+  </data>
+  <data name="Text_5d340b2c4294" xml:space="preserve">
+    <value>职业：{0}</value>
   </data>
   <data name="Text_5d9389cbbeb3" xml:space="preserve">
     <value>详情</value>
@@ -2342,6 +2354,9 @@
   <data name="Text_6e9c271dcc43" xml:space="preserve">
     <value>已显示 {0} 个。每组中适合该物品等级的最佳阶排在最前面。</value>
   </data>
+  <data name="Text_6ea2df24181a" xml:space="preserve">
+    <value>PoE 导入</value>
+  </data>
   <data name="Text_6ed7c4e56792" xml:space="preserve">
     <value>保持 LocalExile 为最新</value>
   </data>
@@ -2699,6 +2714,9 @@
   <data name="Text_808fc010f815" xml:space="preserve">
     <value>{0}：{1}（备份时）</value>
   </data>
+  <data name="Text_809e98e7eeb2" xml:space="preserve">
+    <value>天赋树：{0}</value>
+  </data>
   <data name="Text_80d16534322e" xml:space="preserve">
     <value>模组已构建。</value>
   </data>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Text_8815084551ec" xml:space="preserve">
     <value>live.ps1 已在运行。</value>
+  </data>
+  <data name="Text_881929063400" xml:space="preserve">
+    <value>复制天赋树链接</value>
   </data>
   <data name="Text_88259cd6f621" xml:space="preserve">
     <value>注册账号</value>
@@ -3004,6 +3025,9 @@
   </data>
   <data name="Text_90eb3b815e3e" xml:space="preserve">
     <value>{0} 是传奇物品：物品制作器只能制作普通、魔法和稀有物品。</value>
+  </data>
+  <data name="Text_90f425b6405b" xml:space="preserve">
+    <value>剪贴板忙，请重试。</value>
   </data>
   <data name="Text_9158396951bf" xml:space="preserve">
     <value>与“全部停止”相同：停止游戏、行走地图记录器、服务器和账号服务。</value>
@@ -3351,6 +3375,9 @@
   <data name="Text_9f97cf25460a" xml:space="preserve">
     <value>此处已下载 LocalExile。</value>
   </data>
+  <data name="Text_9f9bd432f4a4" xml:space="preserve">
+    <value>没有天赋树链接。</value>
+  </data>
   <data name="Text_9fa77e063410" xml:space="preserve">
     <value>版本 {0} 已发布；当前为 {1}。更新期间，服务器和游戏会继续运行。</value>
   </data>
@@ -3651,6 +3678,9 @@
   <data name="Text_ac1f5a0e46c1" xml:space="preserve">
     <value>游戏未运行：请启动游戏，用角色进入一个区域，然后再次发放物品。</value>
   </data>
+  <data name="Text_ac406851ffe2" xml:space="preserve">
+    <value>物品：{0}，技能：{1}</value>
+  </data>
   <data name="Text_ac7fcf0ba22e" xml:space="preserve">
     <value>未安装模组</value>
   </data>
@@ -3857,6 +3887,9 @@
   </data>
   <data name="Text_b72026d96f3c" xml:space="preserve">
     <value>Gateway 日志</value>
+  </data>
+  <data name="Text_b764cdc0eab7" xml:space="preserve">
+    <value>未知</value>
   </data>
   <data name="Text_b77636c1849a" xml:space="preserve">
     <value>构建 LocalExile</value>
@@ -4352,6 +4385,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_cf5c6c0d1737" xml:space="preserve">
     <value>退出 Waypoint 时服务会继续运行。</value>
   </data>
+  <data name="Text_cf6d4fe7fb49" xml:space="preserve">
+    <value>等级：{0}</value>
+  </data>
   <data name="Text_cf97478c04ab" xml:space="preserve">
     <value>缺少 frida：无法使用行走地图和控制台</value>
   </data>
@@ -4610,6 +4646,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_dc62d4bb4fb1" xml:space="preserve">
     <value>正在创建本地账号</value>
   </data>
+  <data name="Text_dc937b598926" xml:space="preserve">
+    <value>无</value>
+  </data>
   <data name="Text_dc9ff9ecb39c" xml:space="preserve">
     <value>已添加 {0}</value>
   </data>
@@ -4654,6 +4693,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_dec1638d773b" xml:space="preserve">
     <value>恢复：Escape 取消此预览。Ctrl+R 重置此窗口。在工作区中，Ctrl+Alt+R 恢复默认外观，不会更改你的源码副本或存档。</value>
+  </data>
+  <data name="Text_dec8eefa31e4" xml:space="preserve">
+    <value>已复制天赋树链接。</value>
   </data>
   <data name="Text_deeb8da20758" xml:space="preserve">
     <value>服务器源码副本支持启动器</value>
@@ -4848,6 +4890,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_e8c6f5fd769e" xml:space="preserve">
     <value>正在将此安装的存档移至别处；不会删除任何内容。</value>
   </data>
+  <data name="Text_e8d4cad7ec19" xml:space="preserve">
+    <value>读取 BD</value>
+  </data>
   <data name="Text_e8da4fa8b199" xml:space="preserve">
     <value> 失败：</value>
   </data>
@@ -4883,6 +4928,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_ea2100dc89ae" xml:space="preserve">
     <value>日志</value>
+  </data>
+  <data name="Text_ea301ca2c89b" xml:space="preserve">
+    <value>粘贴 Path of Building 导出代码。读取只做检查，不会改动任何内容。</value>
   </data>
   <data name="Text_ea41ce555d5c" xml:space="preserve">
     <value>使用方向键选择页面。Ctrl+1–8 切换页面；Ctrl+Tab 转到下一页。</value>

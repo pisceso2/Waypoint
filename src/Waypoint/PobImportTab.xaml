@@ -1,0 +1,17 @@
+<UserControl x:Class="Waypoint.PobImportTab"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="20,16,20,16" MaxWidth="900" HorizontalAlignment="Left">
+            <TextBlock Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" Margin="0,0,0,10"
+                       Text="{l:Loc 'Paste a Path of Building export code. Reading it only inspects the build: nothing is changed.'}" />
+            <TextBox x:Name="Code" Height="160" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" />
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button x:Name="ReadButton" Content="{l:Loc 'Read build'}" Click="ReadClicked" />
+                <Button x:Name="CopyTreeButton" Content="{l:Loc 'Copy tree link'}" Click="CopyTreeClicked" Margin="8,0,0,0" IsEnabled="False" />
+            </StackPanel>
+            <TextBlock x:Name="Summary" Margin="0,14,0,0" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

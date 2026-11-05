@@ -252,6 +252,7 @@ A link to a section Simple mode's list lacks (a log, from a failure) shows that 
 | Console | the Gateway's chat commands for the character in game, with suggestions, usages, pinned lines and history | the server's client control bridge (`scripts/dev/client_control.py --stdio`); the lists come from the built Gateway (`GameServer.Gateway commands` and `values`) |
 | Tools | tools for the game itself, each in its own window: the item crafter | the server's item crafter hook (its `Agents/docs/dev/item-crafter.md`): `GameServer.Gateway crafter` and `/item_give` through the client control bridge |
 | Quick functions | the chat lines the player sends most, one button each: hideout, party invite, kick, trade and leave, do not disturb, away, remaining, and a line typed by hand; the player name is typed once for the party lines | the client control bridge, as typed chat (0x15), exactly as Console sends a line; a release install copies the line instead |
+| PoE import | a Path of Building export code read into what the build is: class, ascendancy, level, how much it carries and its passive tree link, which one click copies | the code itself, decoded in `PobCode.cs` (base64, zlib, XML); reading changes nothing, and applying a build to a character needs the server's own hooks, which this section does not have |
 | Settings | the appearance, the language, what closing the window does, updates, the checkout and its local launch profile (Advanced mode only) | saved as chosen; `Settings.cs` |
 
 ### Control
