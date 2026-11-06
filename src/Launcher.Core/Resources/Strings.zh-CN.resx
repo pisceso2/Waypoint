@@ -138,6 +138,9 @@
   <data name="Text_06748f34221f" xml:space="preserve">
     <value>请先选择一个账号。</value>
   </data>
+  <data name="Text_067c9000ce4a" xml:space="preserve">
+    <value>名称须为 3–32 位字母、数字、_ 或 -。</value>
+  </data>
   <data name="Text_070d63bf412e" xml:space="preserve">
     <value>另一个 Waypoint 构建已经打开。请先正常关闭那个窗口，再打开此构建。现有的操作和服务未被停止。</value>
   </data>
@@ -158,6 +161,9 @@
   </data>
   <data name="Text_08ad630cfbfa" xml:space="preserve">
     <value>打开备份文件夹</value>
+  </data>
+  <data name="Text_08c7de7230db" xml:space="preserve">
+    <value>中文客户端需要重写它自己的文件。</value>
   </data>
   <data name="Text_08d0a6691363" xml:space="preserve">
     <value>复制你的账号、角色和仓库。当前的 LocalExile 会保留自己的一份。</value>
@@ -260,6 +266,9 @@
   </data>
   <data name="Text_0c26cc1e71ab" xml:space="preserve">
     <value>监视进程正在运行；正在等待其 Gateway 子进程。如果持续如此，请打开 Gateway 输出。</value>
+  </data>
+  <data name="Text_0c2a3d20b391" xml:space="preserve">
+    <value>一键汉化</value>
   </data>
   <data name="Text_0c77fe09ab33" xml:space="preserve">
     <value>客户端</value>
@@ -371,6 +380,9 @@
   </data>
   <data name="Text_112d64cc9b85" xml:space="preserve">
     <value>正在获取…</value>
+  </data>
+  <data name="Text_116ea9625025" xml:space="preserve">
+    <value>无法读取账号：{0}</value>
   </data>
   <data name="Text_1180f832c808" xml:space="preserve">
     <value>无法保存首选项：</value>
@@ -816,6 +828,9 @@
   <data name="Text_25e7df197704" xml:space="preserve">
     <value>桥接程序需要装有 frida 的 Python，但尚未安装：物品制作器中的“发放物品”会完成设置</value>
   </data>
+  <data name="Text_25e813c89117" xml:space="preserve">
+    <value>无法下载 BD：{0}</value>
+  </data>
   <data name="Text_25ec5c9141d3" xml:space="preserve">
     <value>live.ps1 -NoClient：重新构建并重启 Patch、Auth 和 Gateway（用于拉取之后，或修改了 Gateway 以外的内容时）；Gateway 自身的代码修改会通过热重载自动生效。正在运行的客户端会保留。</value>
   </data>
@@ -1196,6 +1211,9 @@
   <data name="Text_358cc201f87d" xml:space="preserve">
     <value>操作</value>
   </data>
+  <data name="Text_3591a432615b" xml:space="preserve">
+    <value>站点未及时响应。</value>
+  </data>
   <data name="Text_35a86201334e" xml:space="preserve">
     <value>正在检查 Python 3.9+ 和 Frida，不会安装任何包。</value>
   </data>
@@ -1560,6 +1578,9 @@
   <data name="Text_48713a5c63fb" xml:space="preserve">
     <value>停止游戏</value>
   </data>
+  <data name="Text_489fecd66003" xml:space="preserve">
+    <value>账号服务中每个角色的信息。切换升华需要服务端尚未提供的命令，因此本页只读。</value>
+  </data>
   <data name="Text_48bdb0aef4f8" xml:space="preserve">
     <value>这些是此 LocalExile 自己的存档。</value>
   </data>
@@ -1616,6 +1637,9 @@
   </data>
   <data name="Text_4ac147b602c9" xml:space="preserve">
     <value>关联你的源码副本</value>
+  </data>
+  <data name="Text_4af1c7508aff" xml:space="preserve">
+    <value>无法创建角色：{0}</value>
   </data>
   <data name="Text_4afea6a9cacf" xml:space="preserve">
     <value>运行安装向导…</value>
@@ -1883,8 +1907,14 @@
   <data name="Text_5899382b7399" xml:space="preserve">
     <value>无法读取其 config.json。它会以 config.json.old 的名称保留在新文件旁边。</value>
   </data>
+  <data name="Text_589d7110712d" xml:space="preserve">
+    <value>视野增强</value>
+  </data>
   <data name="Text_58b1306d2f1d" xml:space="preserve">
     <value>存档备份</value>
+  </data>
+  <data name="Text_58b9c9c73bd7" xml:space="preserve">
+    <value>正在读取账号……</value>
   </data>
   <data name="Text_58fc561ca474" xml:space="preserve">
     <value>安装解包依赖项</value>
@@ -1897,6 +1927,9 @@
   </data>
   <data name="Text_59546c79643c" xml:space="preserve">
     <value>关闭 {0}</value>
+  </data>
+  <data name="Text_5978d072c782" xml:space="preserve">
+    <value>看得更远要拓宽客户端，而不是启动器。</value>
   </data>
   <data name="Text_59976865a56d" xml:space="preserve">
     <value>安装 .NET 10 SDK；可用 dotnet --list-sdks 检查</value>
@@ -2339,6 +2372,9 @@
   <data name="Text_6c26340a1b96" xml:space="preserve">
     <value>存档数据库</value>
   </data>
+  <data name="Text_6c674dd07899" xml:space="preserve">
+    <value>物品：{0}</value>
+  </data>
   <data name="Text_6caadd32b7a9" xml:space="preserve">
     <value>独立版客户端布局（Content.ggpk）</value>
   </data>
@@ -2407,6 +2443,9 @@
   </data>
   <data name="Text_6f7c506d045e" xml:space="preserve">
     <value>开发者模式</value>
+  </data>
+  <data name="Text_6f9afc58e8e3" xml:space="preserve">
+    <value>正在下载 BD……</value>
   </data>
   <data name="Text_6fa62b3dba2f" xml:space="preserve">
     <value>重命名…</value>
@@ -2498,6 +2537,9 @@
   <data name="Text_7396f3b0b843" xml:space="preserve">
     <value>将“开始游戏”替换为“控制”，并增加“版本”、性能和服务器耗时。</value>
   </data>
+  <data name="Text_73aad53a5abb" xml:space="preserve">
+    <value>CSV 文件</value>
+  </data>
   <data name="Text_73b6e48a1b55" xml:space="preserve">
     <value>稍后</value>
   </data>
@@ -2528,6 +2570,9 @@
   <data name="Text_75304cf77db0" xml:space="preserve">
     <value>全部</value>
   </data>
+  <data name="Text_756c8efc0b23" xml:space="preserve">
+    <value>清除目前收集的所有耗时数据，并重新开始统计窗口</value>
+  </data>
   <data name="Text_7596fade4e2a" xml:space="preserve">
     <value>调用/秒</value>
   </data>
@@ -2545,6 +2590,9 @@
   </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>返回</value>
+  </data>
+  <data name="Text_76b01c51cc02" xml:space="preserve">
+    <value>升华</value>
   </data>
   <data name="Text_76b9740eaf62" xml:space="preserve">
     <value>PATH 中没有 Python。请通过包管理器安装 Python 3.9 或更高版本（python3）。</value>
@@ -2798,6 +2846,9 @@
   <data name="Text_8300d2d40c93" xml:space="preserve">
     <value>完成：{0}（{1:0} 秒）。</value>
   </data>
+  <data name="Text_830eefa8f15e" xml:space="preserve">
+    <value>请输入账号及其密码。</value>
+  </data>
   <data name="Text_8328dc8f6f33" xml:space="preserve">
     <value>正在检查先决条件、进程归属和所选安装。</value>
   </data>
@@ -3026,6 +3077,9 @@
   <data name="Text_8e3cda3b4f8b" xml:space="preserve">
     <value>本地 HEAD 不可用</value>
   </data>
+  <data name="Text_8e6f4ecbd758" xml:space="preserve">
+    <value>导出服务器耗时</value>
+  </data>
   <data name="Text_8e6f9abf3515" xml:space="preserve">
     <value>LocalExile</value>
   </data>
@@ -3071,6 +3125,9 @@
   <data name="Text_90eb3b815e3e" xml:space="preserve">
     <value>{0} 是传奇物品：物品制作器只能制作普通、魔法和稀有物品。</value>
   </data>
+  <data name="Text_90ee86585fab" xml:space="preserve">
+    <value>用此 BD 创建角色</value>
+  </data>
   <data name="Text_90f425b6405b" xml:space="preserve">
     <value>剪贴板忙，请重试。</value>
   </data>
@@ -3085,6 +3142,9 @@
   </data>
   <data name="Text_91bd172009ab" xml:space="preserve">
     <value>源码与已构建组件的标识分开显示。热重载可以应用未提交的代码修改；构建哈希标识的是最初编译的修订版本。</value>
+  </data>
+  <data name="Text_91f71c14c8d6" xml:space="preserve">
+    <value>导出 CSV</value>
   </data>
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>删除所选物品（Delete 键）；按住 Ctrl 或 Shift 可多选</value>
@@ -3498,6 +3558,9 @@
   <data name="Text_a359209c9b61" xml:space="preserve">
     <value>选择 LocalExile 的安装位置</value>
   </data>
+  <data name="Text_a367a9cea7fc" xml:space="preserve">
+    <value>创建角色</value>
+  </data>
   <data name="Text_a37f0d9d865e" xml:space="preserve">
     <value>采集是可选的。现有文件会保留。</value>
   </data>
@@ -3784,7 +3847,10 @@
     <value>游戏正在运行：“开始游戏”会将其关闭并重新启动；服务器保持运行。</value>
   </data>
   <data name="Text_af86ecd2ae72" xml:space="preserve">
-    <value>已在账号 {2} 中创建 {0}（{1}）。</value>
+    <value>已在 {2} 上创建 {0}（{1}）。</value>
+  </data>
+  <data name="Text_afa8b3ed2cd8" xml:space="preserve">
+    <value>将当前窗口保存为 CSV 文件，用于错误报告</value>
   </data>
   <data name="Text_afb40dbadd2e" xml:space="preserve">
     <value>更改外观…</value>
@@ -4182,6 +4248,9 @@
   <data name="Text_c3f80698ef0a" xml:space="preserve">
     <value>采集器已启动。</value>
   </data>
+  <data name="Text_c4321a207160" xml:space="preserve">
+    <value>共 {0} 个角色。</value>
+  </data>
   <data name="Text_c481efeab782" xml:space="preserve">
     <value>服务器耗时</value>
   </data>
@@ -4326,6 +4395,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_c9b2c9b72ddd" xml:space="preserve">
     <value>关闭窗口时要执行什么操作？</value>
   </data>
+  <data name="Text_c9b65aa2c285" xml:space="preserve">
+    <value>未内置：这会改写游戏客户端，而启动器不碰它。请使用翻译包及其安装器。</value>
+  </data>
   <data name="Text_c9cf9cba7b44" xml:space="preserve">
     <value>读取 LocalExile 和 origin 的分支，以及 LocalExile 中打开的拉取请求</value>
   </data>
@@ -4423,6 +4495,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_cd7d61bf7e38" xml:space="preserve">
     <value>获取</value>
+  </data>
+  <data name="Text_cd88b9a74bb1" xml:space="preserve">
+    <value>无法保存耗时数据</value>
   </data>
   <data name="Text_cdd181261fc4" xml:space="preserve">
     <value>正在检查上游提取清单；将生成缺失或过期的数据。</value>
@@ -4739,6 +4814,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_ddbbe6445504" xml:space="preserve">
     <value>将 {0} 快进到 LocalExile 的版本；如果它有自己的提交，则会拒绝</value>
   </data>
+  <data name="Text_ddc636dc450e" xml:space="preserve">
+    <value>未内置：这会修改游戏客户端，而启动器不碰它。请使用客户端自己的工具。</value>
+  </data>
   <data name="Text_ddc95fd087c9" xml:space="preserve">
     <value>使用 LocalExile 的 Auth 和 Patch 工具准备现有的客户端副本。现有密钥会保留。会创建缺失的密钥和 Game.patched.exe，并将该副本的网关列表设为 localhost。绝不会覆盖已有的已准备可执行文件。</value>
   </data>
@@ -4762,6 +4840,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_dec8eefa31e4" xml:space="preserve">
     <value>已复制天赋树链接。</value>
+  </data>
+  <data name="Text_dedc5d13072e" xml:space="preserve">
+    <value>还没有角色。</value>
   </data>
   <data name="Text_deeb8da20758" xml:space="preserve">
     <value>服务器源码副本支持启动器</value>
@@ -4946,6 +5027,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_e802a1d6a8c0" xml:space="preserve">
     <value>有一个源码副本与上游 HEAD 一致。你可以在下方使用它，或“浏览”其他位置。</value>
+  </data>
+  <data name="Text_e82946d6926c" xml:space="preserve">
+    <value>Dev host 无法创建 {0} 职业的角色。</value>
   </data>
   <data name="Text_e86c89de2566" xml:space="preserve">
     <value>迁移我的角色（推荐）</value>
@@ -5515,6 +5599,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
 {1}
 
 此操作只替换已保存的选择，不会恢复模组 DLL 和存档。这些选择将在 Gateway 下次启动时生效。自动备份：{2}。</value>
+  </data>
+  <data name="Text_ffa52990490a" xml:space="preserve">
+    <value>粘贴 Path of Building 导出代码，或来自 poe.ninja、pobb.in、pob.codes、Maxroll、Pastebin、poedb 的 build 链接。读取只做检查，不会改动任何内容。</value>
   </data>
   <data name="Text_ffa98e02f7ce" xml:space="preserve">
     <value>远程分支</value>

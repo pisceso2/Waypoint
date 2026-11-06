@@ -1,0 +1,24 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint"
+             x:Class="Waypoint.AscendancyTab">
+  <DockPanel Margin="20,16">
+    <StackPanel DockPanel.Dock="Top" Spacing="8" Margin="0,0,0,10">
+      <TextBlock x:Name="Hint" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+      <Button x:Name="RefreshButton" Click="RefreshClicked" HorizontalAlignment="Left" />
+      <TextBlock x:Name="State" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+    </StackPanel>
+    <ListBox x:Name="Table">
+      <ListBox.ItemTemplate>
+        <DataTemplate>
+          <Grid ColumnDefinitions="170,170,130,150,70">
+            <TextBlock Text="{Binding Account}" />
+            <TextBlock Grid.Column="1" Text="{Binding Name}" />
+            <TextBlock Grid.Column="2" Text="{Binding Class}" />
+            <TextBlock Grid.Column="3" Text="{Binding Ascendancy}" />
+            <TextBlock Grid.Column="4" Text="{Binding Level}" />
+          </Grid>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+  </DockPanel>
+</UserControl>

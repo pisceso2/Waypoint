@@ -1,7 +1,11 @@
 using System.Globalization;
+using System.IO;
+using System.Text;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Threading;
+using Microsoft.Win32;
 
 namespace Waypoint;
 
@@ -35,6 +39,39 @@ public partial class TimingsTab : UserControl
 
     double WindowSeconds => WindowPicker.SelectedItem is ComboBoxItem { Tag: string s } ? double.Parse(s, CultureInfo.InvariantCulture) : 60;
 
+    /// <summary>The kind the picker shows, or an empty one for every kind.</summary>
+    string SelectedKind => KindPicker.SelectedItem is ComboBoxItem { Tag: string k } ? k : "";
+
+    /// <summary>Drops what the tab has collected; the window starts again from the next second the Gateway publishes.</summary>
+    void ResetClicked(object sender, RoutedEventArgs e)
+    {
+        _shared.Metrics.Timings.Reset();
+        Redraw();
+    }
+
+    /// <summary>Saves the shown window as CSV, the file a bug report attaches.</summary>
+    void ExportClicked(object sender, RoutedEventArgs e)
+    {
+        var dialog = new SaveFileDialog
+        {
+            Title = L.Text("Export server timings"),
+            FileName = $"waypoint-timings-{DateTime.Now:yyyyMMdd-HHmmss}.csv",
+            DefaultExt = ".csv",
+            Filter = $"{L.Text("CSV file")}|*.csv",
+        };
+        if (dialog.ShowDialog(Window.GetWindow(this)) != true) return;
+        var timings = _shared.Metrics.Timings;
+        double now = _shared.Metrics.Now;
+        try
+        {
+            File.WriteAllText(dialog.FileName, timings.Csv(now - WindowSeconds, now, SelectedKind), new UTF8Encoding(true));
+        }
+        catch (Exception ex)
+        {
+            Dialog.Tell(Window.GetWindow(this), DialogKind.Error, L.Text("Could not save the timings"), ex.Message);
+        }
+    }
+
     void Changed(object sender, SelectionChangedEventArgs e)
     {
         if (_shared is null) return;
@@ -47,7 +84,7 @@ public partial class TimingsTab : UserControl
         if (_shared is null) return;
         var timings = _shared.Metrics.Timings;
         double now = _shared.Metrics.Now;
-        string kind = KindPicker.SelectedItem is ComboBoxItem { Tag: string k } ? k : "";
+        string kind = SelectedKind;
         var rows = timings.Window(now - WindowSeconds, now).Where(r => kind.Length == 0 || r.Kind == kind).ToList();
         Table.ItemsSource = rows;
 
