@@ -5,7 +5,7 @@
     <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
         <StackPanel Margin="20,16,20,16" MaxWidth="900" HorizontalAlignment="Left">
             <TextBlock Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" Margin="0,0,0,10"
-                       Text="{l:Loc 'Paste a Path of Building export code. Reading it only inspects the build: nothing is changed.'}" />
+                       Text="{l:Loc 'Paste a Path of Building export code or a build link from poe.ninja, pobb.in, pob.codes, Maxroll, Pastebin or poedb. Reading it only inspects the build: nothing is changed.'}" />
             <Border BorderBrush="{DynamicResource Shell.Border}" BorderThickness="1" CornerRadius="6"
                     Background="{DynamicResource Shell.Panel}" Padding="6" Margin="0,0,0,10">
                 <TextBox x:Name="Code" Height="150" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"

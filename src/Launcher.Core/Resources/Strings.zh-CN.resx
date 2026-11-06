@@ -807,6 +807,9 @@
   <data name="Text_25e7df197704" xml:space="preserve">
     <value>桥接程序需要装有 frida 的 Python，但尚未安装：物品制作器中的“发放物品”会完成设置</value>
   </data>
+  <data name="Text_25e813c89117" xml:space="preserve">
+    <value>无法下载 BD：{0}</value>
+  </data>
   <data name="Text_25ec5c9141d3" xml:space="preserve">
     <value>live.ps1 -NoClient：重新构建并重启 Patch、Auth 和 Gateway（用于拉取之后，或修改了 Gateway 以外的内容时）；Gateway 自身的代码修改会通过热重载自动生效。正在运行的客户端会保留。</value>
   </data>
@@ -1177,6 +1180,9 @@
   </data>
   <data name="Text_358cc201f87d" xml:space="preserve">
     <value>操作</value>
+  </data>
+  <data name="Text_3591a432615b" xml:space="preserve">
+    <value>站点未及时响应。</value>
   </data>
   <data name="Text_35a86201334e" xml:space="preserve">
     <value>正在检查 Python 3.9+ 和 Frida，不会安装任何包。</value>
@@ -2374,6 +2380,9 @@
   </data>
   <data name="Text_6f7c506d045e" xml:space="preserve">
     <value>开发者模式</value>
+  </data>
+  <data name="Text_6f9afc58e8e3" xml:space="preserve">
+    <value>正在下载 BD……</value>
   </data>
   <data name="Text_6fa62b3dba2f" xml:space="preserve">
     <value>重命名…</value>
@@ -5449,6 +5458,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
 {1}
 
 此操作只替换已保存的选择，不会恢复模组 DLL 和存档。这些选择将在 Gateway 下次启动时生效。自动备份：{2}。</value>
+  </data>
+  <data name="Text_ffa52990490a" xml:space="preserve">
+    <value>粘贴 Path of Building 导出代码，或来自 poe.ninja、pobb.in、pob.codes、Maxroll、Pastebin、poedb 的 build 链接。读取只做检查，不会改动任何内容。</value>
   </data>
   <data name="Text_ffa98e02f7ce" xml:space="preserve">
     <value>远程分支</value>

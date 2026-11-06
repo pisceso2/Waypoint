@@ -1,3 +1,4 @@
+using System.Net.Http;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Threading;
@@ -22,7 +23,7 @@ partial class PobImportTab : UserControl
     /// <summary>The texts Windows gives through {l:Loc}.</summary>
     void ShowLanguage()
     {
-        Hint.Text = L.Text("Paste a Path of Building export code. Reading it only inspects the build: nothing is changed.");
+        Hint.Text = L.Text("Paste a Path of Building export code or a build link from poe.ninja, pobb.in, pob.codes, Maxroll, Pastebin or poedb. Reading it only inspects the build: nothing is changed.");
         ReadButton.Content = L.Text("Read build");
         CopyTreeButton.Content = L.Text("Copy tree link");
     }
@@ -35,14 +36,32 @@ partial class PobImportTab : UserControl
 
     async void ReadClicked(object? sender, RoutedEventArgs e)
     {
-        string code = Code.Text ?? "";
+        string text = (Code.Text ?? "").Trim();
         ReadButton.IsEnabled = false;
         Summary.Text = L.Text("Reading ...");
         try
         {
+            string code = text;
+            if (PobLink.Resolve(text) is { } url)
+            {
+                Summary.Text = L.Text("Downloading the build ...");
+                code = await PobLink.DownloadAsync(url);
+            }
             _build = await Task.Run(() => PobCode.Read(code));
             Summary.Text = Describe(_build);
             CopyTreeButton.IsEnabled = _build.HasTree;
+        }
+        catch (HttpRequestException error)
+        {
+            _build = null;
+            CopyTreeButton.IsEnabled = false;
+            Summary.Text = L.Text("Could not download the build: {0}", error.Message);
+        }
+        catch (TaskCanceledException)
+        {
+            _build = null;
+            CopyTreeButton.IsEnabled = false;
+            Summary.Text = L.Text("The site did not answer in time.");
         }
         catch (FormatException error)
         {

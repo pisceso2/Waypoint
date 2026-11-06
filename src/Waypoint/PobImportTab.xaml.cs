@@ -1,3 +1,4 @@
+using System.Net.Http;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -19,14 +20,32 @@ public partial class PobImportTab : UserControl
 
     async void ReadClicked(object sender, RoutedEventArgs e)
     {
-        string code = Code.Text;
+        string text = Code.Text.Trim();
         ReadButton.IsEnabled = false;
         Summary.Text = L.Text("Reading ...");
         try
         {
+            string code = text;
+            if (PobLink.Resolve(text) is { } url)
+            {
+                Summary.Text = L.Text("Downloading the build ...");
+                code = await PobLink.DownloadAsync(url);
+            }
             _build = await Task.Run(() => PobCode.Read(code));
             Summary.Text = Describe(_build);
             CopyTreeButton.IsEnabled = _build.HasTree;
+        }
+        catch (HttpRequestException error)
+        {
+            _build = null;
+            CopyTreeButton.IsEnabled = false;
+            Summary.Text = L.Text("Could not download the build: {0}", error.Message);
+        }
+        catch (TaskCanceledException)
+        {
+            _build = null;
+            CopyTreeButton.IsEnabled = false;
+            Summary.Text = L.Text("The site did not answer in time.");
         }
         catch (FormatException error)
         {

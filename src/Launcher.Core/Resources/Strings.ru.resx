@@ -807,6 +807,9 @@
   <data name="Text_25e7df197704" xml:space="preserve">
     <value>мосту нужен Python с frida, который не установлен: его настроит кнопка «Выдать предмет» в конструкторе предметов</value>
   </data>
+  <data name="Text_25e813c89117" xml:space="preserve">
+    <value>Не удалось загрузить сборку: {0}</value>
+  </data>
   <data name="Text_25ec5c9141d3" xml:space="preserve">
     <value>live.ps1 -NoClient: пересобирает и перезапускает Patch, Auth и Gateway (после pull или изменений вне Gateway); правки кода самого Gateway применяются сами через горячую перезагрузку. Запущенный клиент остаётся.</value>
   </data>
@@ -1177,6 +1180,9 @@
   </data>
   <data xml:space="preserve" name="Text_358cc201f87d">
     <value>Операции</value>
+  </data>
+  <data name="Text_3591a432615b" xml:space="preserve">
+    <value>Сайт не ответил вовремя.</value>
   </data>
   <data name="Text_35a86201334e" xml:space="preserve">
     <value>Проверка Python 3.9+ и Frida без установки пакетов.</value>
@@ -2374,6 +2380,9 @@
   </data>
   <data name="Text_6f7c506d045e" xml:space="preserve">
     <value>Режим разработчика</value>
+  </data>
+  <data name="Text_6f9afc58e8e3" xml:space="preserve">
+    <value>Загрузка сборки ...</value>
   </data>
   <data name="Text_6fa62b3dba2f" xml:space="preserve">
     <value>Переименовать…</value>
@@ -5449,6 +5458,9 @@
 {1}
 
 Заменяется только сохранённый выбор. DLL модов и сохранения не восстанавливаются. Выбор вступит в силу при следующем запуске Gateway. Автоматическое копирование: {2}.</value>
+  </data>
+  <data name="Text_ffa52990490a" xml:space="preserve">
+    <value>Вставьте код экспорта Path of Building или ссылку на сборку с poe.ninja, pobb.in, pob.codes, Maxroll, Pastebin или poedb. Чтение только проверяет сборку: ничего не меняется.</value>
   </data>
   <data xml:space="preserve" name="Text_ffa98e02f7ce">
     <value>Удалённая ветка</value>

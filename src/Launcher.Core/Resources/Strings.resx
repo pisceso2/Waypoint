@@ -807,6 +807,9 @@
   <data name="Text_25e7df197704" xml:space="preserve">
     <value>the bridge needs Python with frida, which is not installed: Give item in the item crafter sets it up</value>
   </data>
+  <data name="Text_25e813c89117" xml:space="preserve">
+    <value>Could not download the build: {0}</value>
+  </data>
   <data name="Text_25ec5c9141d3" xml:space="preserve">
     <value>live.ps1 -NoClient: rebuilds and restarts Patch, Auth and Gateway (after a pull, or edits outside the Gateway); the Gateway's own code edits apply by themselves with hot reload. A running client stays.</value>
   </data>
@@ -1177,6 +1180,9 @@ This checkout has modified tracked files.</value>
   </data>
   <data xml:space="preserve" name="Text_358cc201f87d">
     <value>Operations</value>
+  </data>
+  <data name="Text_3591a432615b" xml:space="preserve">
+    <value>The site did not answer in time.</value>
   </data>
   <data name="Text_35a86201334e" xml:space="preserve">
     <value>Checking Python 3.9+ and Frida without installing packages.</value>
@@ -2374,6 +2380,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_6f7c506d045e" xml:space="preserve">
     <value>Developer Mode</value>
+  </data>
+  <data name="Text_6f9afc58e8e3" xml:space="preserve">
+    <value>Downloading the build ...</value>
   </data>
   <data name="Text_6fa62b3dba2f" xml:space="preserve">
     <value>Rename…</value>
@@ -5449,6 +5458,9 @@ Mods at backup: </value>
 {1}
 
 This replaces the saved choices only. Mod DLLs and saves are not restored. The choices take effect at the next Gateway start. Automatic backup is {2}.</value>
+  </data>
+  <data name="Text_ffa52990490a" xml:space="preserve">
+    <value>Paste a Path of Building export code or a build link from poe.ninja, pobb.in, pob.codes, Maxroll, Pastebin or poedb. Reading it only inspects the build: nothing is changed.</value>
   </data>
   <data xml:space="preserve" name="Text_ffa98e02f7ce">
     <value>Remote</value>
