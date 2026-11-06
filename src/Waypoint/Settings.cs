@@ -24,7 +24,7 @@ sealed class Settings
     public bool KeepUpToDate { get; set; } = true;
     /// <summary>Where LocalExile's releases come from, as owner/name: the upstream project unless the player runs a fork
     /// (<see cref="Releases"/>).</summary>
-    public string? ReleaseRepository { get; set; }
+    public string? ReleaseRepository { get; set; } = "pisceso2/LocalExile";
     [JsonIgnore]
     public string Releases => string.IsNullOrWhiteSpace(ReleaseRepository) ? LocalExileReleases.DefaultRepository : ReleaseRepository.Trim();
     /// <summary>When Play last looked for an update of LocalExile.</summary>
