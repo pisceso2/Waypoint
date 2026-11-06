@@ -138,6 +138,9 @@
   <data name="Text_06748f34221f" xml:space="preserve">
     <value>Select an account first.</value>
   </data>
+  <data name="Text_067c9000ce4a" xml:space="preserve">
+    <value>A name is 3 to 32 letters, digits, _ or -.</value>
+  </data>
   <data name="Text_070d63bf412e" xml:space="preserve">
     <value>Another Waypoint build is already open. Close that window normally before opening this build. Existing operations and services have not been stopped.</value>
   </data>
@@ -1599,6 +1602,9 @@ This checkout has modified tracked files.</value>
   <data xml:space="preserve" name="Text_4ac147b602c9">
     <value>Connect your checkout</value>
   </data>
+  <data name="Text_4af1c7508aff" xml:space="preserve">
+    <value>Could not create the character: {0}</value>
+  </data>
   <data name="Text_4afea6a9cacf" xml:space="preserve">
     <value>Run setup guide…</value>
   </data>
@@ -2765,6 +2771,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_8300d2d40c93" xml:space="preserve">
     <value>Done: {0} ({1:0} s).</value>
   </data>
+  <data name="Text_830eefa8f15e" xml:space="preserve">
+    <value>Enter the account and its password.</value>
+  </data>
   <data xml:space="preserve" name="Text_8328dc8f6f33">
     <value>Checking prerequisites, process ownership and selected installation.</value>
   </data>
@@ -3034,6 +3043,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_90eb3b815e3e" xml:space="preserve">
     <value>{0} is a unique: the crafter makes normal, magic and rare items.</value>
+  </data>
+  <data name="Text_90ee86585fab" xml:space="preserve">
+    <value>Create a character from this build</value>
   </data>
   <data name="Text_90f425b6405b" xml:space="preserve">
     <value>Clipboard busy; try again.</value>
@@ -3461,6 +3473,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_a359209c9b61" xml:space="preserve">
     <value>Choose where to install LocalExile</value>
+  </data>
+  <data name="Text_a367a9cea7fc" xml:space="preserve">
+    <value>Create character</value>
   </data>
   <data name="Text_a37f0d9d865e" xml:space="preserve">
     <value>Capture is optional. Existing files are kept.</value>
@@ -4889,6 +4904,9 @@ Dependencies: {2}
   </data>
   <data xml:space="preserve" name="Text_e802a1d6a8c0">
     <value>One checkout matches upstream HEAD. You can use it below or Browse elsewhere.</value>
+  </data>
+  <data name="Text_e82946d6926c" xml:space="preserve">
+    <value>The dev host cannot create a {0} character.</value>
   </data>
   <data name="Text_e86c89de2566" xml:space="preserve">
     <value>Bring my characters (recommended)</value>

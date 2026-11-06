@@ -16,6 +16,19 @@
                 <Button x:Name="CopyTreeButton" Content="{l:Loc 'Copy tree link'}" Click="CopyTreeClicked" Margin="8,0,0,0" IsEnabled="False" />
             </StackPanel>
             <TextBlock x:Name="Summary" Margin="0,14,0,0" TextWrapping="Wrap" />
+            <StackPanel x:Name="CreatePanel" Visibility="Collapsed" Margin="0,16,0,0" MaxWidth="640" HorizontalAlignment="Left">
+                <TextBlock Text="{l:Loc 'Create a character from this build'}" FontWeight="SemiBold" Margin="0,0,0,6" />
+                <WrapPanel>
+                    <TextBlock Text="{l:Loc 'Account'}" VerticalAlignment="Center" Margin="0,0,6,0" />
+                    <TextBox x:Name="Account" Width="130" Margin="0,0,12,0" />
+                    <TextBlock Text="{l:Loc 'Password'}" VerticalAlignment="Center" Margin="0,0,6,0" />
+                    <PasswordBox x:Name="Password" Width="130" Margin="0,0,12,0" />
+                    <TextBlock Text="{l:Loc 'Name'}" VerticalAlignment="Center" Margin="0,0,6,0" />
+                    <TextBox x:Name="CharacterName" Width="130" Margin="0,0,12,0" />
+                    <Button x:Name="CreateButton" Content="{l:Loc 'Create character'}" Click="CreateClicked" VerticalAlignment="Center" />
+                </WrapPanel>
+                <TextBlock x:Name="CreateState" Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" Margin="0,6,0,0" />
+            </StackPanel>
         </StackPanel>
     </ScrollViewer>
 </UserControl>

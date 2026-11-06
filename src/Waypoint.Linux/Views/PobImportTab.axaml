@@ -13,6 +13,19 @@
         <Button x:Name="CopyTreeButton" Click="CopyTreeClicked" IsEnabled="False" />
       </StackPanel>
       <TextBlock x:Name="Summary" TextWrapping="Wrap" />
+      <StackPanel x:Name="CreatePanel" IsVisible="False" Margin="0,16,0,0" MaxWidth="640" HorizontalAlignment="Left" Spacing="6">
+        <TextBlock x:Name="CreateLabel" FontWeight="SemiBold" />
+        <StackPanel Orientation="Horizontal" Spacing="6">
+          <TextBlock x:Name="AccountLabel" VerticalAlignment="Center" />
+          <TextBox x:Name="Account" Width="130" />
+          <TextBlock x:Name="PasswordLabel" VerticalAlignment="Center" />
+          <TextBox x:Name="Password" Width="130" PasswordChar="●" />
+          <TextBlock x:Name="NameLabel" VerticalAlignment="Center" />
+          <TextBox x:Name="CharacterName" Width="130" />
+          <Button x:Name="CreateButton" Click="CreateClicked" VerticalAlignment="Center" />
+        </StackPanel>
+        <TextBlock x:Name="CreateState" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+      </StackPanel>
     </StackPanel>
   </ScrollViewer>
 </UserControl>

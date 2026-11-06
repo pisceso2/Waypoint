@@ -34,6 +34,8 @@ public partial class PobImportTab : UserControl
             _build = await Task.Run(() => PobCode.Read(code));
             Summary.Text = Describe(_build);
             CopyTreeButton.IsEnabled = _build.HasTree;
+            CreatePanel.Visibility = Visibility.Visible;
+            if (CharacterName.Text.Trim().Length == 0) CharacterName.Text = _build.Class;
         }
         catch (HttpRequestException error)
         {
@@ -61,6 +63,41 @@ public partial class PobImportTab : UserControl
         if (_build?.TreeUrl is not { Length: > 0 } url) return;
         try { Clipboard.SetText(url); Summary.Text = L.Text("Copied the tree link."); }
         catch (System.Runtime.InteropServices.COMException) { Summary.Text = L.Text("Clipboard busy; try again."); }
+    }
+
+    /// <summary>Creates a character of the build's class on an account, through the dev host's own create_character.</summary>
+    async void CreateClicked(object sender, RoutedEventArgs e)
+    {
+        if (_build is null) return;
+        string account = Account.Text.Trim(), password = Password.Password, name = CharacterName.Text.Trim();
+        if (account.Length == 0 || password.Length == 0)
+        {
+            CreateState.Text = L.Text("Enter the account and its password.");
+            return;
+        }
+        if (!AccountTools.ValidName(name))
+        {
+            CreateState.Text = L.Text("A name is 3 to 32 letters, digits, _ or -.");
+            return;
+        }
+        if (!AccountList.Classes.Contains(_build.Class, StringComparer.OrdinalIgnoreCase))
+        {
+            CreateState.Text = L.Text("The dev host cannot create a {0} character.", _build.Class);
+            return;
+        }
+        CreateButton.IsEnabled = false;
+        try
+        {
+            await DevHost.EnsureRunningAsync(line => CreateState.Text = line);
+            await DevHost.CreateCharacter(account, password, name, _build.Class);
+            CreateState.Text = L.Text("{0} ({1}) created on {2}.", name, _build.Class, account);
+        }
+        catch (Exception ex) when (ex is InvalidOperationException or IOException or System.Net.Sockets.SocketException
+            or TimeoutException or System.ComponentModel.Win32Exception)
+        {
+            CreateState.Text = L.Text("Could not create the character: {0}", ex.Message);
+        }
+        finally { CreateButton.IsEnabled = true; }
     }
 
     /// <summary>The build as lines, in the interface language; protocol values stay as the export wrote them.</summary>

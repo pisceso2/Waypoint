@@ -138,6 +138,9 @@
   <data name="Text_06748f34221f" xml:space="preserve">
     <value>请先选择一个账号。</value>
   </data>
+  <data name="Text_067c9000ce4a" xml:space="preserve">
+    <value>名称须为 3–32 位字母、数字、_ 或 -。</value>
+  </data>
   <data name="Text_070d63bf412e" xml:space="preserve">
     <value>另一个 Waypoint 构建已经打开。请先正常关闭那个窗口，再打开此构建。现有的操作和服务未被停止。</value>
   </data>
@@ -1599,6 +1602,9 @@
   <data name="Text_4ac147b602c9" xml:space="preserve">
     <value>关联你的源码副本</value>
   </data>
+  <data name="Text_4af1c7508aff" xml:space="preserve">
+    <value>无法创建角色：{0}</value>
+  </data>
   <data name="Text_4afea6a9cacf" xml:space="preserve">
     <value>运行安装向导…</value>
   </data>
@@ -2765,6 +2771,9 @@
   <data name="Text_8300d2d40c93" xml:space="preserve">
     <value>完成：{0}（{1:0} 秒）。</value>
   </data>
+  <data name="Text_830eefa8f15e" xml:space="preserve">
+    <value>请输入账号及其密码。</value>
+  </data>
   <data name="Text_8328dc8f6f33" xml:space="preserve">
     <value>正在检查先决条件、进程归属和所选安装。</value>
   </data>
@@ -3034,6 +3043,9 @@
   </data>
   <data name="Text_90eb3b815e3e" xml:space="preserve">
     <value>{0} 是传奇物品：物品制作器只能制作普通、魔法和稀有物品。</value>
+  </data>
+  <data name="Text_90ee86585fab" xml:space="preserve">
+    <value>用此 BD 创建角色</value>
   </data>
   <data name="Text_90f425b6405b" xml:space="preserve">
     <value>剪贴板忙，请重试。</value>
@@ -3462,6 +3474,9 @@
   <data name="Text_a359209c9b61" xml:space="preserve">
     <value>选择 LocalExile 的安装位置</value>
   </data>
+  <data name="Text_a367a9cea7fc" xml:space="preserve">
+    <value>创建角色</value>
+  </data>
   <data name="Text_a37f0d9d865e" xml:space="preserve">
     <value>采集是可选的。现有文件会保留。</value>
   </data>
@@ -3742,7 +3757,7 @@
     <value>游戏正在运行：“开始游戏”会将其关闭并重新启动；服务器保持运行。</value>
   </data>
   <data name="Text_af86ecd2ae72" xml:space="preserve">
-    <value>已在账号 {2} 中创建 {0}（{1}）。</value>
+    <value>已在 {2} 上创建 {0}（{1}）。</value>
   </data>
   <data name="Text_afb40dbadd2e" xml:space="preserve">
     <value>更改外观…</value>
@@ -4889,6 +4904,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_e802a1d6a8c0" xml:space="preserve">
     <value>有一个源码副本与上游 HEAD 一致。你可以在下方使用它，或“浏览”其他位置。</value>
+  </data>
+  <data name="Text_e82946d6926c" xml:space="preserve">
+    <value>Dev host 无法创建 {0} 职业的角色。</value>
   </data>
   <data name="Text_e86c89de2566" xml:space="preserve">
     <value>迁移我的角色（推荐）</value>
