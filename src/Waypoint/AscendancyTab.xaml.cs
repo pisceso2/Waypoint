@@ -1,3 +1,4 @@
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -23,6 +24,50 @@ public partial class AscendancyTab : UserControl
     }
 
     async void RefreshClicked(object sender, RoutedEventArgs e) => await LoadAsync();
+
+    /// <summary>Asks the Gateway for the ascendancies this character may take: it answers with the exact lines to send.</summary>
+    async void ListClicked(object sender, RoutedEventArgs e)
+    {
+        if (Repo.IsInstall)
+        {
+            SwitchState.Text = L.Text("A release install has no client control bridge.");
+            return;
+        }
+        SwitchState.Text = L.Text("Asking the Gateway ...");
+        try
+        {
+            var (_, lines) = ClientBridge.Replies(await _shared.Bridge.SendAsync("/ascendancy"));
+            var choices = lines.Select(line => line.Trim()).Where(line => line.StartsWith("/ascendancy ", StringComparison.Ordinal)).ToList();
+            Choices.ItemsSource = choices;
+            SwitchState.Text = choices.Count > 0 ? L.Text("{0} choices.", choices.Count) : string.Join(" ", lines);
+        }
+        catch (Exception error) when (error is IOException or InvalidOperationException or TimeoutException
+            or System.ComponentModel.Win32Exception)
+        {
+            SwitchState.Text = L.Text("Could not ask the Gateway: {0}", error.Message);
+        }
+    }
+
+    /// <summary>Sends the chosen line: the Gateway switches the character's saved ascendancy itself.</summary>
+    async void SwitchClicked(object sender, RoutedEventArgs e)
+    {
+        if (Choices.SelectedItem is not string line)
+        {
+            SwitchState.Text = L.Text("List the choices first, then pick one.");
+            return;
+        }
+        SwitchState.Text = L.Text("Switching ...");
+        try
+        {
+            var (_, lines) = ClientBridge.Replies(await _shared.Bridge.SendAsync(line));
+            SwitchState.Text = lines.Count > 0 ? string.Join(" ", lines) : L.Text("Sent {0}.", line);
+        }
+        catch (Exception error) when (error is IOException or InvalidOperationException or TimeoutException
+            or System.ComponentModel.Win32Exception)
+        {
+            SwitchState.Text = L.Text("Could not switch: {0}", error.Message);
+        }
+    }
 
     async Task LoadAsync()
     {

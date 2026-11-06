@@ -5,9 +5,18 @@
     <DockPanel Margin="20,16,20,16">
         <StackPanel DockPanel.Dock="Top" Margin="0,0,0,10">
             <TextBlock Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" MaxWidth="760" HorizontalAlignment="Left"
-                       Text="{l:Loc 'What each character is, from the account service. Switching an ascendancy needs a command the server does not offer yet, so this page only reads.'}" />
+                       Text="{l:Loc 'What each character is, from the account service; the switch below acts on the character in game.'}" />
             <Button x:Name="RefreshButton" Content="{l:Loc 'Refresh'}" Click="RefreshClicked" HorizontalAlignment="Left" Margin="0,8,0,0" />
             <TextBlock x:Name="State" Style="{StaticResource Shell.Secondary}" Margin="0,8,0,0" TextWrapping="Wrap" />
+            <TextBlock Text="{l:Loc 'Switch the character in game'}" FontWeight="SemiBold" Margin="0,14,0,4" />
+            <TextBlock Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" MaxWidth="760" HorizontalAlignment="Left"
+                       Text="{l:Loc 'These act on the character in game and change its saved ascendancy: list the choices, pick one, then switch.'}" />
+            <WrapPanel Margin="0,6,0,0">
+                <Button x:Name="ListButton" Content="{l:Loc 'List the choices'}" Click="ListClicked" />
+                <ComboBox x:Name="Choices" Width="320" Margin="8,0,8,0" />
+                <Button x:Name="SwitchButton" Content="{l:Loc 'Switch'}" Click="SwitchClicked" />
+            </WrapPanel>
+            <TextBlock x:Name="SwitchState" Style="{StaticResource Shell.Secondary}" Margin="0,6,0,0" TextWrapping="Wrap" />
         </StackPanel>
         <ListView x:Name="Table">
             <ListView.View>

@@ -645,6 +645,9 @@
   <data name="Text_1d6ca631e720" xml:space="preserve">
     <value>! команды не загружены: {0}</value>
   </data>
+  <data name="Text_1d9d2f52becd" xml:space="preserve">
+    <value>Переключить персонажа в игре</value>
+  </data>
   <data xml:space="preserve" name="Text_1ddc54772630">
     <value> · подготовленный клиент найден</value>
   </data>
@@ -656,6 +659,9 @@
   </data>
   <data name="Text_1e38f7b99036" xml:space="preserve">
     <value>Запрошенный репозиторий</value>
+  </data>
+  <data name="Text_1e8783874079" xml:space="preserve">
+    <value>Это действует на персонажа в игре и меняет сохранённое возвышение: получите список, выберите одно, затем переключите.</value>
   </data>
   <data name="Text_1edce696fe4f" xml:space="preserve">
     <value>Оставить этот клиент как есть</value>
@@ -1275,7 +1281,7 @@
     <value>Оформление</value>
   </data>
   <data xml:space="preserve" name="Text_39921a740bf2">
-    <value>Перейти</value>
+    <value>Переключить</value>
   </data>
   <data name="Text_3a0f7b919840" xml:space="preserve">
     <value>Изменение данных аккаунта</value>
@@ -2027,6 +2033,9 @@
   <data name="Text_5ec6014cb5f6" xml:space="preserve">
     <value>Игра ещё запущена</value>
   </data>
+  <data name="Text_5f05f3cc277e" xml:space="preserve">
+    <value>Переключение ...</value>
+  </data>
   <data xml:space="preserve" name="Text_5f1b134f71ee">
     <value>
 Достигнут лимит поиска; другие репозитории могут остаться ненайденными. Вы можете выбрать любую папку вручную.</value>
@@ -2573,6 +2582,9 @@
   <data name="Text_756c8efc0b23" xml:space="preserve">
     <value>Убирает все собранные тайминги и начинает окно заново</value>
   </data>
+  <data name="Text_757e9fe8a1b4" xml:space="preserve">
+    <value>Сначала получите список, затем выберите вариант.</value>
+  </data>
   <data name="Text_7596fade4e2a" xml:space="preserve">
     <value>Вызовов/с</value>
   </data>
@@ -2632,6 +2644,9 @@
   </data>
   <data name="Text_78794383b01e" xml:space="preserve">
     <value>Python не смог создать окружение в {0}.</value>
+  </data>
+  <data name="Text_78eca775bb44" xml:space="preserve">
+    <value>Что представляет собой каждый персонаж, по данным службы аккаунтов; переключатель ниже действует на персонажа в игре.</value>
   </data>
   <data name="Text_78f253f7422a" xml:space="preserve">
     <value>ключи входа (шаг 4)</value>
@@ -3146,6 +3161,9 @@
   <data name="Text_91f71c14c8d6" xml:space="preserve">
     <value>Экспорт CSV</value>
   </data>
+  <data name="Text_91ff4e64fa3e" xml:space="preserve">
+    <value>Вариантов: {0}.</value>
+  </data>
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>Удалить выбранные предметы (клавиша Delete); Ctrl или Shift выбирает несколько</value>
   </data>
@@ -3184,6 +3202,9 @@
   </data>
   <data name="Text_93827aab09d1" xml:space="preserve">
     <value>Игра, моды, резервные копии, учётные записи, журналы, консоль и инструменты.</value>
+  </data>
+  <data name="Text_93c6a29aa1b2" xml:space="preserve">
+    <value>Запрос к Gateway ...</value>
   </data>
   <data xml:space="preserve" name="Text_93c6b664dce6">
     <value>Обзор…</value>
@@ -3543,6 +3564,9 @@
   <data xml:space="preserve" name="Text_a2b0e1cca90c">
     <value>Перезагрузить включённый мод и зависимые от него моды.</value>
   </data>
+  <data name="Text_a2b6f7f5eab0" xml:space="preserve">
+    <value>Не удалось переключить: {0}</value>
+  </data>
   <data name="Text_a2e20a335700" xml:space="preserve">
     <value>Удалить аккаунт</value>
   </data>
@@ -3683,6 +3707,9 @@
   </data>
   <data name="Text_a7248eeb45eb" xml:space="preserve">
     <value>Обычный</value>
+  </data>
+  <data name="Text_a72514ba62b7" xml:space="preserve">
+    <value>Показать варианты</value>
   </data>
   <data name="Text_a7436507dc71" xml:space="preserve">
     <value>Выход без остановки игры и служб.</value>
@@ -3830,6 +3857,9 @@
   </data>
   <data name="Text_ae82cf58855d" xml:space="preserve">
     <value>Перезагрузить мод</value>
+  </data>
+  <data name="Text_aeb2a551dc61" xml:space="preserve">
+    <value>Не удалось запросить Gateway: {0}</value>
   </data>
   <data name="Text_aeb925989fbb" xml:space="preserve">
     <value>Свойства: {0}</value>
@@ -5316,6 +5346,9 @@
   <data xml:space="preserve" name="Text_f4702857c4a9">
     <value>
 Моды при копировании: </value>
+  </data>
+  <data name="Text_f4b3597cb390" xml:space="preserve">
+    <value>В релизной версии нет моста управления клиентом.</value>
   </data>
   <data xml:space="preserve" name="Text_f4bfa9a07c59">
     <value>Будет установлена зафиксированная зависимость Node в Tools/ooz командой npm ci. Глобальная установка не выполняется. Сначала установите Node.js.</value>
