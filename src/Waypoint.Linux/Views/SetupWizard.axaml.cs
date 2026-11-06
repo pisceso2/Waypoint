@@ -792,7 +792,7 @@ public partial class SetupWizard : Window
         try
         {
             using var client = Updates.Client();
-            var release = await LocalExileReleases.LatestAsync(client, stop) ?? throw new InvalidOperationException(L.Text("LocalExile has no release to download yet."));
+            var release = await LocalExileReleases.LatestAsync(client, _settings.Releases, stop) ?? throw new InvalidOperationException(L.Text("LocalExile has no release to download yet."));
             Write($"> {release.Tag}: {release.ZipUrl}");
             bool extracting = false;
             await LocalExileReleases.InstallAsync(client, release, folder, (done, total) => Dispatcher.UIThread.Post(() =>
