@@ -58,8 +58,14 @@ public static class LocalExileReleases
     /// <summary>The end of the name of this system's zip among a release's files.</summary>
     public static string AssetSuffix => OperatingSystem.IsWindows() ? "-win-x64.zip" : "-linux-x64.zip";
     public const string ManifestName = "release.json";
-    public const string LatestUrl = "https://api.github.com/repos/LocalExile/LocalExile/releases/latest";
-    public const string ListUrl = "https://api.github.com/repos/LocalExile/LocalExile/releases?per_page=30";
+    /// <summary>Where releases come from unless the player points Waypoint at a fork.</summary>
+    public const string DefaultRepository = "LocalExile/LocalExile";
+
+    /// <summary>GitHub's "latest release" address for one repository.</summary>
+    public static string LatestUrl(string repository) => $"https://api.github.com/repos/{repository}/releases/latest";
+
+    /// <summary>GitHub's release list address for one repository.</summary>
+    public static string ListUrl(string repository) => $"https://api.github.com/repos/{repository}/releases?per_page=30";
     /// <summary>Beside the install's files while a download is checked and extracted; never left behind.</summary>
     const string StagingName = ".waypoint-update";
     const string ZipRoot = "LocalExile/";
@@ -100,9 +106,9 @@ public static class LocalExileReleases
         return document.RootElement.ValueKind == JsonValueKind.Array ? document.RootElement.EnumerateArray().Select(ParseRelease).OfType<LocalExileRelease>().ToList() : [];
     }
 
-    public static async Task<IReadOnlyList<LocalExileRelease>> ListAsync(HttpClient client, CancellationToken stop = default)
+    public static async Task<IReadOnlyList<LocalExileRelease>> ListAsync(HttpClient client, string repository = DefaultRepository, CancellationToken stop = default)
     {
-        using var response = await client.GetAsync(ListUrl, stop);
+        using var response = await client.GetAsync(ListUrl(repository), stop);
         response.EnsureSuccessStatusCode();
         return ParseReleases(await response.Content.ReadAsStringAsync(stop));
     }
@@ -124,9 +130,9 @@ public static class LocalExileReleases
     }
 
     /// <summary>The latest published release; null when there is none.</summary>
-    public static async Task<LocalExileRelease?> LatestAsync(HttpClient client, CancellationToken stop = default)
+    public static async Task<LocalExileRelease?> LatestAsync(HttpClient client, string repository = DefaultRepository, CancellationToken stop = default)
     {
-        using var response = await client.GetAsync(LatestUrl, stop);
+        using var response = await client.GetAsync(LatestUrl(repository), stop);
         if (response.StatusCode == System.Net.HttpStatusCode.NotFound) return null;
         response.EnsureSuccessStatusCode();
         return ParseRelease(await response.Content.ReadAsStringAsync(stop));

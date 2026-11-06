@@ -22,6 +22,11 @@ sealed class Settings
     /// <summary>Simple mode's Play updates a plain copy of LocalExile (<see cref="CheckoutUpdates"/>); on a release install, a
     /// newer release shows the update card.</summary>
     public bool KeepUpToDate { get; set; } = true;
+    /// <summary>Where LocalExile's releases come from, as owner/name: the upstream project unless the player runs a fork
+    /// (<see cref="Releases"/>).</summary>
+    public string? ReleaseRepository { get; set; }
+    [JsonIgnore]
+    public string Releases => string.IsNullOrWhiteSpace(ReleaseRepository) ? LocalExileReleases.DefaultRepository : ReleaseRepository.Trim();
     /// <summary>When Play last looked for an update of LocalExile.</summary>
     public DateTimeOffset? LastUpdateCheck { get; set; }
     /// <summary>Going back to an earlier version pauses Play's updates until then.</summary>

@@ -450,7 +450,7 @@ public partial class MainWindow : Window
         try
         {
             using var client = Updates.Client();
-            var latest = await LocalExileReleases.LatestAsync(client);
+            var latest = await LocalExileReleases.LatestAsync(client, _shared.Settings.Releases);
             var installed = LocalExileReleases.Installed(Environment.CurrentDirectory);
             if (latest is null || (installed is not null && !latest.Version.IsNewerThan(installed))) return false;
             _exileRelease = latest;
