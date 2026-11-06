@@ -240,6 +240,9 @@
   <data name="Text_0b776bf7ef90" xml:space="preserve">
     <value>请启动游戏（“控制”页面），登录并进入一个区域，然后重新发送。</value>
   </data>
+  <data name="Text_0b7ce2528052" xml:space="preserve">
+    <value>清单为空。</value>
+  </data>
   <data name="Text_0b7dda5c9b90" xml:space="preserve">
     <value>正在运行的窗口中有操作正在进行。请等待其完成，再关闭窗口或更换源码副本。</value>
   </data>
@@ -633,6 +636,9 @@
   <data name="Text_1d0fae1e7a27" xml:space="preserve">
     <value>没有可显示的模组。</value>
   </data>
+  <data name="Text_1d2726825052" xml:space="preserve">
+    <value>共 {0} 个基底。</value>
+  </data>
   <data name="Text_1d56780afff3" xml:space="preserve">
     <value>插槽</value>
   </data>
@@ -725,6 +731,9 @@
   </data>
   <data name="Text_21f1037412e4" xml:space="preserve">
     <value>当前操作</value>
+  </data>
+  <data name="Text_221eb0c5c8e3" xml:space="preserve">
+    <value>清单最多 {0} 件。</value>
   </data>
   <data name="Text_223e64b8fc5b" xml:space="preserve">
     <value>首次使用时会自动查找。你也可以在这里重新搜索。</value>
@@ -910,6 +919,9 @@
   <data name="Text_292a37482041" xml:space="preserve">
     <value>已构建组件 · Debug</value>
   </data>
+  <data name="Text_292c06f0045a" xml:space="preserve">
+    <value>分类</value>
+  </data>
   <data name="Text_293d8864e78d" xml:space="preserve">
     <value>用于游戏本身的工具。每个工具都在单独的窗口中打开，并通过客户端控制桥（Python 与 Frida）与游戏中的角色交互。</value>
   </data>
@@ -1002,6 +1014,9 @@
   </data>
   <data name="Text_2d0afc98a2dd" xml:space="preserve">
     <value>保持服务运行</value>
+  </data>
+  <data name="Text_2d69a8f95952" xml:space="preserve">
+    <value>已添加 {0} × {1}。</value>
   </data>
   <data name="Text_2dafe4f58ab0" xml:space="preserve">
     <value> · 已跟踪的文件有修改</value>
@@ -1145,6 +1160,9 @@
   <data name="Text_333775e31a21" xml:space="preserve">
     <value>网关列表尚未修补（第 6 步）</value>
   </data>
+  <data name="Text_3350198d1ebe" xml:space="preserve">
+    <value>发行版没有物品目录；带制作工具的源码副本才有。</value>
+  </data>
   <data name="Text_3374c9e93f22" xml:space="preserve">
     <value>你可以随时停止：已完成的部分会保留。</value>
   </data>
@@ -1228,6 +1246,9 @@
   </data>
   <data name="Text_37b8ab518ec4" xml:space="preserve">
     <value>搜索基础类型</value>
+  </data>
+  <data name="Text_37bac4952bec" xml:space="preserve">
+    <value>数量</value>
   </data>
   <data name="Text_37ca3cfb5d85" xml:space="preserve">
     <value>踢出</value>
@@ -1604,6 +1625,9 @@
   </data>
   <data name="Text_4a84639bfc72" xml:space="preserve">
     <value>先安装其余部分，稍后再添加客户端</value>
+  </data>
+  <data name="Text_4a84b0b193a1" xml:space="preserve">
+    <value>无法加载物品基底：{0}</value>
   </data>
   <data name="Text_4a9a45318354" xml:space="preserve">
     <value>本地 HEAD 不同</value>
@@ -2076,6 +2100,9 @@
   <data name="Text_61755957b7ec" xml:space="preserve">
     <value>已切换到 {0}</value>
   </data>
+  <data name="Text_6192fb1e01a5" xml:space="preserve">
+    <value>正在发放 {0}/{1}……</value>
+  </data>
   <data name="Text_619e3be216f3" xml:space="preserve">
     <value>删除账号…</value>
   </data>
@@ -2267,6 +2294,9 @@
   <data name="Text_686046d08c9f" xml:space="preserve">
     <value>监视进程正在构建/重启；请在 Gateway 输出中查看错误</value>
   </data>
+  <data name="Text_68880b9d609c" xml:space="preserve">
+    <value>已发放 {0} 件。</value>
+  </data>
   <data name="Text_688ed737c588" xml:space="preserve">
     <value>正在启动服务</value>
   </data>
@@ -2353,6 +2383,9 @@
   </data>
   <data name="Text_6d0e201a1cb9" xml:space="preserve">
     <value>已导入 {0}，含 {1} 个词缀；有 {2} 行被忽略。“保存”可将其保留在列表中。</value>
+  </data>
+  <data name="Text_6d2d59aed44f" xml:space="preserve">
+    <value>清单</value>
   </data>
   <data name="Text_6d3add9cf2ef" xml:space="preserve">
     <value>数值超出该阶范围</value>
@@ -2552,6 +2585,9 @@
   <data name="Text_76409ed15c76" xml:space="preserve">
     <value>（无回复）</value>
   </data>
+  <data name="Text_7689785957a4" xml:space="preserve">
+    <value>请先向清单添加物品。</value>
+  </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>返回</value>
   </data>
@@ -2635,6 +2671,9 @@
   </data>
   <data name="Text_7a5198f98ec2" xml:space="preserve">
     <value>此 LocalExile 文件夹中已有游戏客户端，无需复制。</value>
+  </data>
+  <data name="Text_7a99bd448d6c" xml:space="preserve">
+    <value>请先选择物品基底。</value>
   </data>
   <data name="Text_7aad4be82785" xml:space="preserve">
     <value>将此行填入输入框；按 Enter 或“发送”即可发送。</value>
@@ -2783,6 +2822,9 @@
   <data name="Text_815c157dc783" xml:space="preserve">
     <value>正在将角色复制到此 LocalExile；此处已有的内容会另行存放。</value>
   </data>
+  <data name="Text_81602ecf4860" xml:space="preserve">
+    <value>请输入物品等级。</value>
+  </data>
   <data name="Text_8190281db975" xml:space="preserve">
     <value>向下还原</value>
   </data>
@@ -2929,6 +2971,9 @@
   </data>
   <data name="Text_898a809683dd" xml:space="preserve">
     <value>模组已重新加载。</value>
+  </data>
+  <data name="Text_89ccf87b0e67" xml:space="preserve">
+    <value>物品等级</value>
   </data>
   <data name="Text_89d00e7dc413" xml:space="preserve">
     <value>需要独立客户端的 Content.ggpk；不支持 Steam 版目录结构</value>
@@ -3585,6 +3630,9 @@
   <data name="Text_a52a8ef55340" xml:space="preserve">
     <value>切换到 #{0}</value>
   </data>
+  <data name="Text_a52ace420f21" xml:space="preserve">
+    <value>全部</value>
+  </data>
   <data name="Text_a58b335cdd9f" xml:space="preserve">
     <value>安装数据提取所需的依赖项</value>
   </data>
@@ -3614,6 +3662,9 @@
   </data>
   <data name="Text_a67ecaab2e09" xml:space="preserve">
     <value>服务已停止。正在退出 Waypoint。</value>
+  </data>
+  <data name="Text_a694cca98ba4" xml:space="preserve">
+    <value>一键发放</value>
   </data>
   <data name="Text_a6b4705c6883" xml:space="preserve">
     <value>更改…</value>
@@ -4005,6 +4056,9 @@
   <data name="Text_b8f6fa5921eb" xml:space="preserve">
     <value>“发放物品”需要 Frida，这是一个与正在运行的游戏通信的工具。Waypoint 可以将它安装到此 LocalExile 文件夹中。它大约占用 180 MB，部分杀毒软件会将其标记为可疑。</value>
   </data>
+  <data name="Text_b8fb5a1aa011" xml:space="preserve">
+    <value>已发放 {0} 个 {1}。</value>
+  </data>
   <data name="Text_b9289f13fa7e" xml:space="preserve">
     <value>账号名（3–32 个字母、数字、_ 或 -）</value>
   </data>
@@ -4094,6 +4148,9 @@
   </data>
   <data name="Text_be3ff8326226" xml:space="preserve">
     <value>你的游戏客户端</value>
+  </data>
+  <data name="Text_be4502703e51" xml:space="preserve">
+    <value>正在加载物品基底……</value>
   </data>
   <data name="Text_be46faa4a87c" xml:space="preserve">
     <value>从列表中选择账号，或更改搜索条件。</value>
@@ -4217,6 +4274,9 @@
   </data>
   <data name="Text_c5bb39f523b4" xml:space="preserve">
     <value>正在安装 Frida…</value>
+  </data>
+  <data name="Text_c6402106c821" xml:space="preserve">
+    <value>发放</value>
   </data>
   <data name="Text_c651e0a3c2c6" xml:space="preserve">
     <value>仅最高阶</value>
@@ -4409,6 +4469,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_cccbd64fecc9" xml:space="preserve">
     <value>游戏或服务正在运行，或无法确定其归属，因此为只读。请先停止它们并重新加载，再更改账号。</value>
   </data>
+  <data name="Text_cccf08dcdf83" xml:space="preserve">
+    <value>无法发放：{0}</value>
+  </data>
   <data name="Text_cce1939cf981" xml:space="preserve">
     <value>状态与势力</value>
   </data>
@@ -4477,6 +4540,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_d03a6edefa0c" xml:space="preserve">
     <value>所有错误</value>
+  </data>
+  <data name="Text_d065c90b7c09" xml:space="preserve">
+    <value>一键发放</value>
   </data>
   <data name="Text_d07a6262689c" xml:space="preserve">
     <value>你的复刻</value>

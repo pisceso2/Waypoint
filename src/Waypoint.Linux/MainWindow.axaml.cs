@@ -68,6 +68,7 @@ public partial class MainWindow : Window
     readonly ToolsTab ToolsView = new();
     readonly QuickTab Quick = new();
     readonly PobImportTab Pob = new();
+    readonly GrantTab Grant = new();
     readonly AscendancyTab Ascendancy = new();
     readonly SettingsTab SettingsView = new();
     bool _closing, _deciding;
@@ -95,6 +96,7 @@ public partial class MainWindow : Window
         ToolsView.Attach(_shared);
         Quick.Attach(_shared);
         Pob.Attach(_shared);
+        Grant.Attach(_shared);
         Ascendancy.Attach(_shared);
         SettingsView.Attach(_shared);
         _sections =
@@ -115,6 +117,7 @@ public partial class MainWindow : Window
             new("Tools", MaterialIconKind.Toolbox, ToolsView),
             new("Quick functions", MaterialIconKind.LightningBolt, Quick),
             new("PoE import", MaterialIconKind.Import, Pob),
+            new("One-click grant", MaterialIconKind.Gift, Grant),
             new("Ascendancy", MaterialIconKind.Crown, Ascendancy),
             new("Settings", MaterialIconKind.CogOutline, SettingsView),
         ];

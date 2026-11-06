@@ -240,6 +240,9 @@
   <data name="Text_0b776bf7ef90" xml:space="preserve">
     <value>Запустите игру (раздел «Управление»), войдите и перейдите в область, затем отправьте снова.</value>
   </data>
+  <data name="Text_0b7ce2528052" xml:space="preserve">
+    <value>Корзина пуста.</value>
+  </data>
   <data name="Text_0b7dda5c9b90" xml:space="preserve">
     <value>В открытом окне выполняется операция. Дождитесь её завершения, прежде чем закрывать окно или менять репозиторий.</value>
   </data>
@@ -633,6 +636,9 @@
   <data xml:space="preserve" name="Text_1d0fae1e7a27">
     <value>Нет модов для отображения.</value>
   </data>
+  <data name="Text_1d2726825052" xml:space="preserve">
+    <value>Баз: {0}.</value>
+  </data>
   <data name="Text_1d56780afff3" xml:space="preserve">
     <value>ГНЁЗДА</value>
   </data>
@@ -725,6 +731,9 @@
   </data>
   <data name="Text_21f1037412e4" xml:space="preserve">
     <value>Что происходит</value>
+  </data>
+  <data name="Text_221eb0c5c8e3" xml:space="preserve">
+    <value>В корзине не больше {0} копий.</value>
   </data>
   <data xml:space="preserve" name="Text_223e64b8fc5b">
     <value>При первом запуске выполняется автоматический поиск. Здесь можно запустить его повторно.</value>
@@ -910,6 +919,9 @@
   <data xml:space="preserve" name="Text_292a37482041">
     <value>СОБРАННЫЕ КОМПОНЕНТЫ · DEBUG</value>
   </data>
+  <data name="Text_292c06f0045a" xml:space="preserve">
+    <value>Категория</value>
+  </data>
   <data name="Text_293d8864e78d" xml:space="preserve">
     <value>Инструменты для самой игры. Каждый открывается в своём окне и работает с персонажем в игре через мост управления клиентом (Python с Frida).</value>
   </data>
@@ -1002,6 +1014,9 @@
   </data>
   <data name="Text_2d0afc98a2dd" xml:space="preserve">
     <value>Оставить службы работать</value>
+  </data>
+  <data name="Text_2d69a8f95952" xml:space="preserve">
+    <value>Добавлено {0} × {1}.</value>
   </data>
   <data xml:space="preserve" name="Text_2dafe4f58ab0">
     <value> · есть изменения файлов</value>
@@ -1145,6 +1160,9 @@
   <data name="Text_333775e31a21" xml:space="preserve">
     <value>список шлюзов ещё не изменён (шаг 6)</value>
   </data>
+  <data name="Text_3350198d1ebe" xml:space="preserve">
+    <value>В релизной версии нет каталога предметов; он есть у копии с крафтером.</value>
+  </data>
   <data name="Text_3374c9e93f22" xml:space="preserve">
     <value>Остановиться можно в любой момент: готовое останется готовым.</value>
   </data>
@@ -1228,6 +1246,9 @@
   </data>
   <data name="Text_37b8ab518ec4" xml:space="preserve">
     <value>Поиск баз</value>
+  </data>
+  <data name="Text_37bac4952bec" xml:space="preserve">
+    <value>Количество</value>
   </data>
   <data name="Text_37ca3cfb5d85" xml:space="preserve">
     <value>Исключить</value>
@@ -1604,6 +1625,9 @@
   </data>
   <data name="Text_4a84639bfc72" xml:space="preserve">
     <value>Настроить остальное сейчас, а клиент добавить позже</value>
+  </data>
+  <data name="Text_4a84b0b193a1" xml:space="preserve">
+    <value>Не удалось загрузить базы предметов: {0}</value>
   </data>
   <data xml:space="preserve" name="Text_4a9a45318354">
     <value>Другая локальная ревизия HEAD</value>
@@ -2076,6 +2100,9 @@
   <data name="Text_61755957b7ec" xml:space="preserve">
     <value>Переключено на {0}</value>
   </data>
+  <data name="Text_6192fb1e01a5" xml:space="preserve">
+    <value>Выдача {0} из {1} ...</value>
+  </data>
   <data name="Text_619e3be216f3" xml:space="preserve">
     <value>Удалить аккаунт…</value>
   </data>
@@ -2267,6 +2294,9 @@
   <data xml:space="preserve" name="Text_686046d08c9f">
     <value>Сборка/перезапуск; проверьте вывод Gateway на ошибки</value>
   </data>
+  <data name="Text_68880b9d609c" xml:space="preserve">
+    <value>Выдано копий: {0}.</value>
+  </data>
   <data xml:space="preserve" name="Text_688ed737c588">
     <value>Запуск служб</value>
   </data>
@@ -2353,6 +2383,9 @@
   </data>
   <data name="Text_6d0e201a1cb9" xml:space="preserve">
     <value>Импортирован {0}, свойств: {1}; пропущено строк: {2}. «Сохранить» оставит его в списке.</value>
+  </data>
+  <data name="Text_6d2d59aed44f" xml:space="preserve">
+    <value>Корзина</value>
   </data>
   <data name="Text_6d3add9cf2ef" xml:space="preserve">
     <value>значения вне тира</value>
@@ -2552,6 +2585,9 @@
   <data name="Text_76409ed15c76" xml:space="preserve">
     <value>(нет ответа)</value>
   </data>
+  <data name="Text_7689785957a4" xml:space="preserve">
+    <value>Сначала добавьте что-нибудь в корзину.</value>
+  </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>Назад</value>
   </data>
@@ -2635,6 +2671,9 @@
   </data>
   <data name="Text_7a5198f98ec2" xml:space="preserve">
     <value>В этой папке LocalExile уже есть игровой клиент, копировать ничего не нужно.</value>
+  </data>
+  <data name="Text_7a99bd448d6c" xml:space="preserve">
+    <value>Сначала выберите базу предмета.</value>
   </data>
   <data name="Text_7aad4be82785" xml:space="preserve">
     <value>Подставляет строку в поле ввода; Enter или «Отправить» отправляет её.</value>
@@ -2783,6 +2822,9 @@
   <data name="Text_815c157dc783" xml:space="preserve">
     <value>Копирование в этот LocalExile; всё, что здесь уже есть, откладывается.</value>
   </data>
+  <data name="Text_81602ecf4860" xml:space="preserve">
+    <value>Введите уровень предмета.</value>
+  </data>
   <data xml:space="preserve" name="Text_8190281db975">
     <value>Восстановить размер</value>
   </data>
@@ -2929,6 +2971,9 @@
   </data>
   <data xml:space="preserve" name="Text_898a809683dd">
     <value>Мод перезагружен.</value>
+  </data>
+  <data name="Text_89ccf87b0e67" xml:space="preserve">
+    <value>Уровень предмета</value>
   </data>
   <data xml:space="preserve" name="Text_89d00e7dc413">
     <value>Нужен Content.ggpk отдельного клиента; установка Steam не поддерживается</value>
@@ -3585,6 +3630,9 @@
   <data name="Text_a52a8ef55340" xml:space="preserve">
     <value>Переключиться на #{0}</value>
   </data>
+  <data name="Text_a52ace420f21" xml:space="preserve">
+    <value>Все</value>
+  </data>
   <data name="Text_a58b335cdd9f" xml:space="preserve">
     <value>Установить зависимость для извлечения</value>
   </data>
@@ -3614,6 +3662,9 @@
   </data>
   <data name="Text_a67ecaab2e09" xml:space="preserve">
     <value>Службы остановлены. Выход из Waypoint.</value>
+  </data>
+  <data name="Text_a694cca98ba4" xml:space="preserve">
+    <value>Выдать всё</value>
   </data>
   <data name="Text_a6b4705c6883" xml:space="preserve">
     <value>Изменить…</value>
@@ -4005,6 +4056,9 @@
   <data name="Text_b8f6fa5921eb" xml:space="preserve">
     <value>Для выдачи предметов нужна Frida — инструмент, который взаимодействует с запущенной игрой. Waypoint может установить её в эту папку LocalExile. Она занимает около 180 МБ, а некоторые антивирусы на неё реагируют.</value>
   </data>
+  <data name="Text_b8fb5a1aa011" xml:space="preserve">
+    <value>Выдано {0}: {1}.</value>
+  </data>
   <data xml:space="preserve" name="Text_b9289f13fa7e">
     <value>Имя (3–32 латинские буквы, цифры, _ или -)</value>
   </data>
@@ -4094,6 +4148,9 @@
   </data>
   <data name="Text_be3ff8326226" xml:space="preserve">
     <value>Ваш игровой клиент</value>
+  </data>
+  <data name="Text_be4502703e51" xml:space="preserve">
+    <value>Загрузка баз предметов ...</value>
   </data>
   <data name="Text_be46faa4a87c" xml:space="preserve">
     <value>Выберите аккаунт из списка или измените запрос поиска.</value>
@@ -4217,6 +4274,9 @@
   </data>
   <data name="Text_c5bb39f523b4" xml:space="preserve">
     <value>Установка Frida…</value>
+  </data>
+  <data name="Text_c6402106c821" xml:space="preserve">
+    <value>Выдать</value>
   </data>
   <data name="Text_c651e0a3c2c6" xml:space="preserve">
     <value>Только лучший тир</value>
@@ -4409,6 +4469,9 @@
   <data name="Text_cccbd64fecc9" xml:space="preserve">
     <value>Доступен только просмотр, пока игра или службы работают либо их принадлежность не подтверждена. Остановите их и обновите данные перед изменением аккаунтов.</value>
   </data>
+  <data name="Text_cccf08dcdf83" xml:space="preserve">
+    <value>Не удалось выдать: {0}</value>
+  </data>
   <data name="Text_cce1939cf981" xml:space="preserve">
     <value>СОСТОЯНИЯ И ВЛИЯНИЯ</value>
   </data>
@@ -4477,6 +4540,9 @@
   </data>
   <data name="Text_d03a6edefa0c" xml:space="preserve">
     <value>Все ошибки</value>
+  </data>
+  <data name="Text_d065c90b7c09" xml:space="preserve">
+    <value>Выдача в один клик</value>
   </data>
   <data name="Text_d07a6262689c" xml:space="preserve">
     <value>ваш форк</value>

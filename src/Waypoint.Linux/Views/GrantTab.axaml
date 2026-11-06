@@ -1,0 +1,41 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint"
+             x:Class="Waypoint.GrantTab">
+  <DockPanel Margin="20,16">
+    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="6" Margin="0,0,0,10">
+      <TextBlock x:Name="CategoryLabel" VerticalAlignment="Center" />
+      <ComboBox x:Name="CategoryPicker" Width="150" Margin="0,0,12,0" SelectionChanged="FilterChanged" />
+      <TextBlock x:Name="SearchLabel" VerticalAlignment="Center" />
+      <TextBox x:Name="Filter" Width="200" Margin="0,0,12,0" TextChanged="FilterTextChanged" />
+      <TextBlock x:Name="CountLabel" VerticalAlignment="Center" />
+      <TextBox x:Name="CountBox" Width="60" Margin="0,0,12,0" Text="1" />
+      <TextBlock x:Name="LevelLabel" VerticalAlignment="Center" />
+      <TextBox x:Name="ItemLevelBox" Width="60" Margin="0,0,12,0" Text="84" />
+      <Button x:Name="AddButton" Click="AddClicked" VerticalAlignment="Center" />
+    </StackPanel>
+    <TextBlock x:Name="State" DockPanel.Dock="Bottom" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" Margin="0,10,0,0" />
+    <Grid ColumnDefinitions="*,340">
+      <ListBox x:Name="Bases">
+        <ListBox.ItemTemplate>
+          <DataTemplate>
+            <TextBlock Text="{Binding Name}" />
+          </DataTemplate>
+        </ListBox.ItemTemplate>
+      </ListBox>
+      <DockPanel Grid.Column="1" Margin="12,0,0,0">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="10" Margin="0,0,0,6">
+          <TextBlock x:Name="CartLabel" VerticalAlignment="Center" />
+          <Button x:Name="ClearButton" Click="ClearClicked" />
+        </StackPanel>
+        <Button x:Name="GiveButton" DockPanel.Dock="Bottom" Click="GiveClicked" Margin="0,8,0,0" />
+        <ListBox x:Name="Cart">
+          <ListBox.ItemTemplate>
+            <DataTemplate>
+              <TextBlock Text="{Binding Display}" />
+            </DataTemplate>
+          </ListBox.ItemTemplate>
+        </ListBox>
+      </DockPanel>
+    </Grid>
+  </DockPanel>
+</UserControl>

@@ -240,6 +240,9 @@
   <data name="Text_0b776bf7ef90" xml:space="preserve">
     <value>Start the game (Control section), log in and enter an area, then send again.</value>
   </data>
+  <data name="Text_0b7ce2528052" xml:space="preserve">
+    <value>The cart is empty.</value>
+  </data>
   <data name="Text_0b7dda5c9b90" xml:space="preserve">
     <value>The running window has an operation in progress. Let it finish before closing or changing checkout.</value>
   </data>
@@ -633,6 +636,9 @@
   <data xml:space="preserve" name="Text_1d0fae1e7a27">
     <value>No mods to show.</value>
   </data>
+  <data name="Text_1d2726825052" xml:space="preserve">
+    <value>{0} bases.</value>
+  </data>
   <data name="Text_1d56780afff3" xml:space="preserve">
     <value>SOCKETS</value>
   </data>
@@ -725,6 +731,9 @@
   </data>
   <data name="Text_21f1037412e4" xml:space="preserve">
     <value>What is happening</value>
+  </data>
+  <data name="Text_221eb0c5c8e3" xml:space="preserve">
+    <value>The cart holds at most {0} copies.</value>
   </data>
   <data xml:space="preserve" name="Text_223e64b8fc5b">
     <value>Automatic lookup runs on first use. You can also search again here.</value>
@@ -910,6 +919,9 @@ Change location above to choose somewhere else.</value>
   <data xml:space="preserve" name="Text_292a37482041">
     <value>BUILT COMPONENTS · DEBUG</value>
   </data>
+  <data name="Text_292c06f0045a" xml:space="preserve">
+    <value>Category</value>
+  </data>
   <data name="Text_293d8864e78d" xml:space="preserve">
     <value>Tools for the game itself. Each opens in its own window and works with the character in game through the client control bridge (Python with Frida).</value>
   </data>
@@ -1002,6 +1014,9 @@ Change location above to choose somewhere else.</value>
   </data>
   <data name="Text_2d0afc98a2dd" xml:space="preserve">
     <value>Keep services running</value>
+  </data>
+  <data name="Text_2d69a8f95952" xml:space="preserve">
+    <value>Added {0} × {1}.</value>
   </data>
   <data xml:space="preserve" name="Text_2dafe4f58ab0">
     <value> · tracked files modified</value>
@@ -1145,6 +1160,9 @@ This checkout has modified tracked files.</value>
   <data name="Text_333775e31a21" xml:space="preserve">
     <value>gateway list not patched yet (step 6)</value>
   </data>
+  <data name="Text_3350198d1ebe" xml:space="preserve">
+    <value>A release install has no item catalog; a checkout with the crafter does.</value>
+  </data>
   <data name="Text_3374c9e93f22" xml:space="preserve">
     <value>You can stop at any point: what is finished stays finished.</value>
   </data>
@@ -1228,6 +1246,9 @@ This checkout has modified tracked files.</value>
   </data>
   <data name="Text_37b8ab518ec4" xml:space="preserve">
     <value>Search bases</value>
+  </data>
+  <data name="Text_37bac4952bec" xml:space="preserve">
+    <value>Count</value>
   </data>
   <data name="Text_37ca3cfb5d85" xml:space="preserve">
     <value>Kick</value>
@@ -1604,6 +1625,9 @@ This checkout has modified tracked files.</value>
   </data>
   <data name="Text_4a84639bfc72" xml:space="preserve">
     <value>Set up the rest now, and add the client later</value>
+  </data>
+  <data name="Text_4a84b0b193a1" xml:space="preserve">
+    <value>Could not load the item bases: {0}</value>
   </data>
   <data xml:space="preserve" name="Text_4a9a45318354">
     <value>Different local HEAD</value>
@@ -2076,6 +2100,9 @@ Search limits reached; other checkouts may exist. Browse to any location.</value
   <data name="Text_61755957b7ec" xml:space="preserve">
     <value>Switched to {0}</value>
   </data>
+  <data name="Text_6192fb1e01a5" xml:space="preserve">
+    <value>Giving {0} of {1} ...</value>
+  </data>
   <data name="Text_619e3be216f3" xml:space="preserve">
     <value>Delete account…</value>
   </data>
@@ -2267,6 +2294,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data xml:space="preserve" name="Text_686046d08c9f">
     <value>Watcher is building/restarting; inspect Gateway output for errors</value>
   </data>
+  <data name="Text_68880b9d609c" xml:space="preserve">
+    <value>Given {0} copies.</value>
+  </data>
   <data xml:space="preserve" name="Text_688ed737c588">
     <value>Starting services</value>
   </data>
@@ -2353,6 +2383,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_6d0e201a1cb9" xml:space="preserve">
     <value>Imported {0} with {1} modifiers; {2} lines were left out. Save keeps it in the list.</value>
+  </data>
+  <data name="Text_6d2d59aed44f" xml:space="preserve">
+    <value>Cart</value>
   </data>
   <data name="Text_6d3add9cf2ef" xml:space="preserve">
     <value>values outside its tier</value>
@@ -2552,6 +2585,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_76409ed15c76" xml:space="preserve">
     <value>(no reply)</value>
   </data>
+  <data name="Text_7689785957a4" xml:space="preserve">
+    <value>Add something to the cart first.</value>
+  </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>Back</value>
   </data>
@@ -2635,6 +2671,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_7a5198f98ec2" xml:space="preserve">
     <value>This LocalExile folder already has a game client, so nothing needs copying.</value>
+  </data>
+  <data name="Text_7a99bd448d6c" xml:space="preserve">
+    <value>Choose an item base first.</value>
   </data>
   <data name="Text_7aad4be82785" xml:space="preserve">
     <value>Puts the line in the box; Enter or Send sends it.</value>
@@ -2783,6 +2822,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_815c157dc783" xml:space="preserve">
     <value>Copying them into this LocalExile; anything already here is set aside.</value>
   </data>
+  <data name="Text_81602ecf4860" xml:space="preserve">
+    <value>Type an item level.</value>
+  </data>
   <data xml:space="preserve" name="Text_8190281db975">
     <value>Restore down</value>
   </data>
@@ -2929,6 +2971,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data xml:space="preserve" name="Text_898a809683dd">
     <value>ReloadMod completed.</value>
+  </data>
+  <data name="Text_89ccf87b0e67" xml:space="preserve">
+    <value>Item level</value>
   </data>
   <data xml:space="preserve" name="Text_89d00e7dc413">
     <value>Standalone Content.ggpk is required; Steam layout is unsupported</value>
@@ -3585,6 +3630,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   <data name="Text_a52a8ef55340" xml:space="preserve">
     <value>Switch to #{0}</value>
   </data>
+  <data name="Text_a52ace420f21" xml:space="preserve">
+    <value>All</value>
+  </data>
   <data name="Text_a58b335cdd9f" xml:space="preserve">
     <value>Install the extraction dependency</value>
   </data>
@@ -3614,6 +3662,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_a67ecaab2e09" xml:space="preserve">
     <value>Services stopped. Exiting Waypoint.</value>
+  </data>
+  <data name="Text_a694cca98ba4" xml:space="preserve">
+    <value>Give all</value>
   </data>
   <data name="Text_a6b4705c6883" xml:space="preserve">
     <value>Change…</value>
@@ -4005,6 +4056,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   <data name="Text_b8f6fa5921eb" xml:space="preserve">
     <value>Give item needs Frida, a tool that talks to the running game. Waypoint can install it into this LocalExile folder. It takes about 180 MB, and some antivirus programs flag it.</value>
   </data>
+  <data name="Text_b8fb5a1aa011" xml:space="preserve">
+    <value>Given {0} of {1}.</value>
+  </data>
   <data xml:space="preserve" name="Text_b9289f13fa7e">
     <value>Account name (3–32 letters, digits, _ or -)</value>
   </data>
@@ -4094,6 +4148,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_be3ff8326226" xml:space="preserve">
     <value>Your game client</value>
+  </data>
+  <data name="Text_be4502703e51" xml:space="preserve">
+    <value>Loading item bases ...</value>
   </data>
   <data name="Text_be46faa4a87c" xml:space="preserve">
     <value>Choose an account from the list, or change your search.</value>
@@ -4217,6 +4274,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_c5bb39f523b4" xml:space="preserve">
     <value>Installing Frida …</value>
+  </data>
+  <data name="Text_c6402106c821" xml:space="preserve">
+    <value>Give</value>
   </data>
   <data name="Text_c651e0a3c2c6" xml:space="preserve">
     <value>Best tier only</value>
@@ -4409,6 +4469,9 @@ Client: {2}</value>
   <data name="Text_cccbd64fecc9" xml:space="preserve">
     <value>Read-only while the game or services are running, or ownership is uncertain. Stop them and reload before changing accounts.</value>
   </data>
+  <data name="Text_cccf08dcdf83" xml:space="preserve">
+    <value>Could not give: {0}</value>
+  </data>
   <data name="Text_cce1939cf981" xml:space="preserve">
     <value>STATES AND INFLUENCES</value>
   </data>
@@ -4477,6 +4540,9 @@ Client: {2}</value>
   </data>
   <data name="Text_d03a6edefa0c" xml:space="preserve">
     <value>All errors</value>
+  </data>
+  <data name="Text_d065c90b7c09" xml:space="preserve">
+    <value>One-click grant</value>
   </data>
   <data name="Text_d07a6262689c" xml:space="preserve">
     <value>your fork</value>
