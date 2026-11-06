@@ -1,6 +1,9 @@
 using System.Globalization;
+using System.IO;
+using System.Text;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Platform.Storage;
 using Avalonia.Threading;
 using Color = System.Windows.Media.Color;
 
@@ -45,6 +48,10 @@ partial class TimingsTab : UserControl
         Column(P95Header, "p95 ms", "The worst second's 95th percentile in the window (the server publishes quantiles per second)");
         Column(P99Header, "p99 ms", "The worst second's 99th percentile in the window");
         Column(LoadHeader, "ms/s", "Server time per second, all connections together; waits (queues, gates, locks) count their waiting time");
+        ResetButton.Content = L.Text("Reset");
+        ToolTip.SetTip(ResetButton, L.Text("Drops every timing kept so far and starts the window again"));
+        ExportButton.Content = L.Text("Export CSV");
+        ToolTip.SetTip(ExportButton, L.Text("Saves the shown window as a CSV file for a bug report"));
     }
 
     static void Column(TextBlock header, string text, string tip)
@@ -86,6 +93,36 @@ partial class TimingsTab : UserControl
 
     double WindowSeconds => WindowPicker.SelectedItem is ComboBoxItem { Tag: string s } ? double.Parse(s, CultureInfo.InvariantCulture) : 60;
 
+    /// <summary>The kind the picker shows, or an empty one for every kind.</summary>
+    string SelectedKind => KindPicker.SelectedItem is ComboBoxItem { Tag: string k } ? k : "";
+
+    /// <summary>Drops what the tab has collected; the window starts again from the next second the Gateway publishes.</summary>
+    void ResetClicked(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        _shared.Metrics.Timings.Reset();
+        Redraw();
+    }
+
+    /// <summary>Saves the shown window as CSV, the file a bug report attaches.</summary>
+    async void ExportClicked(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        var timings = _shared.Metrics.Timings;
+        double now = _shared.Metrics.Now;
+        string csv = timings.Csv(now - WindowSeconds, now, SelectedKind);
+        if (TopLevel.GetTopLevel(this)?.StorageProvider is not { CanSave: true } provider) return;
+        var file = await provider.SaveFilePickerAsync(new FilePickerSaveOptions
+        {
+            Title = L.Text("Export server timings"),
+            SuggestedFileName = $"waypoint-timings-{DateTime.Now:yyyyMMdd-HHmmss}.csv",
+            DefaultExtension = "csv",
+            FileTypeChoices = [new FilePickerFileType(L.Text("CSV file")) { Patterns = ["*.csv"] }],
+        });
+        if (file is null) return;
+        await using var stream = await file.OpenWriteAsync();
+        await using var writer = new StreamWriter(stream, new UTF8Encoding(true));
+        await writer.WriteAsync(csv);
+    }
+
     void Changed(object? sender, SelectionChangedEventArgs e)
     {
         if (_shared is null) return;
@@ -98,7 +135,7 @@ partial class TimingsTab : UserControl
         if (_shared is null) return;
         var timings = _shared.Metrics.Timings;
         double now = _shared.Metrics.Now;
-        string kind = KindPicker.SelectedItem is ComboBoxItem { Tag: string k } ? k : "";
+        string kind = SelectedKind;
         var rows = timings.Window(now - WindowSeconds, now).Where(r => kind.Length == 0 || r.Kind == kind).ToList();
         Table.ItemsSource = rows;
 

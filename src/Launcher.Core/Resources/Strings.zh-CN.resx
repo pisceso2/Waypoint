@@ -2450,6 +2450,9 @@
   <data name="Text_7396f3b0b843" xml:space="preserve">
     <value>将“开始游戏”替换为“控制”，并增加“版本”、性能和服务器耗时。</value>
   </data>
+  <data name="Text_73aad53a5abb" xml:space="preserve">
+    <value>CSV 文件</value>
+  </data>
   <data name="Text_73b6e48a1b55" xml:space="preserve">
     <value>稍后</value>
   </data>
@@ -2479,6 +2482,9 @@
   </data>
   <data name="Text_75304cf77db0" xml:space="preserve">
     <value>全部</value>
+  </data>
+  <data name="Text_756c8efc0b23" xml:space="preserve">
+    <value>清除目前收集的所有耗时数据，并重新开始统计窗口</value>
   </data>
   <data name="Text_7596fade4e2a" xml:space="preserve">
     <value>调用/秒</value>
@@ -2960,6 +2966,9 @@
   <data name="Text_8e3cda3b4f8b" xml:space="preserve">
     <value>本地 HEAD 不可用</value>
   </data>
+  <data name="Text_8e6f4ecbd758" xml:space="preserve">
+    <value>导出服务器耗时</value>
+  </data>
   <data name="Text_8e6f9abf3515" xml:space="preserve">
     <value>LocalExile</value>
   </data>
@@ -3016,6 +3025,9 @@
   </data>
   <data name="Text_91bd172009ab" xml:space="preserve">
     <value>源码与已构建组件的标识分开显示。热重载可以应用未提交的代码修改；构建哈希标识的是最初编译的修订版本。</value>
+  </data>
+  <data name="Text_91f71c14c8d6" xml:space="preserve">
+    <value>导出 CSV</value>
   </data>
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>删除所选物品（Delete 键）；按住 Ctrl 或 Shift 可多选</value>
@@ -3705,6 +3717,9 @@
   <data name="Text_af86ecd2ae72" xml:space="preserve">
     <value>已在账号 {2} 中创建 {0}（{1}）。</value>
   </data>
+  <data name="Text_afa8b3ed2cd8" xml:space="preserve">
+    <value>将当前窗口保存为 CSV 文件，用于错误报告</value>
+  </data>
   <data name="Text_afb40dbadd2e" xml:space="preserve">
     <value>更改外观…</value>
   </data>
@@ -4327,6 +4342,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_cd7d61bf7e38" xml:space="preserve">
     <value>获取</value>
+  </data>
+  <data name="Text_cd88b9a74bb1" xml:space="preserve">
+    <value>无法保存耗时数据</value>
   </data>
   <data name="Text_cdd181261fc4" xml:space="preserve">
     <value>正在检查上游提取清单；将生成缺失或过期的数据。</value>

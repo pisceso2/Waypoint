@@ -70,6 +70,38 @@ public class MeasurementTests
     }
 
     [Fact]
+    public void Reset_drops_what_was_kept_and_measures_the_window_from_again()
+    {
+        var timings = new OperationTimings();
+        timings.Add(0, "Message", "0x0025", count: 10, sum: 20, p95: 3, p99: 4);
+        Assert.Single(timings.Window(from: -9, now: 0));
+
+        timings.Reset();
+        Assert.Empty(timings.Window(from: 0, now: 5));
+
+        timings.Add(10, "Message", "0x0025", count: 1, sum: 2, p95: 3, p99: 4);
+        Assert.Equal(1, Assert.Single(timings.Window(from: 9, now: 10)).PerSecond, 6);
+    }
+
+    [Fact]
+    public void Csv_writes_the_window_with_an_english_header_and_invariant_numbers()
+    {
+        var timings = new OperationTimings();
+        timings.Add(0, "Handler", "all", count: 2, sum: 3.5, p95: 4.25, p99: 5.5);
+        timings.Add(0, "Message", "0x0025", count: 1, sum: 1, p95: 1, p99: 1);
+        timings.Add(0, "Odd,Phase", "op", count: 1, sum: 1, p95: 1, p99: 1);
+
+        var lines = timings.Csv(from: -9, now: 0, kind: "").TrimEnd('\r', '\n').Split("\r\n");
+        Assert.Equal("operation,kind,calls_per_second,average_ms,p95_ms,p99_ms,ms_per_second", lines[0]);
+        Assert.Equal(
+            ["Handler,Server phases,2,1.75,4.25,5.5,3.5", "0x0025,Client messages,1,1,1,1,1", "\"Odd,Phase (op)\",Server phases,1,1,1,1,1"],
+            lines[1..]);
+
+        var messages = timings.Csv(from: -9, now: 0, kind: OperationTimings.Messages).TrimEnd('\r', '\n').Split("\r\n");
+        Assert.Equal(["0x0025,Client messages,1,1,1,1,1"], messages[1..]);
+    }
+
+    [Fact]
     public void A_series_keeps_its_newest_points()
     {
         var s = new TimeSeries("cpu", System.Windows.Media.Colors.Red, capacity: 3);
