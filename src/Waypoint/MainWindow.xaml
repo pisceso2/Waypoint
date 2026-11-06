@@ -196,6 +196,7 @@
                 <l:LogsTab x:Name="LogsView" Visibility="Collapsed" />
                 <l:ConsoleTab x:Name="ConsoleView" Visibility="Collapsed" />
                 <l:ToolsTab x:Name="ToolsView" Visibility="Collapsed" />
+                <l:QuickTab x:Name="Quick" Visibility="Collapsed" />
                 <l:SettingsTab x:Name="SettingsView" Visibility="Collapsed" />
             </Grid>
         </DockPanel>

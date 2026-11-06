@@ -141,6 +141,9 @@
   <data name="Text_070d63bf412e" xml:space="preserve">
     <value>另一个 Waypoint 构建已经打开。请先正常关闭那个窗口，再打开此构建。现有的操作和服务未被停止。</value>
   </data>
+  <data name="Text_07a280f321d4" xml:space="preserve">
+    <value>请先输入玩家名称。</value>
+  </data>
   <data name="Text_07c99f3f9c05" xml:space="preserve">
     <value>编译失败</value>
   </data>
@@ -657,6 +660,9 @@
   <data name="Text_1fd447009585" xml:space="preserve">
     <value>记住我的选择</value>
   </data>
+  <data name="Text_1fd9ae1607aa" xml:space="preserve">
+    <value>邀请</value>
+  </data>
   <data name="Text_1ff335e35fbf" xml:space="preserve">
     <value>未选择源码副本</value>
   </data>
@@ -758,6 +764,12 @@
   </data>
   <data name="Text_245c1078b5e7" xml:space="preserve">
     <value>模组详情</value>
+  </data>
+  <data name="Text_24602414ed53" xml:space="preserve">
+    <value>快捷功能</value>
+  </data>
+  <data name="Text_2460887189f3" xml:space="preserve">
+    <value>请输入以斜杠开头的指令。</value>
   </data>
   <data name="Text_2486c7136710" xml:space="preserve">
     <value>{0} 个基础类型，{1} 个词缀。请选择基础类型并添加词缀，然后保存，或将其发放给游戏中的角色。</value>
@@ -1000,6 +1012,9 @@
   <data name="Text_2e3e57537a8b" xml:space="preserve">
     <value>正在将 Frida 安装到专用环境中。不会更改任何全局包。</value>
   </data>
+  <data name="Text_2e66703f8a78" xml:space="preserve">
+    <value>已发送 {0}。</value>
+  </data>
   <data name="Text_2e985979a4b9" xml:space="preserve">
     <value>该 LocalExile 文件夹中没有存档。</value>
   </data>
@@ -1192,6 +1207,9 @@
   </data>
   <data name="Text_37b8ab518ec4" xml:space="preserve">
     <value>搜索基础类型</value>
+  </data>
+  <data name="Text_37ca3cfb5d85" xml:space="preserve">
+    <value>踢出</value>
   </data>
   <data name="Text_381f5c69d6b1" xml:space="preserve">
     <value>无法打开 Waypoint</value>
@@ -1403,6 +1421,9 @@
   </data>
   <data name="Text_42610696b9f9" xml:space="preserve">
     <value>可以浏览此存储结构，但由于无法识别其架构或导入状态，账号更改已禁用。</value>
+  </data>
+  <data name="Text_42c96e076c0a" xml:space="preserve">
+    <value>以游戏内输入的方式发送的聊天指令。发行版中会改为复制：用 Ctrl+V 粘贴。</value>
   </data>
   <data name="Text_42e1d2be26fc" xml:space="preserve">
     <value>服务器会实时保存角色的进度。</value>
@@ -2094,6 +2115,12 @@
   <data name="Text_64a9b80f4b33" xml:space="preserve">
     <value>无法确认服务已停止。Waypoint 将保持打开。</value>
   </data>
+  <data name="Text_64aee8c6cbd0" xml:space="preserve">
+    <value>玩家</value>
+  </data>
+  <data name="Text_64d93ade627b" xml:space="preserve">
+    <value>已发送 {0}。{1}</value>
+  </data>
   <data name="Text_64e782b10e68" xml:space="preserve">
     <value>解决安装检查失败的问题后请刷新。</value>
   </data>
@@ -2696,6 +2723,9 @@
   <data name="Text_81efa8f471e5" xml:space="preserve">
     <value>! 没有 {0} 建议：{1}</value>
   </data>
+  <data name="Text_8270c30be332" xml:space="preserve">
+    <value>没有可发送的内容。</value>
+  </data>
   <data name="Text_82855c11ae69" xml:space="preserve">
     <value>沙色</value>
   </data>
@@ -2990,6 +3020,9 @@
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>删除所选物品（Delete 键）；按住 Ctrl 或 Shift 可多选</value>
   </data>
+  <data name="Text_920e413c7d41" xml:space="preserve">
+    <value>状态</value>
+  </data>
   <data name="Text_92646da937a1" xml:space="preserve">
     <value>开启“行走地图”时，随“开始游戏”或“启动服务器”一起启动</value>
   </data>
@@ -3103,6 +3136,9 @@
   </data>
   <data name="Text_9701a68fede6" xml:space="preserve">
     <value>搜索分支和拉取请求</value>
+  </data>
+  <data name="Text_9709653fc80c" xml:space="preserve">
+    <value>交易</value>
   </data>
   <data name="Text_970b08a02cb0" xml:space="preserve">
     <value>正在读取本地分支和 GitHub PR 元数据…</value>
@@ -3659,6 +3695,9 @@
   </data>
   <data name="Text_af0303342a01" xml:space="preserve">
     <value>打开页面</value>
+  </data>
+  <data name="Text_af16c830c510" xml:space="preserve">
+    <value>暂离</value>
   </data>
   <data name="Text_af20391b2b63" xml:space="preserve">
     <value>游戏正在运行：“开始游戏”会将其关闭并重新启动；服务器保持运行。</value>
@@ -4319,6 +4358,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_cfa63e97e7e5" xml:space="preserve">
     <value>启用模组</value>
   </data>
+  <data name="Text_d004197929c2" xml:space="preserve">
+    <value>已复制 {0}；请用 Ctrl+V 粘贴到聊天框。</value>
+  </data>
   <data name="Text_d010ff390617" xml:space="preserve">
     <value>面板</value>
   </data>
@@ -4372,6 +4414,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_d28f5e178579" xml:space="preserve">
     <value>打开客户端文件夹</value>
+  </data>
+  <data name="Text_d2b98fb53714" xml:space="preserve">
+    <value>传送</value>
   </data>
   <data name="Text_d3368cbffe23" xml:space="preserve">
     <value>辅助功能</value>
@@ -4465,6 +4510,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_d72e311c4dda" xml:space="preserve">
     <value>最小化</value>
+  </data>
+  <data name="Text_d7852cd0d245" xml:space="preserve">
+    <value>指令</value>
   </data>
   <data name="Text_d7967cfaaec9" xml:space="preserve">
     <value>选择一个新的或空的文件夹，或你已安装的发行版。你的游戏客户端也会复制到这里。</value>
@@ -4619,6 +4667,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_dfa5992a4fd0" xml:space="preserve">
     <value>检查依赖项</value>
   </data>
+  <data name="Text_dfa82f21b3f3" xml:space="preserve">
+    <value>队伍</value>
+  </data>
   <data name="Text_dfab082d4644" xml:space="preserve">
     <value>构建源码副本</value>
   </data>
@@ -4772,6 +4823,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_e6deff541223" xml:space="preserve">
     <value>LocalExile 还需要你再提供一些内容。点击“完成安装”即可补充。</value>
+  </data>
+  <data name="Text_e72919456742" xml:space="preserve">
+    <value>无法发送：{0}</value>
   </data>
   <data name="Text_e74cca36ea73" xml:space="preserve">
     <value>MB, MB/s</value>
@@ -5001,6 +5055,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_f18e2bb0aa10" xml:space="preserve">
     <value>使用独立的游戏设置</value>
   </data>
+  <data name="Text_f1f0b6b8637f" xml:space="preserve">
+    <value>藏身处</value>
+  </data>
   <data name="Text_f1fd5ed417a0" xml:space="preserve">
     <value>MB，工作集</value>
   </data>
@@ -5042,6 +5099,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_f34ba9fc922c" xml:space="preserve">
     <value>随机名称</value>
+  </data>
+  <data name="Text_f3e4352a5df6" xml:space="preserve">
+    <value>剩余</value>
   </data>
   <data name="Text_f3ec74792130" xml:space="preserve">
     <value>服务保持停止状态。即使构建失败，存档数据库也会保留。</value>
@@ -5218,6 +5278,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_fad198a3ed81" xml:space="preserve">
     <value>打开 Waypoint 的数据文件夹</value>
   </data>
+  <data name="Text_faf1e1717047" xml:space="preserve">
+    <value>离开队伍</value>
+  </data>
   <data name="Text_faff88ba75c3" xml:space="preserve">
     <value>安装 Frida，以便使用“发放物品”。</value>
   </data>
@@ -5304,6 +5367,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_fe1af8738076" xml:space="preserve">
     <value>停止行走地图记录器</value>
+  </data>
+  <data name="Text_fe39f3cdd983" xml:space="preserve">
+    <value>请勿打扰</value>
   </data>
   <data name="Text_fea8224e17a4" xml:space="preserve">
     <value>Steam 或 Epic 版目录结构：无法使用</value>

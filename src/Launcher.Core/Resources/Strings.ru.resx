@@ -141,6 +141,9 @@
   <data name="Text_070d63bf412e" xml:space="preserve">
     <value>Уже открыта другая сборка Waypoint. Закройте её окно обычным способом, прежде чем открывать эту сборку. Выполняемые операции и службы не были остановлены.</value>
   </data>
+  <data name="Text_07a280f321d4" xml:space="preserve">
+    <value>Сначала введите имя игрока.</value>
+  </data>
   <data xml:space="preserve" name="Text_07c99f3f9c05">
     <value>Ошибка компиляции</value>
   </data>
@@ -657,6 +660,9 @@
   <data name="Text_1fd447009585" xml:space="preserve">
     <value>Запомнить мой выбор</value>
   </data>
+  <data name="Text_1fd9ae1607aa" xml:space="preserve">
+    <value>Пригласить</value>
+  </data>
   <data xml:space="preserve" name="Text_1ff335e35fbf">
     <value>Репозиторий не выбран</value>
   </data>
@@ -758,6 +764,12 @@
   </data>
   <data xml:space="preserve" name="Text_245c1078b5e7">
     <value>Сведения о моде</value>
+  </data>
+  <data name="Text_24602414ed53" xml:space="preserve">
+    <value>Быстрые действия</value>
+  </data>
+  <data name="Text_2460887189f3" xml:space="preserve">
+    <value>Введите строку, начинающуюся со слэша.</value>
   </data>
   <data name="Text_2486c7136710" xml:space="preserve">
     <value>Баз: {0}, свойств: {1}. Выберите базу, добавьте свойства, затем сохраните предмет или выдайте его персонажу в игре.</value>
@@ -1000,6 +1012,9 @@
   <data name="Text_2e3e57537a8b" xml:space="preserve">
     <value>Установка Frida в отдельное окружение. Глобальные пакеты не изменяются.</value>
   </data>
+  <data name="Text_2e66703f8a78" xml:space="preserve">
+    <value>Отправлено {0}.</value>
+  </data>
   <data name="Text_2e985979a4b9" xml:space="preserve">
     <value>В этой папке LocalExile нет сохранений.</value>
   </data>
@@ -1192,6 +1207,9 @@
   </data>
   <data name="Text_37b8ab518ec4" xml:space="preserve">
     <value>Поиск баз</value>
+  </data>
+  <data name="Text_37ca3cfb5d85" xml:space="preserve">
+    <value>Исключить</value>
   </data>
   <data name="Text_381f5c69d6b1" xml:space="preserve">
     <value>Не удалось открыть Waypoint</value>
@@ -1403,6 +1421,9 @@
   </data>
   <data name="Text_42610696b9f9" xml:space="preserve">
     <value>Эти данные можно просматривать, но изменение аккаунтов отключено: схема хранения или состояние импорта не распознаны.</value>
+  </data>
+  <data name="Text_42c96e076c0a" xml:space="preserve">
+    <value>Строки чата, отправляемые как набранные в игре. В релизной версии они копируются: вставьте через Ctrl+V.</value>
   </data>
   <data name="Text_42e1d2be26fc" xml:space="preserve">
     <value>Сервер сохраняет прогресс персонажа по ходу игры.</value>
@@ -2094,6 +2115,12 @@
   <data name="Text_64a9b80f4b33" xml:space="preserve">
     <value>Не удалось убедиться, что службы остановлены. Waypoint останется открытым.</value>
   </data>
+  <data name="Text_64aee8c6cbd0" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="Text_64d93ade627b" xml:space="preserve">
+    <value>Отправлено {0}. {1}</value>
+  </data>
   <data xml:space="preserve" name="Text_64e782b10e68">
     <value>Устраните ошибку проверки установки, затем обновите состояние.</value>
   </data>
@@ -2696,6 +2723,9 @@
   <data name="Text_81efa8f471e5" xml:space="preserve">
     <value>! нет подсказок {0}: {1}</value>
   </data>
+  <data name="Text_8270c30be332" xml:space="preserve">
+    <value>Нечего отправлять.</value>
+  </data>
   <data xml:space="preserve" name="Text_82855c11ae69">
     <value>Песочная</value>
   </data>
@@ -2990,6 +3020,9 @@
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>Удалить выбранные предметы (клавиша Delete); Ctrl или Shift выбирает несколько</value>
   </data>
+  <data name="Text_920e413c7d41" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
   <data name="Text_92646da937a1" xml:space="preserve">
     <value>Запускается кнопками «Играть» или «Запустить серверы», когда включена «Запись планировок»</value>
   </data>
@@ -3103,6 +3136,9 @@
   </data>
   <data xml:space="preserve" name="Text_9701a68fede6">
     <value>Поиск веток и запросов на слияние</value>
+  </data>
+  <data name="Text_9709653fc80c" xml:space="preserve">
+    <value>Обмен</value>
   </data>
   <data xml:space="preserve" name="Text_970b08a02cb0">
     <value>Читаем локальные ветки и данные PR GitHub…</value>
@@ -3659,6 +3695,9 @@
   </data>
   <data name="Text_af0303342a01" xml:space="preserve">
     <value>Открыть страницу</value>
+  </data>
+  <data name="Text_af16c830c510" xml:space="preserve">
+    <value>Отошёл</value>
   </data>
   <data name="Text_af20391b2b63" xml:space="preserve">
     <value>Игра запущена: «Играть» закроет её и запустит снова; серверы продолжат работать.</value>
@@ -4319,6 +4358,9 @@
   <data xml:space="preserve" name="Text_cfa63e97e7e5">
     <value>Включить мод</value>
   </data>
+  <data name="Text_d004197929c2" xml:space="preserve">
+    <value>Скопировано {0}; вставьте в чат через Ctrl+V.</value>
+  </data>
   <data xml:space="preserve" name="Text_d010ff390617">
     <value>Панели</value>
   </data>
@@ -4372,6 +4414,9 @@
   </data>
   <data xml:space="preserve" name="Text_d28f5e178579">
     <value>Папка клиента</value>
+  </data>
+  <data name="Text_d2b98fb53714" xml:space="preserve">
+    <value>Перемещение</value>
   </data>
   <data xml:space="preserve" name="Text_d3368cbffe23">
     <value>Доступность</value>
@@ -4465,6 +4510,9 @@
   </data>
   <data xml:space="preserve" name="Text_d72e311c4dda">
     <value>Свернуть</value>
+  </data>
+  <data name="Text_d7852cd0d245" xml:space="preserve">
+    <value>Строка</value>
   </data>
   <data name="Text_d7967cfaaec9" xml:space="preserve">
     <value>Выберите новую или пустую папку либо уже установленный выпуск. Клиент игры тоже будет скопирован сюда.</value>
@@ -4619,6 +4667,9 @@
   <data name="Text_dfa5992a4fd0" xml:space="preserve">
     <value>Проверить зависимости</value>
   </data>
+  <data name="Text_dfa82f21b3f3" xml:space="preserve">
+    <value>Группа</value>
+  </data>
   <data xml:space="preserve" name="Text_dfab082d4644">
     <value>Собрать репозиторий</value>
   </data>
@@ -4772,6 +4823,9 @@
   </data>
   <data name="Text_e6deff541223" xml:space="preserve">
     <value>LocalExile нужны ещё некоторые данные. Укажите их, завершив настройку.</value>
+  </data>
+  <data name="Text_e72919456742" xml:space="preserve">
+    <value>Не удалось отправить: {0}</value>
   </data>
   <data name="Text_e74cca36ea73" xml:space="preserve">
     <value>МБ, МБ/с</value>
@@ -5001,6 +5055,9 @@
   <data name="Text_f18e2bb0aa10" xml:space="preserve">
     <value>Использовать отдельные настройки игры</value>
   </data>
+  <data name="Text_f1f0b6b8637f" xml:space="preserve">
+    <value>Убежище</value>
+  </data>
   <data name="Text_f1fd5ed417a0" xml:space="preserve">
     <value>МБ, рабочий набор</value>
   </data>
@@ -5042,6 +5099,9 @@
   </data>
   <data name="Text_f34ba9fc922c" xml:space="preserve">
     <value>Случайное имя</value>
+  </data>
+  <data name="Text_f3e4352a5df6" xml:space="preserve">
+    <value>Осталось</value>
   </data>
   <data xml:space="preserve" name="Text_f3ec74792130">
     <value>Службы остаются остановленными. Ошибка сборки не затронет базу сохранений.</value>
@@ -5218,6 +5278,9 @@
   <data name="Text_fad198a3ed81" xml:space="preserve">
     <value>Открыть папку данных Waypoint</value>
   </data>
+  <data name="Text_faf1e1717047" xml:space="preserve">
+    <value>Покинуть группу</value>
+  </data>
   <data name="Text_faff88ba75c3" xml:space="preserve">
     <value>Установить Frida, чтобы работала кнопка «Выдать предмет».</value>
   </data>
@@ -5304,6 +5367,9 @@
   </data>
   <data name="Text_fe1af8738076" xml:space="preserve">
     <value>Останавливает запись планировок</value>
+  </data>
+  <data name="Text_fe39f3cdd983" xml:space="preserve">
+    <value>Не беспокоить</value>
   </data>
   <data name="Text_fea8224e17a4" xml:space="preserve">
     <value>Версия Steam или Epic: использовать нельзя</value>

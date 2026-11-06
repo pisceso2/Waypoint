@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint"
+             x:Class="Waypoint.QuickTab">
+  <ScrollViewer>
+    <StackPanel Margin="20,16" MaxWidth="980" HorizontalAlignment="Left" Spacing="12">
+      <TextBlock x:Name="Hint" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+      <StackPanel Orientation="Horizontal" Spacing="6">
+        <TextBlock x:Name="PlayerLabel" VerticalAlignment="Center" />
+        <TextBox x:Name="Player" Width="220" />
+      </StackPanel>
+      <StackPanel x:Name="GroupList" Spacing="14" />
+      <StackPanel Orientation="Horizontal" Spacing="6">
+        <TextBlock x:Name="LineLabel" VerticalAlignment="Center" />
+        <TextBox x:Name="CustomLine" Width="360" />
+        <Button x:Name="SendCustomButton" Click="SendCustomClicked" />
+      </StackPanel>
+      <TextBlock x:Name="State" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+    </StackPanel>
+  </ScrollViewer>
+</UserControl>

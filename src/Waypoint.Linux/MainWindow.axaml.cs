@@ -66,6 +66,7 @@ public partial class MainWindow : Window
     readonly LogsTab LogsView = new();
     readonly ConsoleTab ConsoleView = new();
     readonly ToolsTab ToolsView = new();
+    readonly QuickTab Quick = new();
     readonly SettingsTab SettingsView = new();
     bool _closing, _deciding;
 
@@ -90,6 +91,7 @@ public partial class MainWindow : Window
         LogsView.Attach(_shared);
         ConsoleView.Attach(_shared);
         ToolsView.Attach(_shared);
+        Quick.Attach(_shared);
         SettingsView.Attach(_shared);
         _sections =
         [
@@ -107,6 +109,7 @@ public partial class MainWindow : Window
             new("Logs", MaterialIconKind.TextBoxOutline, LogsView),
             new("Console", MaterialIconKind.Console, ConsoleView),
             new("Tools", MaterialIconKind.Toolbox, ToolsView),
+            new("Quick functions", MaterialIconKind.LightningBolt, Quick),
             new("Settings", MaterialIconKind.CogOutline, SettingsView),
         ];
         foreach (var section in _sections) { section.View.IsVisible = false; SectionHost.Children.Add(section.View); }
