@@ -645,6 +645,9 @@
   <data name="Text_1d6ca631e720" xml:space="preserve">
     <value>! commands not loaded: {0}</value>
   </data>
+  <data name="Text_1d9d2f52becd" xml:space="preserve">
+    <value>Switch the character in game</value>
+  </data>
   <data xml:space="preserve" name="Text_1ddc54772630">
     <value> · prepared client found</value>
   </data>
@@ -656,6 +659,9 @@
   </data>
   <data name="Text_1e38f7b99036" xml:space="preserve">
     <value>Requested checkout</value>
+  </data>
+  <data name="Text_1e8783874079" xml:space="preserve">
+    <value>These act on the character in game and change its saved ascendancy: list the choices, pick one, then switch.</value>
   </data>
   <data name="Text_1edce696fe4f" xml:space="preserve">
     <value>Leave this client as it is</value>
@@ -2027,6 +2033,9 @@ Current saves are unchanged. This backup will no longer be available to restore.
   <data name="Text_5ec6014cb5f6" xml:space="preserve">
     <value>The game is still running</value>
   </data>
+  <data name="Text_5f05f3cc277e" xml:space="preserve">
+    <value>Switching ...</value>
+  </data>
   <data xml:space="preserve" name="Text_5f1b134f71ee">
     <value>
 Search limits reached; other checkouts may exist. Browse to any location.</value>
@@ -2573,6 +2582,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_756c8efc0b23" xml:space="preserve">
     <value>Drops every timing kept so far and starts the window again</value>
   </data>
+  <data name="Text_757e9fe8a1b4" xml:space="preserve">
+    <value>List the choices first, then pick one.</value>
+  </data>
   <data name="Text_7596fade4e2a" xml:space="preserve">
     <value>Calls/s</value>
   </data>
@@ -2632,6 +2644,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_78794383b01e" xml:space="preserve">
     <value>Python could not make its environment in {0}.</value>
+  </data>
+  <data name="Text_78eca775bb44" xml:space="preserve">
+    <value>What each character is, from the account service; the switch below acts on the character in game.</value>
   </data>
   <data name="Text_78f253f7422a" xml:space="preserve">
     <value>login keys (step 4)</value>
@@ -3146,6 +3161,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_91f71c14c8d6" xml:space="preserve">
     <value>Export CSV</value>
   </data>
+  <data name="Text_91ff4e64fa3e" xml:space="preserve">
+    <value>{0} choices.</value>
+  </data>
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>Delete the selected items (Delete key); Ctrl or Shift selects several</value>
   </data>
@@ -3184,6 +3202,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_93827aab09d1" xml:space="preserve">
     <value>Play, mods, backups, accounts, logs, the console and tools.</value>
+  </data>
+  <data name="Text_93c6a29aa1b2" xml:space="preserve">
+    <value>Asking the Gateway ...</value>
   </data>
   <data xml:space="preserve" name="Text_93c6b664dce6">
     <value>Browse…</value>
@@ -3543,6 +3564,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   <data xml:space="preserve" name="Text_a2b0e1cca90c">
     <value>Reload this enabled mod and its dependents.</value>
   </data>
+  <data name="Text_a2b6f7f5eab0" xml:space="preserve">
+    <value>Could not switch: {0}</value>
+  </data>
   <data name="Text_a2e20a335700" xml:space="preserve">
     <value>Delete account</value>
   </data>
@@ -3683,6 +3707,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_a7248eeb45eb" xml:space="preserve">
     <value>Normal</value>
+  </data>
+  <data name="Text_a72514ba62b7" xml:space="preserve">
+    <value>List the choices</value>
   </data>
   <data name="Text_a7436507dc71" xml:space="preserve">
     <value>Exiting without stopping the game or services.</value>
@@ -3830,6 +3857,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   </data>
   <data name="Text_ae82cf58855d" xml:space="preserve">
     <value>Reload mod</value>
+  </data>
+  <data name="Text_aeb2a551dc61" xml:space="preserve">
+    <value>Could not ask the Gateway: {0}</value>
   </data>
   <data name="Text_aeb925989fbb" xml:space="preserve">
     <value>{0} modifiers</value>
@@ -5316,6 +5346,9 @@ Dependencies: {2}
   <data xml:space="preserve" name="Text_f4702857c4a9">
     <value>
 Mods at backup: </value>
+  </data>
+  <data name="Text_f4b3597cb390" xml:space="preserve">
+    <value>A release install has no client control bridge.</value>
   </data>
   <data xml:space="preserve" name="Text_f4bfa9a07c59">
     <value>This installs the checkout's locked Node dependency in Tools/ooz using npm ci. It does not install software globally. Node.js must be installed first.</value>

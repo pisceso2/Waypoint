@@ -1,3 +1,4 @@
+using System.IO;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
@@ -25,8 +26,12 @@ partial class AscendancyTab : UserControl
     /// <summary>The texts Windows gives through {l:Loc}.</summary>
     void ShowLanguage()
     {
-        Hint.Text = L.Text("What each character is, from the account service. Switching an ascendancy needs a command the server does not offer yet, so this page only reads.");
+        Hint.Text = L.Text("What each character is, from the account service; the switch below acts on the character in game.");
         RefreshButton.Content = L.Text("Refresh");
+        SwitchTitle.Text = L.Text("Switch the character in game");
+        SwitchHint.Text = L.Text("These act on the character in game and change its saved ascendancy: list the choices, pick one, then switch.");
+        ListButton.Content = L.Text("List the choices");
+        SwitchButton.Content = L.Text("Switch");
     }
 
     public void Attach(Shared shared)
@@ -43,6 +48,50 @@ partial class AscendancyTab : UserControl
     }
 
     async void RefreshClicked(object? sender, RoutedEventArgs e) => await LoadAsync();
+
+    /// <summary>Asks the Gateway for the ascendancies this character may take: it answers with the exact lines to send.</summary>
+    async void ListClicked(object? sender, RoutedEventArgs e)
+    {
+        if (Repo.IsInstall)
+        {
+            SwitchState.Text = L.Text("A release install has no client control bridge.");
+            return;
+        }
+        SwitchState.Text = L.Text("Asking the Gateway ...");
+        try
+        {
+            var (_, lines) = ClientBridge.Replies(await _shared.Bridge.SendAsync("/ascendancy"));
+            var choices = lines.Select(line => line.Trim()).Where(line => line.StartsWith("/ascendancy ", StringComparison.Ordinal)).ToList();
+            Choices.ItemsSource = choices;
+            SwitchState.Text = choices.Count > 0 ? L.Text("{0} choices.", choices.Count) : string.Join(" ", lines);
+        }
+        catch (Exception error) when (error is IOException or InvalidOperationException or TimeoutException
+            or System.ComponentModel.Win32Exception)
+        {
+            SwitchState.Text = L.Text("Could not ask the Gateway: {0}", error.Message);
+        }
+    }
+
+    /// <summary>Sends the chosen line: the Gateway switches the character's saved ascendancy itself.</summary>
+    async void SwitchClicked(object? sender, RoutedEventArgs e)
+    {
+        if (Choices.SelectedItem is not string line)
+        {
+            SwitchState.Text = L.Text("List the choices first, then pick one.");
+            return;
+        }
+        SwitchState.Text = L.Text("Switching ...");
+        try
+        {
+            var (_, lines) = ClientBridge.Replies(await _shared.Bridge.SendAsync(line));
+            SwitchState.Text = lines.Count > 0 ? string.Join(" ", lines) : L.Text("Sent {0}.", line);
+        }
+        catch (Exception error) when (error is IOException or InvalidOperationException or TimeoutException
+            or System.ComponentModel.Win32Exception)
+        {
+            SwitchState.Text = L.Text("Could not switch: {0}", error.Message);
+        }
+    }
 
     async Task LoadAsync()
     {

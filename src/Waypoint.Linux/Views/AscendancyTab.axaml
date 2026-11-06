@@ -6,6 +6,14 @@
       <TextBlock x:Name="Hint" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
       <Button x:Name="RefreshButton" Click="RefreshClicked" HorizontalAlignment="Left" />
       <TextBlock x:Name="State" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+      <TextBlock x:Name="SwitchTitle" FontWeight="SemiBold" Margin="0,14,0,4" />
+      <TextBlock x:Name="SwitchHint" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+      <StackPanel Orientation="Horizontal" Spacing="6" Margin="0,6,0,0">
+        <Button x:Name="ListButton" Click="ListClicked" />
+        <ComboBox x:Name="Choices" Width="320" />
+        <Button x:Name="SwitchButton" Click="SwitchClicked" />
+      </StackPanel>
+      <TextBlock x:Name="SwitchState" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
     </StackPanel>
     <ListBox x:Name="Table">
       <ListBox.ItemTemplate>

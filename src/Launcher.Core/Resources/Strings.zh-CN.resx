@@ -645,6 +645,9 @@
   <data name="Text_1d6ca631e720" xml:space="preserve">
     <value>! 命令未加载：{0}</value>
   </data>
+  <data name="Text_1d9d2f52becd" xml:space="preserve">
+    <value>切换游戏中的角色</value>
+  </data>
   <data name="Text_1ddc54772630" xml:space="preserve">
     <value> · 已找到已准备的客户端</value>
   </data>
@@ -656,6 +659,9 @@
   </data>
   <data name="Text_1e38f7b99036" xml:space="preserve">
     <value>请求的源码副本</value>
+  </data>
+  <data name="Text_1e8783874079" xml:space="preserve">
+    <value>这些操作作用于游戏中的角色并修改其已保存的升华：先列出选项，选中一个，再切换。</value>
   </data>
   <data name="Text_1edce696fe4f" xml:space="preserve">
     <value>保持此客户端不变</value>
@@ -2027,6 +2033,9 @@
   <data name="Text_5ec6014cb5f6" xml:space="preserve">
     <value>游戏仍在运行</value>
   </data>
+  <data name="Text_5f05f3cc277e" xml:space="preserve">
+    <value>正在切换……</value>
+  </data>
   <data name="Text_5f1b134f71ee" xml:space="preserve">
     <value>
 已达到搜索上限；可能还有其他源码副本。可“浏览”到任意位置。</value>
@@ -2573,6 +2582,9 @@
   <data name="Text_756c8efc0b23" xml:space="preserve">
     <value>清除目前收集的所有耗时数据，并重新开始统计窗口</value>
   </data>
+  <data name="Text_757e9fe8a1b4" xml:space="preserve">
+    <value>请先列出选项，再选择一个。</value>
+  </data>
   <data name="Text_7596fade4e2a" xml:space="preserve">
     <value>调用/秒</value>
   </data>
@@ -2632,6 +2644,9 @@
   </data>
   <data name="Text_78794383b01e" xml:space="preserve">
     <value>Python 无法在 {0} 中创建其环境。</value>
+  </data>
+  <data name="Text_78eca775bb44" xml:space="preserve">
+    <value>账号服务中每个角色的信息；下方开关作用于游戏中的角色。</value>
   </data>
   <data name="Text_78f253f7422a" xml:space="preserve">
     <value>登录密钥（第 4 步）</value>
@@ -3146,6 +3161,9 @@
   <data name="Text_91f71c14c8d6" xml:space="preserve">
     <value>导出 CSV</value>
   </data>
+  <data name="Text_91ff4e64fa3e" xml:space="preserve">
+    <value>共 {0} 个选项。</value>
+  </data>
   <data name="Text_9205e0dd7cb5" xml:space="preserve">
     <value>删除所选物品（Delete 键）；按住 Ctrl 或 Shift 可多选</value>
   </data>
@@ -3184,6 +3202,9 @@
   </data>
   <data name="Text_93827aab09d1" xml:space="preserve">
     <value>“开始游戏”、模组、备份、账号、日志、控制台和工具。</value>
+  </data>
+  <data name="Text_93c6a29aa1b2" xml:space="preserve">
+    <value>正在向 Gateway 查询……</value>
   </data>
   <data name="Text_93c6b664dce6" xml:space="preserve">
     <value>浏览…</value>
@@ -3543,6 +3564,9 @@
   <data name="Text_a2b0e1cca90c" xml:space="preserve">
     <value>重新加载此已启用的模组及依赖它的模组。</value>
   </data>
+  <data name="Text_a2b6f7f5eab0" xml:space="preserve">
+    <value>无法切换：{0}</value>
+  </data>
   <data name="Text_a2e20a335700" xml:space="preserve">
     <value>删除账号</value>
   </data>
@@ -3683,6 +3707,9 @@
   </data>
   <data name="Text_a7248eeb45eb" xml:space="preserve">
     <value>普通</value>
+  </data>
+  <data name="Text_a72514ba62b7" xml:space="preserve">
+    <value>列出可选升华</value>
   </data>
   <data name="Text_a7436507dc71" xml:space="preserve">
     <value>正在退出，不停止游戏或服务。</value>
@@ -3830,6 +3857,9 @@
   </data>
   <data name="Text_ae82cf58855d" xml:space="preserve">
     <value>重新加载模组</value>
+  </data>
+  <data name="Text_aeb2a551dc61" xml:space="preserve">
+    <value>无法向 Gateway 查询：{0}</value>
   </data>
   <data name="Text_aeb925989fbb" xml:space="preserve">
     <value>{0} 词缀</value>
@@ -5316,6 +5346,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_f4702857c4a9" xml:space="preserve">
     <value>
 备份时的模组：</value>
+  </data>
+  <data name="Text_f4b3597cb390" xml:space="preserve">
+    <value>发行版没有客户端控制桥。</value>
   </data>
   <data name="Text_f4bfa9a07c59" xml:space="preserve">
     <value>此操作会使用 npm ci 在 Tools/ooz 中安装源码副本锁定版本的 Node 依赖项。不会全局安装任何软件。必须先安装 Node.js。</value>
