@@ -162,6 +162,9 @@
   <data name="Text_08ad630cfbfa" xml:space="preserve">
     <value>打开备份文件夹</value>
   </data>
+  <data name="Text_08c7de7230db" xml:space="preserve">
+    <value>中文客户端需要重写它自己的文件。</value>
+  </data>
   <data name="Text_08d0a6691363" xml:space="preserve">
     <value>复制你的账号、角色和仓库。当前的 LocalExile 会保留自己的一份。</value>
   </data>
@@ -260,6 +263,9 @@
   </data>
   <data name="Text_0c26cc1e71ab" xml:space="preserve">
     <value>监视进程正在运行；正在等待其 Gateway 子进程。如果持续如此，请打开 Gateway 输出。</value>
+  </data>
+  <data name="Text_0c2a3d20b391" xml:space="preserve">
+    <value>一键汉化</value>
   </data>
   <data name="Text_0c77fe09ab33" xml:space="preserve">
     <value>客户端</value>
@@ -371,6 +377,9 @@
   </data>
   <data name="Text_112d64cc9b85" xml:space="preserve">
     <value>正在获取…</value>
+  </data>
+  <data name="Text_116ea9625025" xml:space="preserve">
+    <value>无法读取账号：{0}</value>
   </data>
   <data name="Text_1180f832c808" xml:space="preserve">
     <value>无法保存首选项：</value>
@@ -1548,6 +1557,9 @@
   <data name="Text_48713a5c63fb" xml:space="preserve">
     <value>停止游戏</value>
   </data>
+  <data name="Text_489fecd66003" xml:space="preserve">
+    <value>账号服务中每个角色的信息。切换升华需要服务端尚未提供的命令，因此本页只读。</value>
+  </data>
   <data name="Text_48bdb0aef4f8" xml:space="preserve">
     <value>这些是此 LocalExile 自己的存档。</value>
   </data>
@@ -1871,8 +1883,14 @@
   <data name="Text_5899382b7399" xml:space="preserve">
     <value>无法读取其 config.json。它会以 config.json.old 的名称保留在新文件旁边。</value>
   </data>
+  <data name="Text_589d7110712d" xml:space="preserve">
+    <value>视野增强</value>
+  </data>
   <data name="Text_58b1306d2f1d" xml:space="preserve">
     <value>存档备份</value>
+  </data>
+  <data name="Text_58b9c9c73bd7" xml:space="preserve">
+    <value>正在读取账号……</value>
   </data>
   <data name="Text_58fc561ca474" xml:space="preserve">
     <value>安装解包依赖项</value>
@@ -1885,6 +1903,9 @@
   </data>
   <data name="Text_59546c79643c" xml:space="preserve">
     <value>关闭 {0}</value>
+  </data>
+  <data name="Text_5978d072c782" xml:space="preserve">
+    <value>看得更远要拓宽客户端，而不是启动器。</value>
   </data>
   <data name="Text_59976865a56d" xml:space="preserve">
     <value>安装 .NET 10 SDK；可用 dotnet --list-sdks 检查</value>
@@ -2321,6 +2342,9 @@
   <data name="Text_6c26340a1b96" xml:space="preserve">
     <value>存档数据库</value>
   </data>
+  <data name="Text_6c674dd07899" xml:space="preserve">
+    <value>物品：{0}</value>
+  </data>
   <data name="Text_6caadd32b7a9" xml:space="preserve">
     <value>独立版客户端布局（Content.ggpk）</value>
   </data>
@@ -2524,6 +2548,9 @@
   </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>返回</value>
+  </data>
+  <data name="Text_76b01c51cc02" xml:space="preserve">
+    <value>升华</value>
   </data>
   <data name="Text_76b9740eaf62" xml:space="preserve">
     <value>PATH 中没有 Python。请通过包管理器安装 Python 3.9 或更高版本（python3）。</value>
@@ -4149,6 +4176,9 @@
   <data name="Text_c3f80698ef0a" xml:space="preserve">
     <value>采集器已启动。</value>
   </data>
+  <data name="Text_c4321a207160" xml:space="preserve">
+    <value>共 {0} 个角色。</value>
+  </data>
   <data name="Text_c481efeab782" xml:space="preserve">
     <value>服务器耗时</value>
   </data>
@@ -4289,6 +4319,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_c9b2c9b72ddd" xml:space="preserve">
     <value>关闭窗口时要执行什么操作？</value>
+  </data>
+  <data name="Text_c9b65aa2c285" xml:space="preserve">
+    <value>未内置：这会改写游戏客户端，而启动器不碰它。请使用翻译包及其安装器。</value>
   </data>
   <data name="Text_c9cf9cba7b44" xml:space="preserve">
     <value>读取 LocalExile 和 origin 的分支，以及 LocalExile 中打开的拉取请求</value>
@@ -4697,6 +4730,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   <data name="Text_ddbbe6445504" xml:space="preserve">
     <value>将 {0} 快进到 LocalExile 的版本；如果它有自己的提交，则会拒绝</value>
   </data>
+  <data name="Text_ddc636dc450e" xml:space="preserve">
+    <value>未内置：这会修改游戏客户端，而启动器不碰它。请使用客户端自己的工具。</value>
+  </data>
   <data name="Text_ddc95fd087c9" xml:space="preserve">
     <value>使用 LocalExile 的 Auth 和 Patch 工具准备现有的客户端副本。现有密钥会保留。会创建缺失的密钥和 Game.patched.exe，并将该副本的网关列表设为 localhost。绝不会覆盖已有的已准备可执行文件。</value>
   </data>
@@ -4720,6 +4756,9 @@ Gateway 最近报告的事件。打开 Gateway 输出查看详情。</value>
   </data>
   <data name="Text_dec8eefa31e4" xml:space="preserve">
     <value>已复制天赋树链接。</value>
+  </data>
+  <data name="Text_dedc5d13072e" xml:space="preserve">
+    <value>还没有角色。</value>
   </data>
   <data name="Text_deeb8da20758" xml:space="preserve">
     <value>服务器源码副本支持启动器</value>

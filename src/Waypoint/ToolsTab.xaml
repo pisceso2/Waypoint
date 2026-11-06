@@ -27,6 +27,34 @@
                         </StackPanel>
                     </DockPanel>
                 </Border>
+                <Border Width="340" Margin="0,0,14,14" Padding="18,16" CornerRadius="8" BorderThickness="1"
+                        Background="{DynamicResource Shell.Panel}" BorderBrush="{DynamicResource Shell.Border}">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Bottom" Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" Margin="0,12,0,0"
+                                   Text="{l:Loc 'Not built in: it would write the game client, which this launcher leaves alone. Use a translation pack and its own installer.'}" />
+                        <md:PackIcon DockPanel.Dock="Left" Kind="Translate" Width="36" Height="36" Margin="0,0,14,0" VerticalAlignment="Top"
+                                     Foreground="{DynamicResource Shell.Accent}" />
+                        <StackPanel>
+                            <TextBlock Text="{l:Loc 'Chinese translation'}" FontSize="15" FontWeight="SemiBold" />
+                            <TextBlock Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" Margin="0,4,0,0"
+                                       Text="{l:Loc 'The game client in Chinese needs its own files rewritten.'}" />
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+                <Border Width="340" Margin="0,0,14,14" Padding="18,16" CornerRadius="8" BorderThickness="1"
+                        Background="{DynamicResource Shell.Panel}" BorderBrush="{DynamicResource Shell.Border}">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Bottom" Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" Margin="0,12,0,0"
+                                   Text="{l:Loc 'Not built in: it would change the game client, which this launcher leaves alone. Use the client tools that do it.'}" />
+                        <md:PackIcon DockPanel.Dock="Left" Kind="EyeOutline" Width="36" Height="36" Margin="0,0,14,0" VerticalAlignment="Top"
+                                     Foreground="{DynamicResource Shell.Accent}" />
+                        <StackPanel>
+                            <TextBlock Text="{l:Loc 'View distance'}" FontSize="15" FontWeight="SemiBold" />
+                            <TextBlock Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" Margin="0,4,0,0"
+                                       Text="{l:Loc 'Seeing further means widening the client, not the launcher.'}" />
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
             </WrapPanel>
         </StackPanel>
     </ScrollViewer>

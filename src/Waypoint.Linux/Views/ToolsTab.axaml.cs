@@ -27,6 +27,12 @@ partial class ToolsTab : UserControl
         CrafterTitle.Text = L.Text("Item crafter");
         CrafterText.Text = L.Text("Make any item: a base, its rarity, modifiers with their values, sockets and influences. Save it to come back to it, and give it to the character in game.");
         CrafterMissing.Text = L.Text("The item crafter is not available on Linux yet.");
+        TranslationTitle.Text = L.Text("Chinese translation");
+        TranslationText.Text = L.Text("The game client in Chinese needs its own files rewritten.");
+        TranslationNote.Text = L.Text("Not built in: it would write the game client, which this launcher leaves alone. Use a translation pack and its own installer.");
+        ViewTitle.Text = L.Text("View distance");
+        ViewText.Text = L.Text("Seeing further means widening the client, not the launcher.");
+        ViewNote.Text = L.Text("Not built in: it would change the game client, which this launcher leaves alone. Use the client tools that do it.");
     }
 
     /// <summary>On Windows a release shows ReleaseNote, which offers a new copy for the crafter. A copy has none here yet, so

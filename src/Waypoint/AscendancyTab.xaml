@@ -1,0 +1,24 @@
+<UserControl x:Class="Waypoint.AscendancyTab"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint">
+    <DockPanel Margin="20,16,20,16">
+        <StackPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+            <TextBlock Style="{StaticResource Shell.Secondary}" TextWrapping="Wrap" MaxWidth="760" HorizontalAlignment="Left"
+                       Text="{l:Loc 'What each character is, from the account service. Switching an ascendancy needs a command the server does not offer yet, so this page only reads.'}" />
+            <Button x:Name="RefreshButton" Content="{l:Loc 'Refresh'}" Click="RefreshClicked" HorizontalAlignment="Left" Margin="0,8,0,0" />
+            <TextBlock x:Name="State" Style="{StaticResource Shell.Secondary}" Margin="0,8,0,0" TextWrapping="Wrap" />
+        </StackPanel>
+        <ListView x:Name="Table">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="{l:Loc 'Account'}" Width="170" DisplayMemberBinding="{Binding Account}" />
+                    <GridViewColumn Header="{l:Loc 'Character'}" Width="170" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="{l:Loc 'Class'}" Width="130" DisplayMemberBinding="{Binding Class}" />
+                    <GridViewColumn Header="{l:Loc 'Ascendancy'}" Width="150" DisplayMemberBinding="{Binding Ascendancy}" />
+                    <GridViewColumn Header="{l:Loc 'Level'}" Width="70" DisplayMemberBinding="{Binding Level}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+</UserControl>
