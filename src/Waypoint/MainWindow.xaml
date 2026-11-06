@@ -197,6 +197,8 @@
                 <l:ConsoleTab x:Name="ConsoleView" Visibility="Collapsed" />
                 <l:ToolsTab x:Name="ToolsView" Visibility="Collapsed" />
                 <l:QuickTab x:Name="Quick" Visibility="Collapsed" />
+                <l:PobImportTab x:Name="Pob" Visibility="Collapsed" />
+                <l:AscendancyTab x:Name="Ascendancy" Visibility="Collapsed" />
                 <l:SettingsTab x:Name="SettingsView" Visibility="Collapsed" />
             </Grid>
         </DockPanel>

@@ -138,6 +138,9 @@
   <data name="Text_06748f34221f" xml:space="preserve">
     <value>Сначала выберите аккаунт.</value>
   </data>
+  <data name="Text_067c9000ce4a" xml:space="preserve">
+    <value>Имя — от 3 до 32 букв, цифр, _ или -.</value>
+  </data>
   <data name="Text_070d63bf412e" xml:space="preserve">
     <value>Уже открыта другая сборка Waypoint. Закройте её окно обычным способом, прежде чем открывать эту сборку. Выполняемые операции и службы не были остановлены.</value>
   </data>
@@ -158,6 +161,9 @@
   </data>
   <data xml:space="preserve" name="Text_08ad630cfbfa">
     <value>Папка копий</value>
+  </data>
+  <data name="Text_08c7de7230db" xml:space="preserve">
+    <value>Китайский клиент игры требует перезаписи его файлов.</value>
   </data>
   <data name="Text_08d0a6691363" xml:space="preserve">
     <value>Копирует аккаунты, персонажей и тайник. В текущем LocalExile остаётся своя копия.</value>
@@ -257,6 +263,9 @@
   </data>
   <data xml:space="preserve" name="Text_0c26cc1e71ab">
     <value>Отслеживание работает; ожидается дочерний процесс Gateway. Если ожидание затянулось, откройте вывод Gateway.</value>
+  </data>
+  <data name="Text_0c2a3d20b391" xml:space="preserve">
+    <value>Китайский перевод</value>
   </data>
   <data xml:space="preserve" name="Text_0c77fe09ab33">
     <value>Клиент</value>
@@ -368,6 +377,9 @@
   </data>
   <data name="Text_112d64cc9b85" xml:space="preserve">
     <value>Получение …</value>
+  </data>
+  <data name="Text_116ea9625025" xml:space="preserve">
+    <value>Не удалось прочитать аккаунты: {0}</value>
   </data>
   <data xml:space="preserve" name="Text_1180f832c808">
     <value>Не удалось сохранить настройки: </value>
@@ -807,6 +819,9 @@
   <data name="Text_25e7df197704" xml:space="preserve">
     <value>мосту нужен Python с frida, который не установлен: его настроит кнопка «Выдать предмет» в конструкторе предметов</value>
   </data>
+  <data name="Text_25e813c89117" xml:space="preserve">
+    <value>Не удалось загрузить сборку: {0}</value>
+  </data>
   <data name="Text_25ec5c9141d3" xml:space="preserve">
     <value>live.ps1 -NoClient: пересобирает и перезапускает Patch, Auth и Gateway (после pull или изменений вне Gateway); правки кода самого Gateway применяются сами через горячую перезагрузку. Запущенный клиент остаётся.</value>
   </data>
@@ -861,6 +876,9 @@
   </data>
   <data xml:space="preserve" name="Text_27712080ff00">
     <value>Игровые данные обновлены.</value>
+  </data>
+  <data name="Text_277967c7c7d2" xml:space="preserve">
+    <value>Возвышение: {0}</value>
   </data>
   <data xml:space="preserve" name="Text_279d233b3ee4">
     <value>Изменить путь</value>
@@ -1174,6 +1192,9 @@
   </data>
   <data xml:space="preserve" name="Text_358cc201f87d">
     <value>Операции</value>
+  </data>
+  <data name="Text_3591a432615b" xml:space="preserve">
+    <value>Сайт не ответил вовремя.</value>
   </data>
   <data name="Text_35a86201334e" xml:space="preserve">
     <value>Проверка Python 3.9+ и Frida без установки пакетов.</value>
@@ -1536,6 +1557,9 @@
   <data name="Text_48713a5c63fb" xml:space="preserve">
     <value>Закончить игру</value>
   </data>
+  <data name="Text_489fecd66003" xml:space="preserve">
+    <value>Что представляет собой каждый персонаж, по данным службы аккаунтов. Смена возвышения требует команды, которой у сервера пока нет, поэтому страница только читает.</value>
+  </data>
   <data name="Text_48bdb0aef4f8" xml:space="preserve">
     <value>Это собственные сохранения этого LocalExile.</value>
   </data>
@@ -1589,6 +1613,9 @@
   </data>
   <data xml:space="preserve" name="Text_4ac147b602c9">
     <value>Подключите репозиторий</value>
+  </data>
+  <data name="Text_4af1c7508aff" xml:space="preserve">
+    <value>Не удалось создать персонажа: {0}</value>
   </data>
   <data name="Text_4afea6a9cacf" xml:space="preserve">
     <value>Запустить мастер настройки…</value>
@@ -1856,8 +1883,14 @@
   <data name="Text_5899382b7399" xml:space="preserve">
     <value>Его файл config.json не удалось прочитать. Он останется рядом с новым как config.json.old.</value>
   </data>
+  <data name="Text_589d7110712d" xml:space="preserve">
+    <value>Дальность обзора</value>
+  </data>
   <data xml:space="preserve" name="Text_58b1306d2f1d">
     <value>Резервные копии сохранений</value>
+  </data>
+  <data name="Text_58b9c9c73bd7" xml:space="preserve">
+    <value>Чтение аккаунтов ...</value>
   </data>
   <data xml:space="preserve" name="Text_58fc561ca474">
     <value>Установить распаковщик</value>
@@ -1871,8 +1904,14 @@
   <data name="Text_59546c79643c" xml:space="preserve">
     <value>Закрыть: {0}</value>
   </data>
+  <data name="Text_5978d072c782" xml:space="preserve">
+    <value>Видеть дальше — значит расширять клиент, а не лаунчер.</value>
+  </data>
   <data xml:space="preserve" name="Text_59976865a56d">
     <value>Установите .NET 10 SDK; проверка: dotnet --list-sdks</value>
+  </data>
+  <data name="Text_59bd273a1dd4" xml:space="preserve">
+    <value>Не удалось прочитать сборку: {0}</value>
   </data>
   <data name="Text_59e1f415bf9d" xml:space="preserve">
     <value>ПРЕДПРОСМОТР</value>
@@ -1891,6 +1930,9 @@
   </data>
   <data name="Text_5a681a15a3d6" xml:space="preserve">
     <value>Задать пароль аккаунта</value>
+  </data>
+  <data name="Text_5ab14c7ed85c" xml:space="preserve">
+    <value>Чтение ...</value>
   </data>
   <data name="Text_5aeae0f3a80d" xml:space="preserve">
     <value>Счётчики .NET:</value>
@@ -1939,6 +1981,9 @@
   </data>
   <data name="Text_5d202208fa1a" xml:space="preserve">
     <value>Дублировать…</value>
+  </data>
+  <data name="Text_5d340b2c4294" xml:space="preserve">
+    <value>Класс: {0}</value>
   </data>
   <data name="Text_5d9389cbbeb3" xml:space="preserve">
     <value>ПОДРОБНОСТИ</value>
@@ -2297,6 +2342,9 @@
   <data name="Text_6c26340a1b96" xml:space="preserve">
     <value>База сохранений</value>
   </data>
+  <data name="Text_6c674dd07899" xml:space="preserve">
+    <value>Предметы: {0}</value>
+  </data>
   <data name="Text_6caadd32b7a9" xml:space="preserve">
     <value>структура отдельного клиента (Content.ggpk)</value>
   </data>
@@ -2342,6 +2390,9 @@
   <data name="Text_6e9c271dcc43" xml:space="preserve">
     <value>Показано: {0}. В каждой группе первым идёт лучший тир для уровня предмета.</value>
   </data>
+  <data name="Text_6ea2df24181a" xml:space="preserve">
+    <value>Импорт PoE</value>
+  </data>
   <data name="Text_6ed7c4e56792" xml:space="preserve">
     <value>Обновлять LocalExile автоматически</value>
   </data>
@@ -2359,6 +2410,9 @@
   </data>
   <data name="Text_6f7c506d045e" xml:space="preserve">
     <value>Режим разработчика</value>
+  </data>
+  <data name="Text_6f9afc58e8e3" xml:space="preserve">
+    <value>Загрузка сборки ...</value>
   </data>
   <data name="Text_6fa62b3dba2f" xml:space="preserve">
     <value>Переименовать…</value>
@@ -2500,6 +2554,9 @@
   </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>Назад</value>
+  </data>
+  <data name="Text_76b01c51cc02" xml:space="preserve">
+    <value>Возвышение</value>
   </data>
   <data name="Text_76b9740eaf62" xml:space="preserve">
     <value>Python нет в PATH. Установите Python 3.9 или новее (python3) через менеджер пакетов.</value>
@@ -2661,7 +2718,7 @@
     <value>Путь к запрошенному репозиторию пуст или слишком длинный.</value>
   </data>
   <data name="Text_7e1b0d5641f2" xml:space="preserve">
-    <value>Учётная запись</value>
+    <value>Аккаунт</value>
   </data>
   <data xml:space="preserve" name="Text_7e345470de24">
     <value>Patch</value>
@@ -2705,6 +2762,9 @@
   <data xml:space="preserve" name="Text_808fc010f815">
     <value>{0}: {1} при копировании</value>
   </data>
+  <data name="Text_809e98e7eeb2" xml:space="preserve">
+    <value>Дерево: {0}</value>
+  </data>
   <data xml:space="preserve" name="Text_80d16534322e">
     <value>Мод собран.</value>
   </data>
@@ -2743,6 +2803,9 @@
   </data>
   <data name="Text_8300d2d40c93" xml:space="preserve">
     <value>Готово: {0} ({1:0} с).</value>
+  </data>
+  <data name="Text_830eefa8f15e" xml:space="preserve">
+    <value>Введите аккаунт и его пароль.</value>
   </data>
   <data xml:space="preserve" name="Text_8328dc8f6f33">
     <value>Проверка требований, принадлежности процессов и выбранной установки.</value>
@@ -2836,6 +2899,9 @@
   </data>
   <data name="Text_8815084551ec" xml:space="preserve">
     <value>live.ps1 уже выполняется.</value>
+  </data>
+  <data name="Text_881929063400" xml:space="preserve">
+    <value>Скопировать ссылку на дерево</value>
   </data>
   <data name="Text_88259cd6f621" xml:space="preserve">
     <value>Регистрация аккаунта</value>
@@ -3013,6 +3079,12 @@
   </data>
   <data name="Text_90eb3b815e3e" xml:space="preserve">
     <value>{0} — уникальный предмет: крафтер делает только обычные, магические и редкие.</value>
+  </data>
+  <data name="Text_90ee86585fab" xml:space="preserve">
+    <value>Создать персонажа из этой сборки</value>
+  </data>
+  <data name="Text_90f425b6405b" xml:space="preserve">
+    <value>Буфер обмена занят; попробуйте ещё раз.</value>
   </data>
   <data name="Text_9158396951bf" xml:space="preserve">
     <value>То же, что «Остановить всё»: игра, запись планировок, серверы и служба аккаунтов.</value>
@@ -3363,6 +3435,9 @@
   <data name="Text_9f97cf25460a" xml:space="preserve">
     <value>LocalExile здесь уже скачан.</value>
   </data>
+  <data name="Text_9f9bd432f4a4" xml:space="preserve">
+    <value>Нет ссылки на дерево.</value>
+  </data>
   <data name="Text_9fa77e063410" xml:space="preserve">
     <value>Вышла версия {0}; текущая: {1}. Серверы и игра продолжат работать во время обновления.</value>
   </data>
@@ -3437,6 +3512,9 @@
   </data>
   <data name="Text_a359209c9b61" xml:space="preserve">
     <value>Выберите, куда установить LocalExile</value>
+  </data>
+  <data name="Text_a367a9cea7fc" xml:space="preserve">
+    <value>Создать персонажа</value>
   </data>
   <data name="Text_a37f0d9d865e" xml:space="preserve">
     <value>Запись необязательна. Существующие файлы сохраняются.</value>
@@ -3663,6 +3741,9 @@
   <data name="Text_ac1f5a0e46c1" xml:space="preserve">
     <value>Игра не запущена: запустите её, войдите персонажем в локацию и выдайте предмет снова.</value>
   </data>
+  <data name="Text_ac406851ffe2" xml:space="preserve">
+    <value>Предметы: {0}, умения: {1}</value>
+  </data>
   <data xml:space="preserve" name="Text_ac7fcf0ba22e">
     <value>Нет установленных модов</value>
   </data>
@@ -3715,7 +3796,7 @@
     <value>Игра запущена: «Играть» закроет её и запустит снова; серверы продолжат работать.</value>
   </data>
   <data name="Text_af86ecd2ae72" xml:space="preserve">
-    <value>{0} ({1}): персонаж создан на аккаунте {2}.</value>
+    <value>{0} ({1}) создан на {2}.</value>
   </data>
   <data name="Text_afa8b3ed2cd8" xml:space="preserve">
     <value>Сохраняет показанное окно в CSV-файл для отчёта об ошибке</value>
@@ -3872,6 +3953,9 @@
   </data>
   <data name="Text_b72026d96f3c" xml:space="preserve">
     <value>Журнал Gateway</value>
+  </data>
+  <data name="Text_b764cdc0eab7" xml:space="preserve">
+    <value>Неизвестно</value>
   </data>
   <data name="Text_b77636c1849a" xml:space="preserve">
     <value>Собрать LocalExile</value>
@@ -4107,6 +4191,9 @@
   <data name="Text_c3f80698ef0a" xml:space="preserve">
     <value>Инструмент записи запущен.</value>
   </data>
+  <data name="Text_c4321a207160" xml:space="preserve">
+    <value>Персонажей: {0}.</value>
+  </data>
   <data name="Text_c481efeab782" xml:space="preserve">
     <value>Время сервера</value>
   </data>
@@ -4248,6 +4335,9 @@
   <data name="Text_c9b2c9b72ddd" xml:space="preserve">
     <value>Что делать при закрытии окна?</value>
   </data>
+  <data name="Text_c9b65aa2c285" xml:space="preserve">
+    <value>Не реализовано: это записало бы клиент игры, который лаунчер не трогает. Используйте пакет перевода и его установщик.</value>
+  </data>
   <data name="Text_c9cf9cba7b44" xml:space="preserve">
     <value>Читает ветки LocalExile и origin, а также открытые запросы на слияние LocalExile</value>
   </data>
@@ -4369,6 +4459,9 @@
   </data>
   <data name="Text_cf5c6c0d1737" xml:space="preserve">
     <value>При выходе из Waypoint службы продолжают работать.</value>
+  </data>
+  <data name="Text_cf6d4fe7fb49" xml:space="preserve">
+    <value>Уровень: {0}</value>
   </data>
   <data name="Text_cf97478c04ab" xml:space="preserve">
     <value>нет frida: запись планировок и консоль недоступны</value>
@@ -4628,6 +4721,9 @@
   <data xml:space="preserve" name="Text_dc62d4bb4fb1">
     <value>Создание учётной записи</value>
   </data>
+  <data name="Text_dc937b598926" xml:space="preserve">
+    <value>Нет</value>
+  </data>
   <data name="Text_dc9ff9ecb39c" xml:space="preserve">
     <value>Добавлено: {0}</value>
   </data>
@@ -4652,6 +4748,9 @@
   <data name="Text_ddbbe6445504" xml:space="preserve">
     <value>Перематывает {0} вперёд до версии LocalExile; отказывает, если в ветке есть свои коммиты</value>
   </data>
+  <data name="Text_ddc636dc450e" xml:space="preserve">
+    <value>Не реализовано: это изменило бы клиент игры, который лаунчер не трогает. Используйте инструменты самого клиента.</value>
+  </data>
   <data xml:space="preserve" name="Text_ddc95fd087c9">
     <value>Подготовьте существующую копию клиента инструментами Auth и Patch LocalExile. Имеющиеся ключи сохраняются. Будут созданы недостающие ключи и Game.patched.exe, а список шлюзов копии будет настроен на localhost. Готовые исполняемые файлы не перезаписываются.</value>
   </data>
@@ -4672,6 +4771,12 @@
   </data>
   <data xml:space="preserve" name="Text_dec1638d773b">
     <value>Возврат: Escape отменяет предпросмотр. Ctrl+R сбрасывает параметры в этом окне. В рабочем окне Ctrl+Alt+R возвращает стандартное оформление, не меняя репозиторий и сохранения.</value>
+  </data>
+  <data name="Text_dec8eefa31e4" xml:space="preserve">
+    <value>Ссылка на дерево скопирована.</value>
+  </data>
+  <data name="Text_dedc5d13072e" xml:space="preserve">
+    <value>Персонажей пока нет.</value>
   </data>
   <data name="Text_deeb8da20758" xml:space="preserve">
     <value>репозиторий сервера поддерживает Waypoint</value>
@@ -4857,6 +4962,9 @@
   <data xml:space="preserve" name="Text_e802a1d6a8c0">
     <value>Один репозиторий совпадает с HEAD LocalExile. Выберите его ниже или укажите другую папку.</value>
   </data>
+  <data name="Text_e82946d6926c" xml:space="preserve">
+    <value>Dev host не может создать персонажа {0}.</value>
+  </data>
   <data name="Text_e86c89de2566" xml:space="preserve">
     <value>Перенести моих персонажей (рекомендуется)</value>
   </data>
@@ -4865,6 +4973,9 @@
   </data>
   <data name="Text_e8c6f5fd769e" xml:space="preserve">
     <value>Сохранения этой установки убираются в сторону; ничего не удаляется.</value>
+  </data>
+  <data name="Text_e8d4cad7ec19" xml:space="preserve">
+    <value>Прочитать сборку</value>
   </data>
   <data xml:space="preserve" name="Text_e8da4fa8b199">
     <value> — ошибка: </value>
@@ -4901,6 +5012,9 @@
   </data>
   <data xml:space="preserve" name="Text_ea2100dc89ae">
     <value>Журналы</value>
+  </data>
+  <data name="Text_ea301ca2c89b" xml:space="preserve">
+    <value>Вставьте код экспорта Path of Building. Чтение только проверяет сборку: ничего не меняется.</value>
   </data>
   <data xml:space="preserve" name="Text_ea41ce555d5c">
     <value>Выберите страницу стрелками. Ctrl+1–8 — выбор страницы; Ctrl+Tab — следующая страница.</value>
@@ -5419,6 +5533,9 @@
 {1}
 
 Заменяется только сохранённый выбор. DLL модов и сохранения не восстанавливаются. Выбор вступит в силу при следующем запуске Gateway. Автоматическое копирование: {2}.</value>
+  </data>
+  <data name="Text_ffa52990490a" xml:space="preserve">
+    <value>Вставьте код экспорта Path of Building или ссылку на сборку с poe.ninja, pobb.in, pob.codes, Maxroll, Pastebin или poedb. Чтение только проверяет сборку: ничего не меняется.</value>
   </data>
   <data xml:space="preserve" name="Text_ffa98e02f7ce">
     <value>Удалённая ветка</value>

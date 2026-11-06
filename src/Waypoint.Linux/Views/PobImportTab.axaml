@@ -1,0 +1,31 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Waypoint"
+             x:Class="Waypoint.PobImportTab">
+  <ScrollViewer>
+    <StackPanel Margin="20,16" MaxWidth="900" HorizontalAlignment="Left" Spacing="10">
+      <TextBlock x:Name="Hint" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+      <Border BorderBrush="{DynamicResource Shell.Border}" BorderThickness="1" CornerRadius="6"
+              Background="{DynamicResource Shell.Panel}" Padding="6" Margin="0,0,0,10">
+        <TextBox x:Name="Code" Height="150" AcceptsReturn="True" TextWrapping="Wrap" BorderThickness="0" Background="Transparent" />
+      </Border>
+      <StackPanel Orientation="Horizontal" Spacing="8">
+        <Button x:Name="ReadButton" Click="ReadClicked" />
+        <Button x:Name="CopyTreeButton" Click="CopyTreeClicked" IsEnabled="False" />
+      </StackPanel>
+      <TextBlock x:Name="Summary" TextWrapping="Wrap" />
+      <StackPanel x:Name="CreatePanel" IsVisible="False" Margin="0,16,0,0" MaxWidth="640" HorizontalAlignment="Left" Spacing="6">
+        <TextBlock x:Name="CreateLabel" FontWeight="SemiBold" />
+        <StackPanel Orientation="Horizontal" Spacing="6">
+          <TextBlock x:Name="AccountLabel" VerticalAlignment="Center" />
+          <TextBox x:Name="Account" Width="130" />
+          <TextBlock x:Name="PasswordLabel" VerticalAlignment="Center" />
+          <TextBox x:Name="Password" Width="130" PasswordChar="●" />
+          <TextBlock x:Name="NameLabel" VerticalAlignment="Center" />
+          <TextBox x:Name="CharacterName" Width="130" />
+          <Button x:Name="CreateButton" Click="CreateClicked" VerticalAlignment="Center" />
+        </StackPanel>
+        <TextBlock x:Name="CreateState" TextWrapping="Wrap" Foreground="{DynamicResource Shell.TextSecondary}" />
+      </StackPanel>
+    </StackPanel>
+  </ScrollViewer>
+</UserControl>
