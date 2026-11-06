@@ -162,6 +162,9 @@
   <data xml:space="preserve" name="Text_08ad630cfbfa">
     <value>Open backup folder</value>
   </data>
+  <data name="Text_08c7de7230db" xml:space="preserve">
+    <value>The game client in Chinese needs its own files rewritten.</value>
+  </data>
   <data name="Text_08d0a6691363" xml:space="preserve">
     <value>Copies your accounts, characters and stash. Your current LocalExile keeps its own copy.</value>
   </data>
@@ -260,6 +263,9 @@
   </data>
   <data xml:space="preserve" name="Text_0c26cc1e71ab">
     <value>Watcher is alive; waiting for its Gateway child. Open Gateway output if this persists.</value>
+  </data>
+  <data name="Text_0c2a3d20b391" xml:space="preserve">
+    <value>Chinese translation</value>
   </data>
   <data xml:space="preserve" name="Text_0c77fe09ab33">
     <value>Client</value>
@@ -371,6 +377,9 @@
   </data>
   <data name="Text_112d64cc9b85" xml:space="preserve">
     <value>Fetching …</value>
+  </data>
+  <data name="Text_116ea9625025" xml:space="preserve">
+    <value>Could not read the accounts: {0}</value>
   </data>
   <data xml:space="preserve" name="Text_1180f832c808">
     <value>Could not save preferences: </value>
@@ -1548,6 +1557,9 @@ This checkout has modified tracked files.</value>
   <data name="Text_48713a5c63fb" xml:space="preserve">
     <value>Stop playing</value>
   </data>
+  <data name="Text_489fecd66003" xml:space="preserve">
+    <value>What each character is, from the account service. Switching an ascendancy needs a command the server does not offer yet, so this page only reads.</value>
+  </data>
   <data name="Text_48bdb0aef4f8" xml:space="preserve">
     <value>Those are this LocalExile's own saves.</value>
   </data>
@@ -1871,8 +1883,14 @@ Current saves are unchanged. This backup will no longer be available to restore.
   <data name="Text_5899382b7399" xml:space="preserve">
     <value>Its config.json could not be read. It is kept beside the new one as config.json.old.</value>
   </data>
+  <data name="Text_589d7110712d" xml:space="preserve">
+    <value>View distance</value>
+  </data>
   <data xml:space="preserve" name="Text_58b1306d2f1d">
     <value>Save backups</value>
+  </data>
+  <data name="Text_58b9c9c73bd7" xml:space="preserve">
+    <value>Reading the accounts ...</value>
   </data>
   <data xml:space="preserve" name="Text_58fc561ca474">
     <value>Install extraction dependency</value>
@@ -1885,6 +1903,9 @@ Current saves are unchanged. This backup will no longer be available to restore.
   </data>
   <data name="Text_59546c79643c" xml:space="preserve">
     <value>Close {0}</value>
+  </data>
+  <data name="Text_5978d072c782" xml:space="preserve">
+    <value>Seeing further means widening the client, not the launcher.</value>
   </data>
   <data xml:space="preserve" name="Text_59976865a56d">
     <value>Install .NET 10 SDK; check with dotnet --list-sdks</value>
@@ -2321,6 +2342,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   <data name="Text_6c26340a1b96" xml:space="preserve">
     <value>Save database</value>
   </data>
+  <data name="Text_6c674dd07899" xml:space="preserve">
+    <value>Items: {0}</value>
+  </data>
   <data name="Text_6caadd32b7a9" xml:space="preserve">
     <value>standalone client layout (Content.ggpk)</value>
   </data>
@@ -2524,6 +2548,9 @@ Switching to it builds and runs that code on this computer with your rights, liv
   </data>
   <data name="Text_76900f1bfd16" xml:space="preserve">
     <value>Back</value>
+  </data>
+  <data name="Text_76b01c51cc02" xml:space="preserve">
+    <value>Ascendancy</value>
   </data>
   <data name="Text_76b9740eaf62" xml:space="preserve">
     <value>Python is not on PATH. Install Python 3.9 or newer (python3) with your package manager.</value>
@@ -4149,6 +4176,9 @@ Owned servers will stop. Automatic backup is {2}. Source, client and login keys 
   <data name="Text_c3f80698ef0a" xml:space="preserve">
     <value>StartCapture completed.</value>
   </data>
+  <data name="Text_c4321a207160" xml:space="preserve">
+    <value>{0} character(s).</value>
+  </data>
   <data name="Text_c481efeab782" xml:space="preserve">
     <value>Server time</value>
   </data>
@@ -4289,6 +4319,9 @@ Steam layout and a newer official client are unsupported. The launcher does not 
   </data>
   <data name="Text_c9b2c9b72ddd" xml:space="preserve">
     <value>What should closing the window do?</value>
+  </data>
+  <data name="Text_c9b65aa2c285" xml:space="preserve">
+    <value>Not built in: it would write the game client, which this launcher leaves alone. Use a translation pack and its own installer.</value>
   </data>
   <data name="Text_c9cf9cba7b44" xml:space="preserve">
     <value>Reads the branches of LocalExile and origin, and LocalExile's open pull requests</value>
@@ -4697,6 +4730,9 @@ Dependencies: {2}
   <data name="Text_ddbbe6445504" xml:space="preserve">
     <value>Fast-forwards {0} to LocalExile's; refused when it has commits of its own</value>
   </data>
+  <data name="Text_ddc636dc450e" xml:space="preserve">
+    <value>Not built in: it would change the game client, which this launcher leaves alone. Use the client tools that do it.</value>
+  </data>
   <data xml:space="preserve" name="Text_ddc95fd087c9">
     <value>Prepare the existing client copy using LocalExile's Auth and Patch tools. Existing keys are retained. Missing keys and Game.patched.exe are created, and the copy's gateway list is set to localhost. Existing prepared executables are never overwritten.</value>
   </data>
@@ -4720,6 +4756,9 @@ Dependencies: {2}
   </data>
   <data name="Text_dec8eefa31e4" xml:space="preserve">
     <value>Copied the tree link.</value>
+  </data>
+  <data name="Text_dedc5d13072e" xml:space="preserve">
+    <value>No characters yet.</value>
   </data>
   <data name="Text_deeb8da20758" xml:space="preserve">
     <value>server checkout supports the launcher</value>

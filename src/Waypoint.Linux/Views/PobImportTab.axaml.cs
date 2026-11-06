@@ -109,7 +109,7 @@ partial class PobImportTab : UserControl
         try
         {
             await DevHost.EnsureRunningAsync(line => CreateState.Text = line);
-            await DevHost.CreateCharacter(account, password, name, _build.Class);
+            await DevHost.CreateCharacter(account, password, name, _build.Class, _build.Level);
             CreateState.Text = L.Text("{0} ({1}) created on {2}.", name, _build.Class, account);
         }
         catch (Exception ex) when (ex is InvalidOperationException or IOException or System.Net.Sockets.SocketException
@@ -128,7 +128,7 @@ partial class PobImportTab : UserControl
             L.Text("Class: {0}", build.Class.Length > 0 ? build.Class : L.Text("Unknown")),
             L.Text("Ascendancy: {0}", build.Ascendancy.Length > 0 ? build.Ascendancy : L.Text("None")),
             L.Text("Level: {0}", build.Level > 0 ? build.Level.ToString() : L.Text("Unknown")),
-            L.Text("Items: {0}, skills: {1}", build.Items, build.Skills),
+            build.Skills > 0 ? L.Text("Items: {0}, skills: {1}", build.Items, build.Skills) : L.Text("Items: {0}", build.Items),
             build.HasTree ? L.Text("Tree: {0}", build.TreeUrl) : L.Text("No tree link."),
         };
         return string.Join(Environment.NewLine, lines);

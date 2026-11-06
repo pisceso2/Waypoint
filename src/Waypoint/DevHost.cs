@@ -86,7 +86,12 @@ static class DevHost
     public static Task Register(string name, string password) =>
         RunAsync(new JsonObject { ["op"] = "register", ["name"] = name, ["password"] = password });
 
-    public static Task CreateCharacter(string account, string password, string name, string characterClass) =>
-        RunAsync(new JsonObject { ["op"] = "login", ["name"] = account, ["password"] = password },
-            new JsonObject { ["op"] = "create_character", ["name"] = name, ["class"] = characterClass });
+    /// <summary>Creates a character; <paramref name="level"/> is sent only when above 1, so a dev host without it ignores
+    /// nothing and a character still starts at level 1 by default.</summary>
+    public static Task CreateCharacter(string account, string password, string name, string characterClass, int level = 0)
+    {
+        var request = new JsonObject { ["op"] = "create_character", ["name"] = name, ["class"] = characterClass };
+        if (level > 1) request["level"] = level;
+        return RunAsync(new JsonObject { ["op"] = "login", ["name"] = account, ["password"] = password }, request);
+    }
 }

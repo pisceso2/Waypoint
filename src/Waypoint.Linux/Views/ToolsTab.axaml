@@ -22,6 +22,28 @@
             </StackPanel>
           </DockPanel>
         </Border>
+        <Border Classes="card" Width="340" Margin="0,0,14,14">
+          <DockPanel>
+            <TextBlock x:Name="TranslationNote" Classes="note" DockPanel.Dock="Bottom" Margin="0,12,0,0" />
+            <icons:MaterialIcon DockPanel.Dock="Left" Kind="Translate" Width="36" Height="36" Margin="0,0,14,0" VerticalAlignment="Top"
+                                Foreground="{DynamicResource Shell.Accent}" />
+            <StackPanel>
+              <TextBlock x:Name="TranslationTitle" FontSize="15" FontWeight="SemiBold" />
+              <TextBlock x:Name="TranslationText" Classes="note" Margin="0,4,0,0" />
+            </StackPanel>
+          </DockPanel>
+        </Border>
+        <Border Classes="card" Width="340" Margin="0,0,14,14">
+          <DockPanel>
+            <TextBlock x:Name="ViewNote" Classes="note" DockPanel.Dock="Bottom" Margin="0,12,0,0" />
+            <icons:MaterialIcon DockPanel.Dock="Left" Kind="EyeOutline" Width="36" Height="36" Margin="0,0,14,0" VerticalAlignment="Top"
+                                Foreground="{DynamicResource Shell.Accent}" />
+            <StackPanel>
+              <TextBlock x:Name="ViewTitle" FontSize="15" FontWeight="SemiBold" />
+              <TextBlock x:Name="ViewText" Classes="note" Margin="0,4,0,0" />
+            </StackPanel>
+          </DockPanel>
+        </Border>
       </WrapPanel>
     </StackPanel>
   </ScrollViewer>
